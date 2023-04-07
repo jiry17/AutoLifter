@@ -1,0 +1,71 @@
+listr
+
+aux: [], comb: (+ (int Param0) Param0)
+
+aux: [], comb: (+ (int Param0) 0)
+
+
+
+  (last Param0)
+aux: [(last Param0),], comb: (+ (int 0) Param0)
+
+  (minimum Param0)
+aux: [(minimum Param0),], comb: (+ (int 0) Param0)
+
+
+
+  (last Param0)
+aux: [(last Param0),], comb: (+ (- (int Param0) Param2) Param1)
+
+
+
+  2
+  -1
+  1
+  (minimum (take 2 Param0))
+aux: [(minimum (take 2 Param0)),], comb: (+ (int Param0) 0)
+
+
+
+  (maximum Param0)
+  (sum Param0)
+  (minimum Param0)
+aux: [(minimum Param0),], comb: (ite (<= (int Param2) (int 0)) (int Param1) (int Param0))
+aux:
+  (minimum Param0)comb:
+Lifting (0*1* Param0) for listr
+	(0): (minimum Param0)
+
+listr
+
+aux: [], comb: (+ (int Param0) Param0)
+
+aux: [], comb: (+ (int Param0) 0)
+
+aux: [], comb: (+ (int Param1) 0)
+
+
+
+
+
+  (head Param0)
+  (last Param0)
+aux: [(last Param0),], comb: (+ (- (int Param1) Param0) Param2)
+
+
+
+aux: [], comb: (ite (< (int Param1) (int Param0)) (int 0) (int Param0))
+aux:
+comb:
+Lifting (minimum Param0) for listr
+
+Success
+x0: (0*1* Param0)
+Liftings:
+  x1: (minimum Param0)
+Combinator for listr
+  x0: ite (l0<=0) (a) (l1)
+  x1: ite (l1<a) (0) (a)
+|               |  synthesis |   #lifting |
+|           0*1*|   0.212923 |          2 |
+Total time cost: 0.212923

@@ -1,0 +1,46 @@
+Lifting (mps Param0) for listr
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[4,-10,1]->1
+[-5,-2,11]->11
+[-5,3,4]->4
+[-3,5,8]->8
+[-2,5,5]->5
+[4,1,1]->5
+[5,10,10]->15
+[-3,-1,5]->5
+[2,2,8]->8
+[0,9,9]->9
+Merging for (mps Param0) in Task listr
+(ite (<= Param2 (+ Param0 Param1)) (+ (int Param0) (int Param1)) (int Param2))
+	(0): Param0
+	(1): (sum Param1)
+	(2): (mps Param1)
+Lifting (sum Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[4,-10]->-6
+[-5,-2]->-7
+[-5,3]->-2
+[-3,5]->2
+[-2,5]->3
+[4,1]->5
+[-5,0]->-5
+[5,10]->15
+[-3,-1]->-4
+[2,2]->4
+Merging for (sum Param0) in Task listr
+(+ (int Param0) (int Param1))
+	(0): Param0
+	(1): (sum Param1)
+Success
+x0: (mps Param0)
+Liftings:
+  x1: (sum Param0)
+Combinator for listr
+  x0: ite (l0<=a+l1) (a+l1) (l0)
+  x1: a+l1
+|               |   external |    lifting |   #lifting |
+|            mps|   0.042559 |   0.156351 |          2 |
+Total time cost: 0.19891

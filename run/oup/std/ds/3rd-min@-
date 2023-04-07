@@ -1,0 +1,139 @@
+Lifting (3rd-min Param0) for tree
+	(0): (minimum Param0)
+	(1): (access 1 (sort Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (3rd-min Param0) in Task tree
+(ite (<= Param5 Param0) (int Param5) (ite (<= Param4 Param1) (int Param4) (ite (<= Param3 Param0) (int Param0) (ite (<= Param2 Param1) (int Param1) (ite (<= Param3 Param2) (int Param3) (int Param2))))))
+	(0): (minimum Param0)
+	(1): (minimum Param1)
+	(2): (access 1 (sort Param0))
+	(3): (access 1 (sort Param1))
+	(4): (3rd-min Param0)
+	(5): (3rd-min Param1)
+Lifting (3rd-min Param0) for operator
+	(0): (access 2 (rev (sort Param0)))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (3rd-min Param0) in Task operator
+(* (int Param1) -1)
+	(0): Param0
+	(1): (access 2 (rev (sort Param1)))
+	(2): (3rd-min Param1)
+Lifting (minimum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (minimum Param0) in Task tree
+(ite (<= Param0 Param1) (int Param0) (int Param1))
+	(0): (minimum Param0)
+	(1): (minimum Param1)
+Lifting (minimum Param0) for operator
+	(0): (maximum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (minimum Param0) in Task operator
+(* (int Param1) -1)
+	(0): Param0
+	(1): (maximum Param1)
+	(2): (minimum Param1)
+Lifting (access 1 (sort Param0)) for tree
+	(0): (minimum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (access 1 (sort Param0)) in Task tree
+(ite (<= Param3 Param0) (int Param3) (ite (<= Param2 Param1) (int Param2) (ite (<= Param1 Param0) (int Param0) (int Param1))))
+	(0): (minimum Param0)
+	(1): (minimum Param1)
+	(2): (access 1 (sort Param0))
+	(3): (access 1 (sort Param1))
+Lifting (access 1 (sort Param0)) for operator
+	(0): (last (take -1 (sort Param0)))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (access 1 (sort Param0)) in Task operator
+(* (int Param1) -1)
+	(0): Param0
+	(1): (last (take -1 (sort Param1)))
+	(2): (access 1 (sort Param1))
+Lifting (access 2 (rev (sort Param0))) for tree
+	(0): (maximum Param0)
+	(1): (last (take -1 (sort Param0)))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (access 2 (rev (sort Param0))) in Task tree
+(ite (and (<= Param0 Param5) (!= Param5 1000000000)) (int Param5) (ite (and (!= Param4 1000000000) (<= Param1 Param4)) (int Param4) (ite (and (!= Param2 1000000000) (<= Param1 Param2)) (int Param1) (ite (and (!= Param3 1000000000) (<= Param0 Param3)) (int Param0) (ite (or (= Param3 1000000000) (and (<= Param3 Param2) (!= Param2 1000000000))) (int Param2) (int Param3))))))
+	(0): (maximum Param0)
+	(1): (maximum Param1)
+	(2): (last (take -1 (sort Param0)))
+	(3): (last (take -1 (sort Param1)))
+	(4): (access 2 (rev (sort Param0)))
+	(5): (access 2 (rev (sort Param1)))
+Lifting (access 2 (rev (sort Param0))) for operator
+	(0): (3rd-min Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (access 2 (rev (sort Param0))) in Task operator
+(* (int Param1) -1)
+	(0): Param0
+	(1): (3rd-min Param1)
+	(2): (access 2 (rev (sort Param1)))
+Lifting (maximum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (maximum Param0) in Task tree
+(ite (<= Param1 Param0) (int Param0) (int Param1))
+	(0): (maximum Param0)
+	(1): (maximum Param1)
+Lifting (maximum Param0) for operator
+	(0): (minimum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (maximum Param0) in Task operator
+(* (int Param1) -1)
+	(0): Param0
+	(1): (minimum Param1)
+	(2): (maximum Param1)
+Lifting (last (take -1 (sort Param0))) for tree
+	(0): (maximum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (last (take -1 (sort Param0))) in Task tree
+(ite (and (!= Param2 1000000000) (<= Param1 Param2)) (int Param2) (ite (and (<= Param0 Param3) (!= Param3 1000000000)) (int Param3) (ite (<= Param1 Param0) (int Param1) (int Param0))))
+	(0): (maximum Param0)
+	(1): (maximum Param1)
+	(2): (last (take -1 (sort Param0)))
+	(3): (last (take -1 (sort Param1)))
+Lifting (last (take -1 (sort Param0))) for operator
+	(0): (access 1 (sort Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (last (take -1 (sort Param0))) in Task operator
+(* (int Param1) -1)
+	(0): Param0
+	(1): (access 1 (sort Param1))
+	(2): (last (take -1 (sort Param1)))
+Success
+x0: (3rd-min Param0)
+Liftings:
+  x1: (minimum Param0)
+  x2: (access 1 (sort Param0))
+  x3: (access 2 (rev (sort Param0)))
+  x4: (maximum Param0)
+  x5: (last (take -1 (sort Param0)))
+Combinator for tree
+  x0: ite (r0<=l1) (r0) (ite (l0<=r1) (l0) (ite (r2<=l1) (l1) (ite (l2<=r1) (r1) (ite (r2<=l2) (r2) (l2)))))
+  x1: ite (l1<=r1) (l1) (r1)
+  x2: ite (r2<=l1) (r2) (ite (l2<=r1) (l2) (ite (r1<=l1) (l1) (r1)))
+  x3: ite (l4<=r3&&r3 != 1000000000) (r3) (ite (l3 != 1000000000&&r4<=l3) (l3) (ite (l5 != 1000000000&&r4<=l5) (r4) (ite (r5 != 1000000000&&l4<=r5) (l4) (ite (r5=1000000000||r5<=l5&&l5 != 1000000000) (l5) (r5)))))
+  x4: ite (r4<=l4) (l4) (r4)
+  x5: ite (l5 != 1000000000&&r4<=l5) (l5) (ite (l4<=r5&&r5 != 1000000000) (r5) (ite (r4<=l4) (r4) (l4)))
+Combinator for operator
+  x0: l3*-1
+  x1: l4*-1
+  x2: l5*-1
+  x3: l0*-1
+  x4: l1*-1
+  x5: l2*-1
+|               |   external |    lifting |   #lifting |      #turn |
+|      3rd-min@-|    3.44967 |    28.6452 |          6 |        980 |
+Total time cost: 32.0948

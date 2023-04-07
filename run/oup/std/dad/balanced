@@ -1,0 +1,42 @@
+Lifting (balanced Param0) for tree
+	(0): (sum Param0)
+	(1): (maximum (scanr + Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (balanced Param0) in Task tree
+(ite (and (and (<= Param3 (+ Param0 Param1)) (<= 1 Param4)) (<= 0 (+ Param0 Param1))) 1 0)
+	(0): (sum Param0)
+	(1): (sum Param1)
+	(2): (maximum (scanr + Param0))
+	(3): (maximum (scanr + Param1))
+	(4): (balanced Param0)
+	(5): (balanced Param1)
+Lifting (sum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (sum Param0)
+	(1): (sum Param1)
+Lifting (maximum (scanr + Param0)) for tree
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (maximum (scanr + Param0)) in Task tree
+(ite (<= Param3 (+ Param1 Param2)) (+ (int Param1) (int Param2)) (int Param3))
+	(0): (sum Param0)
+	(1): (sum Param1)
+	(2): (maximum (scanr + Param0))
+	(3): (maximum (scanr + Param1))
+Success
+x0: (balanced Param0)
+Liftings:
+  x1: (sum Param0)
+  x2: (maximum (scanr + Param0))
+Combinator for tree
+  x0: ite (r2<=l1+r1&&1<=l0&&0<=l1+r1) (1) (0)
+  x1: l1+r1
+  x2: ite (r2<=r1+l2) (r1+l2) (r2)
+|               |   external |    lifting |   #lifting |      #turn |
+|       balanced|   0.547815 |    1.14094 |          3 |         40 |
+Total time cost: 1.68876

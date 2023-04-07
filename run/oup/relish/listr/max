@@ -1,0 +1,29 @@
+listr
+
+aux: [], comb: (+ (int Param0) 0)
+
+
+
+  2
+aux: [2,], comb: (+ (+ (int Param0) Param0) 1)
+
+
+
+  2
+aux: [2,], comb: (+ (+ (- (int Param2) Param0) Param1) Param1)
+
+
+
+aux: [], comb: (ite (<= (int Param1) (int Param0)) (int Param0) (int Param1))
+aux:
+comb:
+Lifting (max Param0) for listr
+
+Success
+x0: (max Param0)
+Liftings:
+Combinator for listr
+  x0: ite (l0<=a) (a) (l0)
+|               |  synthesis |   #lifting |
+|            max|   0.046806 |          1 |
+Total time cost: 0.046806

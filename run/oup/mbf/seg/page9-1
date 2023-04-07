@@ -1,0 +1,10 @@
+Success
+x0: (page9-1 Param0)
+Liftings:
+  x1: (maximum Param0)
+Combinator for listr
+  x0: ite (a<=l1) (0) (l0)
+  x1: ite (a<=l1) (l1) (a)
+|               |  synthesis |   #lifting |
+|        page9-1|    4.58061 |          2 |
+Total time cost: 4.58061

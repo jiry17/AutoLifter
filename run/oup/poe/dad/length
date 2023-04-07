@@ -1,0 +1,25 @@
+Lifting (length Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[10,4]->14
+[9,9]->18
+[10,9]->19
+[4,4]->8
+[1,8]->9
+[8,9]->17
+[4,1]->5
+[9,10]->19
+[6,3]->9
+[9,4]->13
+Merging for (length Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (length Param0)
+	(1): (length Param1)
+Success
+x0: (length Param0)
+Liftings:
+Combinator for tree
+  x0: l0+r0
+|               |   external |    lifting |   #lifting |
+|         length|   0.010041 |   0.103334 |          1 |
+Total time cost: 0.113375

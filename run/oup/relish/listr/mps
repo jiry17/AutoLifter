@@ -1,0 +1,112 @@
+listr
+
+aux: [], comb: (+ (int Param1) Param0)
+
+aux: [], comb: (+ (int Param0) 0)
+
+
+
+
+
+
+
+  2
+  (count lt_zero Param0)
+  (neg (neg 2))
+  (neg 2)
+  2  (count lt_zero Param0)
+aux: [2,(count lt_zero Param0),], comb: (+ (- (int Param2) Param0) Param1)
+
+
+
+  1
+  (last (filter lt_zero Param0))
+  (neg (count lt_zero Param0))
+  (len (filter lt_zero Param0))
+  (maximum (scanl + Param0))
+  (count lt_zero Param0)
+  1  (last (filter lt_zero Param0))
+  1  (neg (count lt_zero Param0))
+  1  (len (filter lt_zero Param0))
+  1  (maximum (scanl + Param0))
+  1  (count lt_zero Param0)
+  (last (filter lt_zero Param0))  (neg (count lt_zero Param0))
+aux: [(last (filter lt_zero Param0)),(neg (count lt_zero Param0)),], comb: (+ (- (int Param2) Param0) Param1)
+
+
+
+  (neg -1)
+  (last Param0)
+  (sum Param0)
+aux: [(sum Param0),], comb: (ite (<= (int Param2) (int 1)) (int Param1) (+ (int Param0) Param2))
+
+  (neg (minimum (filter even Param0)))
+  (maximum (drop (neg 2) Param0))
+  (sum (take (minimum Param0) Param0))
+  (head (sort (filter even Param0)))
+  (minimum (filter even Param0))
+  2
+  (neg 2)
+  (minimum Param0)
+  (neg (minimum (filter even Param0)))  (maximum (drop (neg 2) Param0))
+  (neg (minimum (filter even Param0)))  (sum (take (minimum Param0) Param0))
+  (neg (minimum (filter even Param0)))  (head (sort (filter even Param0)))
+  (neg (minimum (filter even Param0)))  (minimum (filter even Param0))
+  (neg (minimum (filter even Param0)))  2
+  (neg (minimum (filter even Param0)))  (neg 2)
+  (neg (minimum (filter even Param0)))  (minimum Param0)
+  (maximum (drop (neg 2) Param0))  (sum (take (minimum Param0) Param0))
+  (maximum (drop (neg 2) Param0))  (head (sort (filter even Param0)))
+  (maximum (drop (neg 2) Param0))  (minimum (filter even Param0))
+  (maximum (drop (neg 2) Param0))  2
+  (maximum (drop (neg 2) Param0))  (neg 2)
+  (maximum (drop (neg 2) Param0))  (minimum Param0)
+  (sum (take (minimum Param0) Param0))  (head (sort (filter even Param0)))
+  (sum (take (minimum Param0) Param0))  (minimum (filter even Param0))
+  (sum (take (minimum Param0) Param0))  2
+  (sum (take (minimum Param0) Param0))  (neg 2)
+  (sum (take (minimum Param0) Param0))  (minimum Param0)
+  (head (sort (filter even Param0)))  (minimum (filter even Param0))
+  (head (sort (filter even Param0)))  2
+  (head (sort (filter even Param0)))  (neg 2)
+  (head (sort (filter even Param0)))  (minimum Param0)
+  (minimum (filter even Param0))  2
+  (minimum (filter even Param0))  (neg 2)
+  (minimum (filter even Param0))  (minimum Param0)
+  2  (neg 2)
+  2  (minimum Param0)
+  (neg 2)  (minimum Param0)
+  (count lt_zero (scanl + (sort Param0)))
+  (head (scanr + (filter gt_zero Param0)))
+  (sum (filter gt_zero Param0))
+  (neg (sum (filter gt_zero Param0)))
+  (maximum (scanr + (sort Param0)))
+  (count lt_zero (scanl + (sort Param0)))  (head (scanr + (filter gt_zero Param0)))
+aux: [(count lt_zero (scanl + (sort Param0))),(head (scanr + (filter gt_zero Param0))),], comb: (- (int Param1) Param0)
+
+
+
+  (sum Param0)
+aux: [(sum Param0),], comb: (ite (<= (int Param2) (- (int Param1) Param0)) (int Param1) (+ (int Param2) Param0))
+aux:
+  (sum Param0)comb:
+Lifting (mps Param0) for listr
+	(0): (sum Param0)
+
+listr
+
+aux: [], comb: (+ (int Param1) Param0)
+aux:
+comb:
+Lifting (sum Param0) for listr
+
+Success
+x0: (mps Param0)
+Liftings:
+  x1: (sum Param0)
+Combinator for listr
+  x0: ite (l0<=a - l1) (a) (l0+l1)
+  x1: l1+a
+|               |  synthesis |   #lifting |
+|            mps|     21.134 |          2 |
+Total time cost: 21.134

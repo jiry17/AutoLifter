@@ -1,0 +1,124 @@
+Lifting (sqrsum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[9,96]->105
+[34,114]->148
+[37,30]->67
+[67,36]->103
+[110,114]->224
+[11,129]->140
+[63,54]->117
+[43,91]->134
+[62,51]->113
+[48,47]->95
+Merging for (sqrsum Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (sqrsum Param0)
+	(1): (sqrsum Param1)
+Lifting (sqrsum Param0) for operator
+	(0): (len Param0)
+	(1): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[-2,9,22,110]->58
+[-4,8,7,131]->203
+[2,7,-3,29]->45
+[0,9,-16,104]->104
+[4,6,-2,68]->148
+[-1,4,1,31]->33
+[-2,8,-12,128]->208
+[-4,9,-10,88]->312
+[-2,3,-4,18]->46
+[2,2,6,26]->58
+Merging for (sqrsum Param0) in Task operator
+(+ (+ (int Param3) (* (* (int Param0) (int Param2)) 2)) (* (int Param0) (* (int Param0) (int Param1))))
+	(0): Param0
+	(1): (len Param1)
+	(2): (sum Param1)
+	(3): (sqrsum Param1)
+Lifting (len Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[2,10]->12
+[2,8]->10
+[6,10]->16
+[5,4]->9
+[8,9]->17
+[4,10]->14
+[7,6]->13
+[10,5]->15
+[8,3]->11
+[7,1]->8
+Merging for (len Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (len Param0)
+	(1): (len Param1)
+Lifting (len Param0) for operator
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[-2,9]->9
+[-4,8]->8
+[2,7]->7
+[0,9]->9
+[4,6]->6
+[-1,4]->4
+[-2,8]->8
+[-4,9]->9
+[-2,3]->3
+[2,2]->2
+Merging for (len Param0) in Task operator
+(int Param1)
+	(0): Param0
+	(1): (len Param1)
+Lifting (sum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[-3,-10]->-13
+[2,10]->12
+[-9,-4]->-13
+[3,-4]->-1
+[-4,2]->-2
+[1,-21]->-20
+[13,12]->25
+[13,-3]->10
+[-12,1]->-11
+[0,7]->7
+Merging for (sum Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (sum Param0)
+	(1): (sum Param1)
+Lifting (sum Param0) for operator
+	(0): (len Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[-2,9,22]->4
+[-4,8,7]->-25
+[2,7,-3]->11
+[0,9,-16]->-16
+[4,6,-2]->22
+[-1,4,1]->-3
+[-2,8,-12]->-28
+[-4,9,-10]->-46
+[-2,3,-4]->-10
+[2,2,6]->10
+Merging for (sum Param0) in Task operator
+(+ (int Param2) (* (int Param0) (int Param1)))
+	(0): Param0
+	(1): (len Param1)
+	(2): (sum Param1)
+Success
+x0: (sqrsum Param0)
+Liftings:
+  x1: (len Param0)
+  x2: (sum Param0)
+Combinator for tree
+  x0: l0+r0
+  x1: l1+r1
+  x2: l2+r2
+Combinator for operator
+  x0: l0+a*l2*2+a*a*l1
+  x1: l1
+  x2: l2+a*l1
+|               |   external |    lifting |   #lifting |
+|       sqrsum@+|    98.6008 |    5.45778 |          3 |
+Total time cost: 104.059

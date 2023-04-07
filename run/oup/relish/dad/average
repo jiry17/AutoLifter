@@ -1,0 +1,71 @@
+tree
+
+  2
+aux: [2,], comb: (+ (int Param3) Param1)
+
+
+
+
+  2
+aux: [2,], comb: (div (+ (int Param3) Param2) (int Param1))
+
+
+
+  (neg 2)
+  (maximum Param0)
+  2
+  (neg 2)
+  2
+  (neg 2)
+  2
+  (neg 2)  (maximum Param0)
+  (neg 2)  2
+  (neg 2)  (neg 2)
+  (neg 2)  2
+  (neg 2)  (neg 2)
+  (neg 2)  2
+  (maximum Param0)  2
+aux: [(maximum Param0),2,], comb: (+ (div (int Param0) (int Param3)) Param3)
+
+
+
+  (len Param0)
+  (sum Param0)
+  (len Param0)
+  (sum Param0)
+  (sum Param0)
+  (len Param0)
+  (len Param0)  (sum Param0)
+aux: [(len Param0),(sum Param0),], comb: (div (+ (int Param3) Param1) (+ (int Param2) Param0))
+aux:
+  (len Param0)  (sum Param0)comb:
+Lifting (average Param0) for tree
+	(0): (len Param0)
+	(1): (sum Param0)
+
+tree
+
+aux: [], comb: (+ (int Param0) Param1)
+aux:
+comb:
+Lifting (len Param0) for tree
+
+tree
+
+aux: [], comb: (+ (int Param0) Param1)
+aux:
+comb:
+Lifting (sum Param0) for tree
+
+Success
+x0: (average Param0)
+Liftings:
+  x1: (len Param0)
+  x2: (sum Param0)
+Combinator for tree
+  x0: (r2+r1)/(l2+l1)
+  x1: l1+r1
+  x2: l2+r2
+|               |  synthesis |   #lifting |
+|        average|    1.22308 |          3 |
+Total time cost: 1.22308

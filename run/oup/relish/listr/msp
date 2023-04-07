@@ -1,0 +1,134 @@
+listr
+
+
+aux: [], comb: (* (int Param1) (int Param0))
+
+
+
+
+
+  (head Param0)
+aux: [(head Param0),], comb: (* (int Param1) (+ (int Param2) Param0))
+
+
+
+  1
+  -1
+  (neg (neg -1))
+  (count lt_zero Param0)
+aux: [(count lt_zero Param0),], comb: (- (* (int Param1) (int Param0)) Param1)
+
+
+
+aux: [], comb: (ite (<= (int Param1) (int 0)) (int Param0) (* (int Param0) (int Param1)))
+
+
+
+  (neg 2)
+  2
+  -1
+  1
+  (apply2 * 2 1)
+  (maximum (scanr * Param0))
+  (minimum (scanr - Param0))
+  (maximum (scanr + Param0))
+  (neg (neg (neg 2)))
+  (maximum (scanr - Param0))
+  (minimum (scanr + Param0))
+  (neg (neg 2))
+  (neg 2)  2
+  (neg 2)  -1
+  (neg 2)  1
+  (neg 2)  (apply2 * 2 1)
+  (neg 2)  (maximum (scanr * Param0))
+  (neg 2)  (minimum (scanr - Param0))
+  (neg 2)  (maximum (scanr + Param0))
+  (neg 2)  (neg (neg (neg 2)))
+  (neg 2)  (maximum (scanr - Param0))
+  (neg 2)  (minimum (scanr + Param0))
+  (neg 2)  (neg (neg 2))
+  2  -1
+  2  1
+  2  (apply2 * 2 1)
+  2  (maximum (scanr * Param0))
+  2  (minimum (scanr - Param0))
+  2  (maximum (scanr + Param0))
+  2  (neg (neg (neg 2)))
+  2  (maximum (scanr - Param0))
+  2  (minimum (scanr + Param0))
+  2  (neg (neg 2))
+  -1  1
+  -1  (apply2 * 2 1)
+  -1  (maximum (scanr * Param0))
+  -1  (minimum (scanr - Param0))
+  -1  (maximum (scanr + Param0))
+  -1  (neg (neg (neg 2)))
+  -1  (maximum (scanr - Param0))
+  -1  (minimum (scanr + Param0))
+  -1  (neg (neg 2))
+  1  (apply2 * 2 1)
+  1  (maximum (scanr * Param0))
+  1  (minimum (scanr - Param0))
+  1  (maximum (scanr + Param0))
+  1  (neg (neg (neg 2)))
+  1  (maximum (scanr - Param0))
+  1  (minimum (scanr + Param0))
+  1  (neg (neg 2))
+  (apply2 * 2 1)  (maximum (scanr * Param0))
+  (apply2 * 2 1)  (minimum (scanr - Param0))
+  (apply2 * 2 1)  (maximum (scanr + Param0))
+  (apply2 * 2 1)  (neg (neg (neg 2)))
+  (apply2 * 2 1)  (maximum (scanr - Param0))
+  (apply2 * 2 1)  (minimum (scanr + Param0))
+  (apply2 * 2 1)  (neg (neg 2))
+  (maximum (scanr * Param0))  (minimum (scanr - Param0))
+  (maximum (scanr * Param0))  (maximum (scanr + Param0))
+  (maximum (scanr * Param0))  (neg (neg (neg 2)))
+  (maximum (scanr * Param0))  (maximum (scanr - Param0))
+  (maximum (scanr * Param0))  (minimum (scanr + Param0))
+  (maximum (scanr * Param0))  (neg (neg 2))
+  (minimum (scanr - Param0))  (maximum (scanr + Param0))
+  (minimum (scanr - Param0))  (neg (neg (neg 2)))
+  (minimum (scanr - Param0))  (maximum (scanr - Param0))
+  (minimum (scanr - Param0))  (minimum (scanr + Param0))
+  (minimum (scanr - Param0))  (neg (neg 2))
+  (maximum (scanr + Param0))  (neg (neg (neg 2)))
+  (maximum (scanr + Param0))  (maximum (scanr - Param0))
+  (maximum (scanr + Param0))  (minimum (scanr + Param0))
+  (maximum (scanr + Param0))  (neg (neg 2))
+  (neg (neg (neg 2)))  (maximum (scanr - Param0))
+  (neg (neg (neg 2)))  (minimum (scanr + Param0))
+  (neg (neg (neg 2)))  (neg (neg 2))
+  (maximum (scanr - Param0))  (minimum (scanr + Param0))
+  (maximum (scanr - Param0))  (neg (neg 2))
+  (minimum (scanr + Param0))  (neg (neg 2))
+
+  (neg 2)
+  (sum Param0)
+  (len Param0)
+  2
+  (neg 2)  (sum Param0)
+  (neg 2)  (len Param0)
+  (neg 2)  2
+  (sum Param0)  (len Param0)
+  (sum Param0)  2
+  (len Param0)  2
+
+  (head Param0)
+  (neg 2)
+  (neg 1)
+  (neg -1)
+  (sum Param0)
+  (len Param0)
+  (maximum Param0)
+  2
+  -1
+  1
+  (head Param0)  (neg 2)
+  (head Param0)  (neg 1)
+  (head Param0)  (neg -1)
+  (head Param0)  (sum Param0)
+  (head Param0)  (len Param0)
+  (head Param0)  (maximum Param0)
+aux: [(head Param0),(maximum Param0),], comb: (ite (<= (int Param3) (int 1)) (int Param2) (* (int Param1) (+ (int Param2) Param0)))
+

@@ -1,0 +1,39 @@
+Lifting (lis Param0) for listr
+	(0): (last Param0)
+	(1): (longest_prefix (rev Param0) >)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (lis Param0) in Task listr
+(ite (and (< Param1 Param0) (<= Param3 Param2)) (int Param2) (int Param3))
+	(0): Param0
+	(1): (last Param1)
+	(2): (longest_prefix (rev Param1) >)
+	(3): (lis Param1)
+Lifting (last Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (last Param0) in Task listr
+(int Param0)
+	(0): Param0
+	(1): (last Param1)
+Lifting (longest_prefix (rev Param0) >) for listr
+	(0): (last Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (longest_prefix (rev Param0) >) in Task listr
+(ite (< Param1 Param0) (+ (int Param2) 1) 1)
+	(0): Param0
+	(1): (last Param1)
+	(2): (longest_prefix (rev Param1) >)
+Success
+x0: (lis Param0)
+Liftings:
+  x1: (last Param0)
+  x2: (longest_prefix (rev Param0) >)
+Combinator for listr
+  x0: ite (l1<a&&l0<=l2) (l2) (l0)
+  x1: a
+  x2: ite (l1<a) (l2+1) (1)
+|               |   external |    lifting |   #lifting |      #turn |
+|            lis|   0.105824 |   0.666083 |          3 |         34 |
+Total time cost: 0.771907

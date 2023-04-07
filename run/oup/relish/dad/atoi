@@ -1,0 +1,37 @@
+tree
+
+
+
+
+
+  2
+aux: [2,], comb: (+ (* (int Param2) (pow10 (int Param1))) Param3)
+
+
+
+  (len Param0)
+aux: [(len Param0),], comb: (+ (* (int Param2) (pow10 (int Param1))) Param3)
+aux:
+  (len Param0)comb:
+Lifting (atoi Param0) for tree
+	(0): (len Param0)
+
+tree
+
+aux: [], comb: (+ (int Param0) Param0)
+
+aux: [], comb: (+ (int Param0) Param1)
+aux:
+comb:
+Lifting (len Param0) for tree
+
+Success
+x0: (atoi Param0)
+Liftings:
+  x1: (len Param0)
+Combinator for tree
+  x0: l0*pow10 r1+r0
+  x1: l1+r1
+|               |  synthesis |   #lifting |
+|           atoi|   0.179784 |          2 |
+Total time cost: 0.179784

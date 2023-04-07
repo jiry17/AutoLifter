@@ -1,0 +1,8 @@
+Success
+x0: (atoi Param0)
+Liftings:
+Combinator for listr
+  x0: 10*l0+a
+|               |  synthesis |   #lifting |
+|           atoi|   0.015504 |          1 |
+Total time cost: 0.015504

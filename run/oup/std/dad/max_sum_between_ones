@@ -1,0 +1,54 @@
+Lifting (max_sum_between_ones Param0) for tree
+	(0): (sum (prefix_till_1 Param0))
+	(1): (sum (prefix_till_1 (rev Param0)))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (max_sum_between_ones Param0) in Task tree
+(ite (and (<= Param5 Param4) (< (+ Param1 Param2) Param4)) (int Param4) (ite (<= (+ Param1 Param2) Param5) (int Param5) (+ (int Param1) (int Param2))))
+	(0): (sum (prefix_till_1 Param0))
+	(1): (sum (prefix_till_1 Param1))
+	(2): (sum (prefix_till_1 (rev Param0)))
+	(3): (sum (prefix_till_1 (rev Param1)))
+	(4): (max_sum_between_ones Param0)
+	(5): (max_sum_between_ones Param1)
+Lifting (sum (prefix_till_1 Param0)) for tree
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum (prefix_till_1 Param0)) in Task tree
+(ite (<= Param0 Param2) (+ (int Param2) (int Param3)) (int Param2))
+	(0): (sum Param0)
+	(1): (sum Param1)
+	(2): (sum (prefix_till_1 Param0))
+	(3): (sum (prefix_till_1 Param1))
+Lifting (sum (prefix_till_1 (rev Param0))) for tree
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum (prefix_till_1 (rev Param0))) in Task tree
+(ite (<= Param1 Param3) (+ (int Param2) (int Param3)) (int Param3))
+	(0): (sum Param0)
+	(1): (sum Param1)
+	(2): (sum (prefix_till_1 (rev Param0)))
+	(3): (sum (prefix_till_1 (rev Param1)))
+Lifting (sum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (sum Param0)
+	(1): (sum Param1)
+Success
+x0: (max_sum_between_ones Param0)
+Liftings:
+  x1: (sum (prefix_till_1 Param0))
+  x2: (sum (prefix_till_1 (rev Param0)))
+  x3: (sum Param0)
+Combinator for tree
+  x0: ite (r0<=l0&&r1+l2<l0) (l0) (ite (r1+l2<=r0) (r0) (r1+l2))
+  x1: ite (l3<=l1) (l1+r1) (l1)
+  x2: ite (r3<=r2) (l2+r2) (r2)
+  x3: l3+r3
+|               |   external |    lifting |   #lifting |      #turn |
+|max_sum_between_ones|   0.452487 |    1.42543 |          4 |         73 |
+Total time cost: 1.87792

@@ -1,0 +1,41 @@
+Lifting (0after1 Param0) for listr
+	(0): (last Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[0,1,1]->1
+[0,0,1]->1
+[1,0,1]->1
+[0,1,0]->1
+[1,1,1]->1
+[0,1,1]->1
+[0,0,1]->1
+[1,0,1]->1
+[0,1,0]->1
+[1,1,1]->1
+[1,0,0]->0
+[1,1,0]->0
+[0,0,0]->0
+Merging for (0after1 Param0) in Task listr
+(ite (and (<= Param2 0) (<= Param1 Param0)) 0 1)
+	(0): Param0
+	(1): (last Param1)
+	(2): (0after1 Param1)
+Lifting (last Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[1,0]->1
+[1,1]->1
+Merging for (last Param0) in Task listr
+(int Param0)
+	(0): Param0
+	(1): (last Param1)
+Success
+x0: (0after1 Param0)
+Liftings:
+  x1: (last Param0)
+Combinator for listr
+  x0: ite (l0<=0&&l1<=a) (0) (1)
+  x1: a
+|               |   external |    lifting |   #lifting |
+|        0after1|   0.024235 |   0.147436 |          2 |
+Total time cost: 0.171671

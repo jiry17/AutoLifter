@@ -1,0 +1,48 @@
+Lifting (mtp Param0) for listr
+	(0): (minimum (scanr * Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[-2,-2,0]->4
+[3,1,3]->9
+[2,-324,36]->72
+[-3,-2,-2]->6
+[-1,-3,3]->3
+[1,0,0]->1
+[1,-18,36]->36
+[3,-4,2]->6
+[1,-2,0]->1
+[3,-8,2]->6
+Merging for (mtp Param0) in Task listr
+(ite (and (< (* Param0 Param2) Param0) (< (* Param0 Param1) Param0)) (int Param0) (ite (<= (* Param0 Param1) (* Param0 Param2)) (* (int Param0) (int Param2)) (* (int Param0) (int Param1))))
+	(0): Param0
+	(1): (minimum (scanr * Param1))
+	(2): (mtp Param1)
+Lifting (minimum (scanr * Param0)) for listr
+	(0): (mtp Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[-2,0,-2]->-2
+[3,3,1]->3
+[2,36,-324]->-648
+[-3,-2,-2]->-3
+[-2,0,0]->-2
+[-1,3,-3]->-3
+[1,36,-18]->-18
+[3,2,-4]->-12
+[1,0,-2]->-2
+[3,2,-8]->-24
+Merging for (minimum (scanr * Param0)) in Task listr
+(ite (and (<= Param0 (* Param0 Param1)) (<= Param0 (* Param0 Param2))) (int Param0) (ite (<= Param0 0) (* (int Param0) (int Param1)) (* (int Param0) (int Param2))))
+	(0): Param0
+	(1): (mtp Param1)
+	(2): (minimum (scanr * Param1))
+Success
+x0: (mtp Param0)
+Liftings:
+  x1: (minimum (scanr * Param0))
+Combinator for listr
+  x0: ite (a*l0<a&&a*l1<a) (a) (ite (a*l1<=a*l0) (a*l0) (a*l1))
+  x1: ite (a<=a*l0&&a<=a*l1) (a) (ite (a<=0) (a*l0) (a*l1))
+|               |   external |    lifting |   #lifting |
+|            mtp|     1.3525 |   0.537283 |          2 |
+Total time cost: 1.88978

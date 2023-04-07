@@ -1,0 +1,204 @@
+tree
+
+aux: [], comb: (+ (int Param1) Param1)
+
+
+
+  (neg 2)
+  2
+  (neg 2)
+  (sum Param0)
+  2
+  (neg 2)
+  2
+  (neg 2)  2
+  (neg 2)  (neg 2)
+  (neg 2)  (sum Param0)
+aux: [(neg 2),(sum Param0),], comb: (- (int Param3) Param2)
+
+
+
+
+
+  (sum Param0)
+  (head Param0)
+  (sum Param0)  (head Param0)
+aux: [(sum Param0),(head Param0),], comb: (+ (- (- (int Param2) Param3) Param3) Param2)
+
+
+
+  (len Param0)
+  (head Param0)
+  (maximum Param0)
+  (len Param0)
+  (len Param0)
+  (len Param0)  (head Param0)
+  (len Param0)  (maximum Param0)
+  (len Param0)  (len Param0)
+  (len Param0)  (len Param0)
+  (head Param0)  (maximum Param0)
+  (head Param0)  (len Param0)
+  (head Param0)  (len Param0)
+  (maximum Param0)  (len Param0)
+  (maximum Param0)  (len Param0)
+  (len Param0)  (len Param0)
+
+
+  (neg 1)
+  (neg 2)
+  (last Param0)
+  (neg -1)
+  (len Param0)
+  (maximum Param0)
+  (head Param0)
+  (minimum Param0)
+  2
+  -1
+  1
+  (neg 1)
+  (neg 2)
+  (head Param0)
+  (sum Param0)
+aux: [(sum Param0),], comb: (ite (<= (int Param2) (int 0)) (int Param3) (+ (int Param2) Param1))
+
+  (maximum Param0)
+  (sum Param0)
+  (maximum Param0)
+  (last Param0)
+  (maximum Param0)
+  (maximum Param0)  (sum Param0)
+aux: [(maximum Param0),(sum Param0),], comb: (ite (<= (int Param3) (int Param2)) (int Param5) (+ (int Param3) Param4))
+
+
+
+  (neg 1)
+  (neg 2)
+  (head Param0)
+  (len Param0)
+  (last Param0)
+  (neg -1)
+  (sum Param0)
+aux: [(sum Param0),], comb: (ite (<= (int Param0) (- (int 1) Param1)) (int Param3) (+ (int Param1) Param2))
+
+  (neg 1)
+  (neg 2)
+  (sum Param0)
+aux: [(sum Param0),], comb: (ite (<= (int Param2) (- (int 1) Param1)) (int Param3) (+ (int Param2) Param1))
+
+  (neg -1)
+  (neg 2)
+  (sum Param0)
+aux: [(sum Param0),], comb: (ite (<= (int Param1) (- (int Param3) Param2)) (int Param3) (+ (int Param1) Param2))
+aux:
+  (sum Param0)comb:
+Lifting (mts Param0) for tree
+	(0): (sum Param0)
+
+operator
+
+aux: [], comb: (+ (int Param1) Param1)
+
+
+
+
+  (len Param0)
+aux: [(len Param0),], comb: (* (int Param0) (int Param2))
+
+
+
+
+
+
+  2
+  -1
+  (sum (scanr min Param0))
+  (maximum (take -1 Param0))
+  (head (filter gt_zero Param0))
+  (sum (drop 2 Param0))
+  (sum (scanr - Param0))
+  2  -1
+  2  (sum (scanr min Param0))
+  2  (maximum (take -1 Param0))
+  2  (head (filter gt_zero Param0))
+  2  (sum (drop 2 Param0))
+  2  (sum (scanr - Param0))
+  -1  (sum (scanr min Param0))
+  -1  (maximum (take -1 Param0))
+  -1  (head (filter gt_zero Param0))
+  -1  (sum (drop 2 Param0))
+  -1  (sum (scanr - Param0))
+  (sum (scanr min Param0))  (maximum (take -1 Param0))
+  (sum (scanr min Param0))  (head (filter gt_zero Param0))
+  (sum (scanr min Param0))  (sum (drop 2 Param0))
+  (sum (scanr min Param0))  (sum (scanr - Param0))
+  (maximum (take -1 Param0))  (head (filter gt_zero Param0))
+  (maximum (take -1 Param0))  (sum (drop 2 Param0))
+  (maximum (take -1 Param0))  (sum (scanr - Param0))
+aux: [(maximum (take -1 Param0)),(sum (scanr - Param0)),], comb: (+ (+ (int Param0) Param1) Param0)
+
+
+  (sum Param0)
+  (last Param0)
+  (sum Param0)  (last Param0)
+aux: [(sum Param0),(last Param0),], comb: (* (int Param3) (+ (+ (- (int Param1) Param2) Param3) Param0))
+
+
+
+  (len Param0)
+aux: [(len Param0),], comb: (ite (<= (int Param2) (int 0)) (int Param2) (* (int Param0) (int Param2)))
+aux:
+  (len Param0)comb:
+Lifting (mts Param0) for operator
+	(0): (len Param0)
+
+tree
+
+aux: [], comb: (+ (int Param1) Param0)
+aux:
+comb:
+Lifting (sum Param0) for tree
+
+operator
+
+aux: [], comb: (+ (int Param1) Param1)
+
+
+
+
+  (len Param0)
+aux: [(len Param0),], comb: (* (int Param0) (int Param2))
+aux:
+  (len Param0)comb:
+Lifting (sum Param0) for operator
+	(0): (len Param0)
+
+tree
+
+aux: [], comb: (+ (int Param1) Param0)
+aux:
+comb:
+Lifting (len Param0) for tree
+
+operator
+
+aux: [], comb: (+ (int 0) Param0)
+aux:
+comb:
+Lifting (len Param0) for operator
+
+Success
+x0: (mts Param0)
+Liftings:
+  x1: (sum Param0)
+  x2: (len Param0)
+Combinator for tree
+  x0: ite (r1<=r0 - l0) (r0) (r1+l0)
+  x1: r1+l1
+  x2: r2+l2
+Combinator for operator
+  x0: ite (l0<=0) (l0) (l2*l0)
+  x1: l2*l1
+  x2: 0+a
+|               |  synthesis |   #lifting |
+|      mts@cover|    63.6253 |          3 |
+Total time cost: 63.6253

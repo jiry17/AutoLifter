@@ -1,0 +1,271 @@
+listr
+
+aux: [], comb: (+ (int Param1) Param0)
+
+aux: [], comb: (+ (int Param0) 0)
+
+
+
+
+
+
+
+  (head Param0)
+  (minimum Param0)
+  (head Param0)  (minimum Param0)
+aux: [(head Param0),(minimum Param0),], comb: (+ (+ (- (int Param3) Param0) Param1) Param2)
+
+
+
+aux: [], comb: (+ (ite (<= (int Param1) (int 1)) (int 0) (int Param1)) Param0)
+
+
+
+  (head Param0)
+  (maximum Param0)
+  (minimum Param0)
+  (neg -1)
+  (last Param0)
+aux: [(last Param0),], comb: (+ (ite (<= (int Param2) (int 1)) (int 0) (int Param0)) Param1)
+
+  (apply2 - (maximum Param0) 2)
+  (count odd (scanl + Param0))
+  (minimum (map (- 2) Param0))
+  (sum (take (last Param0) Param0))
+  (maximum Param0)
+  (last Param0)
+  2
+  (apply2 - (maximum Param0) 2)  (count odd (scanl + Param0))
+  (apply2 - (maximum Param0) 2)  (minimum (map (- 2) Param0))
+  (apply2 - (maximum Param0) 2)  (sum (take (last Param0) Param0))
+  (apply2 - (maximum Param0) 2)  (maximum Param0)
+  (apply2 - (maximum Param0) 2)  (last Param0)
+  (apply2 - (maximum Param0) 2)  2
+  (count odd (scanl + Param0))  (minimum (map (- 2) Param0))
+  (count odd (scanl + Param0))  (sum (take (last Param0) Param0))
+  (count odd (scanl + Param0))  (maximum Param0)
+  (count odd (scanl + Param0))  (last Param0)
+  (count odd (scanl + Param0))  2
+  (minimum (map (- 2) Param0))  (sum (take (last Param0) Param0))
+  (minimum (map (- 2) Param0))  (maximum Param0)
+  (minimum (map (- 2) Param0))  (last Param0)
+  (minimum (map (- 2) Param0))  2
+  (sum (take (last Param0) Param0))  (maximum Param0)
+  (sum (take (last Param0) Param0))  (last Param0)
+  (sum (take (last Param0) Param0))  2
+  (maximum Param0)  (last Param0)
+  (maximum Param0)  2
+  (last Param0)  2
+
+
+  (neg -1)
+  (neg 1)
+  (neg 2)
+  (head Param0)
+  (minimum Param0)
+  (last Param0)
+  (len Param0)
+aux: [(len Param0),], comb: (+ (ite (<= (int Param0) (int Param1)) (int Param2) (- (int Param2) 1)) Param1)
+
+  (neg -1)
+  (neg 2)
+  (head Param0)
+  (minimum Param0)
+  2
+  -1
+  1
+  (neg -1)  (neg 2)
+  (neg -1)  (head Param0)
+  (neg -1)  (minimum Param0)
+  (neg -1)  2
+  (neg -1)  -1
+  (neg -1)  1
+  (neg 2)  (head Param0)
+aux: [(neg 2),(head Param0),], comb: (+ (- (ite (<= (int Param1) (int Param3)) (int Param1) (int Param0)) Param0) Param2)
+
+  (neg 2)
+  (head Param0)
+  2
+  -1
+  1
+  (apply2 * 2 1)
+  (last (take 2 Param0))
+  (head (map neg Param0))
+  (minimum (filter gt_zero Param0))
+  (head (scanl + Param0))
+  (neg (neg (neg 2)))
+  (neg (head Param0))
+  (last (rev Param0))
+  (neg (neg 2))
+  (neg 2)  (head Param0)
+  (neg 2)  2
+  (neg 2)  -1
+  (neg 2)  1
+  (neg 2)  (apply2 * 2 1)
+  (neg 2)  (last (take 2 Param0))
+  (neg 2)  (head (map neg Param0))
+  (neg 2)  (minimum (filter gt_zero Param0))
+  (neg 2)  (head (scanl + Param0))
+  (neg 2)  (neg (neg (neg 2)))
+  (neg 2)  (neg (head Param0))
+  (neg 2)  (last (rev Param0))
+  (neg 2)  (neg (neg 2))
+  (head Param0)  2
+  (head Param0)  -1
+  (head Param0)  1
+  (head Param0)  (apply2 * 2 1)
+  (head Param0)  (last (take 2 Param0))
+  (head Param0)  (head (map neg Param0))
+  (head Param0)  (minimum (filter gt_zero Param0))
+  (head Param0)  (head (scanl + Param0))
+  (head Param0)  (neg (neg (neg 2)))
+  (head Param0)  (neg (head Param0))
+  (head Param0)  (last (rev Param0))
+  (head Param0)  (neg (neg 2))
+  2  -1
+  2  1
+  2  (apply2 * 2 1)
+  2  (last (take 2 Param0))
+  2  (head (map neg Param0))
+  2  (minimum (filter gt_zero Param0))
+  2  (head (scanl + Param0))
+  2  (neg (neg (neg 2)))
+  2  (neg (head Param0))
+  2  (last (rev Param0))
+  2  (neg (neg 2))
+  -1  1
+  -1  (apply2 * 2 1)
+  -1  (last (take 2 Param0))
+  -1  (head (map neg Param0))
+  -1  (minimum (filter gt_zero Param0))
+  -1  (head (scanl + Param0))
+  -1  (neg (neg (neg 2)))
+  -1  (neg (head Param0))
+  -1  (last (rev Param0))
+  -1  (neg (neg 2))
+  1  (apply2 * 2 1)
+  1  (last (take 2 Param0))
+  1  (head (map neg Param0))
+  1  (minimum (filter gt_zero Param0))
+  1  (head (scanl + Param0))
+  1  (neg (neg (neg 2)))
+  1  (neg (head Param0))
+  1  (last (rev Param0))
+  1  (neg (neg 2))
+  (apply2 * 2 1)  (last (take 2 Param0))
+  (apply2 * 2 1)  (head (map neg Param0))
+  (apply2 * 2 1)  (minimum (filter gt_zero Param0))
+  (apply2 * 2 1)  (head (scanl + Param0))
+  (apply2 * 2 1)  (neg (neg (neg 2)))
+  (apply2 * 2 1)  (neg (head Param0))
+  (apply2 * 2 1)  (last (rev Param0))
+  (apply2 * 2 1)  (neg (neg 2))
+  (last (take 2 Param0))  (head (map neg Param0))
+  (last (take 2 Param0))  (minimum (filter gt_zero Param0))
+  (last (take 2 Param0))  (head (scanl + Param0))
+  (last (take 2 Param0))  (neg (neg (neg 2)))
+  (last (take 2 Param0))  (neg (head Param0))
+  (last (take 2 Param0))  (last (rev Param0))
+  (last (take 2 Param0))  (neg (neg 2))
+  (head (map neg Param0))  (minimum (filter gt_zero Param0))
+  (head (map neg Param0))  (head (scanl + Param0))
+  (head (map neg Param0))  (neg (neg (neg 2)))
+  (head (map neg Param0))  (neg (head Param0))
+  (head (map neg Param0))  (last (rev Param0))
+  (head (map neg Param0))  (neg (neg 2))
+  (minimum (filter gt_zero Param0))  (head (scanl + Param0))
+  (minimum (filter gt_zero Param0))  (neg (neg (neg 2)))
+  (minimum (filter gt_zero Param0))  (neg (head Param0))
+  (minimum (filter gt_zero Param0))  (last (rev Param0))
+  (minimum (filter gt_zero Param0))  (neg (neg 2))
+  (head (scanl + Param0))  (neg (neg (neg 2)))
+  (head (scanl + Param0))  (neg (head Param0))
+  (head (scanl + Param0))  (last (rev Param0))
+  (head (scanl + Param0))  (neg (neg 2))
+  (neg (neg (neg 2)))  (neg (head Param0))
+  (neg (neg (neg 2)))  (last (rev Param0))
+  (neg (neg (neg 2)))  (neg (neg 2))
+  (neg (head Param0))  (last (rev Param0))
+  (neg (head Param0))  (neg (neg 2))
+  (last (rev Param0))  (neg (neg 2))
+  (apply2 - (head Param0) 2)
+  (head (rev (take 2 Param0)))
+  (head (map (- 2) Param0))
+  (head (sort (filter gt_zero Param0)))
+  (neg (minimum (filter gt_zero Param0)))
+  (maximum (take (last Param0) Param0))
+  (neg (last (take 2 Param0)))
+  (maximum (take 2 (rev Param0)))
+  (minimum (filter gt_zero Param0))
+  (last (take 2 Param0))
+  2
+  -1
+  (head Param0)
+  (neg 2)
+  (last Param0)
+  (apply2 - (head Param0) 2)  (head (rev (take 2 Param0)))
+  (apply2 - (head Param0) 2)  (head (map (- 2) Param0))
+  (apply2 - (head Param0) 2)  (head (sort (filter gt_zero Param0)))
+  (apply2 - (head Param0) 2)  (neg (minimum (filter gt_zero Param0)))
+  (apply2 - (head Param0) 2)  (maximum (take (last Param0) Param0))
+  (apply2 - (head Param0) 2)  (neg (last (take 2 Param0)))
+  (apply2 - (head Param0) 2)  (maximum (take 2 (rev Param0)))
+  (apply2 - (head Param0) 2)  (minimum (filter gt_zero Param0))
+  (apply2 - (head Param0) 2)  (last (take 2 Param0))
+  (apply2 - (head Param0) 2)  2
+  (apply2 - (head Param0) 2)  -1
+  (apply2 - (head Param0) 2)  (head Param0)
+  (apply2 - (head Param0) 2)  (neg 2)
+  (apply2 - (head Param0) 2)  (last Param0)
+  (head (rev (take 2 Param0)))  (head (map (- 2) Param0))
+  (head (rev (take 2 Param0)))  (head (sort (filter gt_zero Param0)))
+  (head (rev (take 2 Param0)))  (neg (minimum (filter gt_zero Param0)))
+  (head (rev (take 2 Param0)))  (maximum (take (last Param0) Param0))
+  (head (rev (take 2 Param0)))  (neg (last (take 2 Param0)))
+  (head (rev (take 2 Param0)))  (maximum (take 2 (rev Param0)))
+  (head (rev (take 2 Param0)))  (minimum (filter gt_zero Param0))
+  (head (rev (take 2 Param0)))  (last (take 2 Param0))
+  (head (rev (take 2 Param0)))  2
+  (head (rev (take 2 Param0)))  -1
+  (head (rev (take 2 Param0)))  (head Param0)
+  (head (rev (take 2 Param0)))  (neg 2)
+  (head (rev (take 2 Param0)))  (last Param0)
+  (head (map (- 2) Param0))  (head (sort (filter gt_zero Param0)))
+  (head (map (- 2) Param0))  (neg (minimum (filter gt_zero Param0)))
+  (head (map (- 2) Param0))  (maximum (take (last Param0) Param0))
+  (head (map (- 2) Param0))  (neg (last (take 2 Param0)))
+  (head (map (- 2) Param0))  (maximum (take 2 (rev Param0)))
+  (head (map (- 2) Param0))  (minimum (filter gt_zero Param0))
+  (head (map (- 2) Param0))  (last (take 2 Param0))
+  (head (map (- 2) Param0))  2
+  (head (map (- 2) Param0))  -1
+  (head (map (- 2) Param0))  (head Param0)
+  (head (map (- 2) Param0))  (neg 2)
+  (head (map (- 2) Param0))  (last Param0)
+  (head (sort (filter gt_zero Param0)))  (neg (minimum (filter gt_zero Param0)))
+  (head (sort (filter gt_zero Param0)))  (maximum (take (last Param0) Param0))
+  (head (sort (filter gt_zero Param0)))  (neg (last (take 2 Param0)))
+  (head (sort (filter gt_zero Param0)))  (maximum (take 2 (rev Param0)))
+  (head (sort (filter gt_zero Param0)))  (minimum (filter gt_zero Param0))
+  (head (sort (filter gt_zero Param0)))  (last (take 2 Param0))
+  (head (sort (filter gt_zero Param0)))  2
+  (head (sort (filter gt_zero Param0)))  -1
+  (head (sort (filter gt_zero Param0)))  (head Param0)
+  (head (sort (filter gt_zero Param0)))  (neg 2)
+  (head (sort (filter gt_zero Param0)))  (last Param0)
+  (neg (minimum (filter gt_zero Param0)))  (maximum (take (last Param0) Param0))
+  (neg (minimum (filter gt_zero Param0)))  (neg (last (take 2 Param0)))
+  (neg (minimum (filter gt_zero Param0)))  (maximum (take 2 (rev Param0)))
+  (neg (minimum (filter gt_zero Param0)))  (minimum (filter gt_zero Param0))
+  (neg (minimum (filter gt_zero Param0)))  (last (take 2 Param0))
+  (neg (minimum (filter gt_zero Param0)))  2
+  (neg (minimum (filter gt_zero Param0)))  -1
+  (neg (minimum (filter gt_zero Param0)))  (head Param0)
+  (neg (minimum (filter gt_zero Param0)))  (neg 2)
+  (neg (minimum (filter gt_zero Param0)))  (last Param0)
+  (maximum (take (last Param0) Param0))  (neg (last (take 2 Param0)))
+  (maximum (take (last Param0) Param0))  (maximum (take 2 (rev Param0)))
+aux: [(maximum (take (last Param0) Param0)),(maximum (take 2 (rev Param0))),], comb: (+ (+ (- (int Param3) Param1) Param0) Param2)
+
+
+

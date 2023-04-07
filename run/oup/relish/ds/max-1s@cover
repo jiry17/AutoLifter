@@ -1,0 +1,521 @@
+tree
+
+aux: [], comb: (+ (int 0) Param0)
+
+aux: [], comb: (+ (int 0) Param1)
+
+
+
+  (last Param0)
+aux: [(last Param0),], comb: (+ (int Param2) Param0)
+
+
+
+  (sum Param0)
+aux: [(sum Param0),], comb: (+ (- (int Param0) Param2) Param3)
+
+  (minimum Param0)
+  (last Param0)
+  (head Param0)
+  (minimum Param0)  (last Param0)
+  (minimum Param0)  (head Param0)
+aux: [(minimum Param0),(head Param0),], comb: (+ (+ (int Param0) Param4) Param3)
+
+
+
+  (neg -1)
+  (last Param0)
+  (maximum Param0)
+  (neg 1)
+  (head Param0)
+  (minimum Param0)
+  1
+  -1
+  (neg -1)
+  (neg 1)
+  1
+  -1
+  (neg -1)
+  (neg 1)
+  1
+  -1
+  (neg -1)  (last Param0)
+  (neg -1)  (maximum Param0)
+  (neg -1)  (neg 1)
+  (neg -1)  (head Param0)
+  (neg -1)  (minimum Param0)
+  (neg -1)  1
+  (neg -1)  -1
+  (neg -1)  (neg -1)
+  (neg -1)  (neg 1)
+  (neg -1)  1
+  (neg -1)  -1
+  (neg -1)  (neg -1)
+  (neg -1)  (neg 1)
+  (neg -1)  1
+  (neg -1)  -1
+  (last Param0)  (maximum Param0)
+aux: [(last Param0),(maximum Param0),], comb: (+ (+ (- (int Param4) Param1) Param0) 1)
+
+
+
+  (head (sort Param0))
+  (neg (minimum Param0))
+  (minimum Param0)
+  (last (rev Param0))
+  (neg (head Param0))
+  (access 1 Param0)
+  (head Param0)
+  1
+  (head (sort Param0))  (neg (minimum Param0))
+  (head (sort Param0))  (minimum Param0)
+  (head (sort Param0))  (last (rev Param0))
+  (head (sort Param0))  (neg (head Param0))
+  (head (sort Param0))  (access 1 Param0)
+  (head (sort Param0))  (head Param0)
+  (head (sort Param0))  1
+  (neg (minimum Param0))  (minimum Param0)
+  (neg (minimum Param0))  (last (rev Param0))
+  (neg (minimum Param0))  (neg (head Param0))
+  (neg (minimum Param0))  (access 1 Param0)
+  (neg (minimum Param0))  (head Param0)
+  (neg (minimum Param0))  1
+  (minimum Param0)  (last (rev Param0))
+  (minimum Param0)  (neg (head Param0))
+  (minimum Param0)  (access 1 Param0)
+  (minimum Param0)  (head Param0)
+  (minimum Param0)  1
+  (last (rev Param0))  (neg (head Param0))
+  (last (rev Param0))  (access 1 Param0)
+  (last (rev Param0))  (head Param0)
+  (last (rev Param0))  1
+  (neg (head Param0))  (access 1 Param0)
+  (neg (head Param0))  (head Param0)
+  (neg (head Param0))  1
+  (access 1 Param0)  (head Param0)
+  (access 1 Param0)  1
+  (head Param0)  1
+  (sum (take (sum Param0) Param0))
+  (sum Param0)
+  (access (head Param0) (rev Param0))
+  (access (sum Param0) (rev Param0))
+aux: [(access (sum Param0) (rev Param0)),], comb: (+ (int Param1) Param2)
+
+
+
+  (sum Param0)
+  (last Param0)
+  (maximum Param0)
+  2
+  (sum Param0)
+  (head Param0)
+aux: [(head Param0),], comb: (ite (<= (int Param2) (int Param3)) (int Param3) (+ (int Param2) Param1))
+
+  (sum Param0)
+  (maximum Param0)
+  2
+  (sum Param0)
+  (head Param0)
+  (maximum Param0)
+  2
+  (sum Param0)
+  (maximum Param0)
+  2
+  (sum Param0)  (maximum Param0)
+  (sum Param0)  2
+  (sum Param0)  (sum Param0)
+  (sum Param0)  (head Param0)
+aux: [(sum Param0),(head Param0),], comb: (ite (<= (int Param0) (int Param2)) (int Param5) (+ (int Param4) Param3))
+
+
+
+  (neg 1)
+  (neg 2)
+  (sum Param0)
+  (last Param0)
+aux: [(last Param0),], comb: (+ (ite (< (int Param1) (- (int Param2) Param0)) (int Param2) (int Param3)) Param0)
+
+  (neg 1)
+  (len Param0)
+  (last Param0)
+  (sum Param0)
+  (neg -1)
+  (neg 2)
+  2
+  -1
+  1
+  (neg -1)
+  (neg 2)
+  (neg 1)
+  (last Param0)
+  (maximum Param0)
+  2
+  -1
+  1
+  (neg 1)
+  (neg -1)
+  (last Param0)
+  (neg 2)
+  2
+  -1
+  1
+  (neg 1)  (len Param0)
+  (neg 1)  (last Param0)
+  (neg 1)  (sum Param0)
+  (neg 1)  (neg -1)
+  (neg 1)  (neg 2)
+  (neg 1)  2
+  (neg 1)  -1
+  (neg 1)  1
+  (neg 1)  (neg -1)
+  (neg 1)  (neg 2)
+  (neg 1)  (neg 1)
+  (neg 1)  (last Param0)
+  (neg 1)  (maximum Param0)
+  (neg 1)  2
+  (neg 1)  -1
+  (neg 1)  1
+  (neg 1)  (neg 1)
+  (neg 1)  (neg -1)
+  (neg 1)  (last Param0)
+  (neg 1)  (neg 2)
+  (neg 1)  2
+  (neg 1)  -1
+  (neg 1)  1
+  (len Param0)  (last Param0)
+  (len Param0)  (sum Param0)
+  (len Param0)  (neg -1)
+  (len Param0)  (neg 2)
+  (len Param0)  2
+  (len Param0)  -1
+  (len Param0)  1
+  (len Param0)  (neg -1)
+  (len Param0)  (neg 2)
+  (len Param0)  (neg 1)
+  (len Param0)  (last Param0)
+  (len Param0)  (maximum Param0)
+  (len Param0)  2
+  (len Param0)  -1
+  (len Param0)  1
+  (len Param0)  (neg 1)
+  (len Param0)  (neg -1)
+  (len Param0)  (last Param0)
+  (len Param0)  (neg 2)
+  (len Param0)  2
+  (len Param0)  -1
+  (len Param0)  1
+  (last Param0)  (sum Param0)
+  (last Param0)  (neg -1)
+  (last Param0)  (neg 2)
+  (last Param0)  2
+  (last Param0)  -1
+  (last Param0)  1
+  (last Param0)  (neg -1)
+  (last Param0)  (neg 2)
+  (last Param0)  (neg 1)
+  (last Param0)  (last Param0)
+  (last Param0)  (maximum Param0)
+aux: [(last Param0),(maximum Param0),], comb: (+ (ite (< (int Param3) (- (int Param4) Param3)) (int Param4) (int Param5)) Param0)
+
+  (neg 1)
+  (last Param0)
+  (len Param0)
+  (sum Param0)
+  (neg 2)
+  (neg -1)
+  2
+  -1
+  1
+  (neg -1)
+  (last Param0)
+  (neg 1)
+  (neg 2)
+  (maximum Param0)
+  2
+  -1
+  1
+  (neg 1)
+  (neg -1)
+  (last Param0)
+  (neg 2)
+  2
+  -1
+  1
+  (neg 1)  (last Param0)
+  (neg 1)  (len Param0)
+  (neg 1)  (sum Param0)
+  (neg 1)  (neg 2)
+  (neg 1)  (neg -1)
+  (neg 1)  2
+  (neg 1)  -1
+  (neg 1)  1
+  (neg 1)  (neg -1)
+  (neg 1)  (last Param0)
+  (neg 1)  (neg 1)
+  (neg 1)  (neg 2)
+  (neg 1)  (maximum Param0)
+  (neg 1)  2
+  (neg 1)  -1
+  (neg 1)  1
+  (neg 1)  (neg 1)
+  (neg 1)  (neg -1)
+  (neg 1)  (last Param0)
+  (neg 1)  (neg 2)
+  (neg 1)  2
+  (neg 1)  -1
+  (neg 1)  1
+  (last Param0)  (len Param0)
+  (last Param0)  (sum Param0)
+  (last Param0)  (neg 2)
+  (last Param0)  (neg -1)
+  (last Param0)  2
+  (last Param0)  -1
+  (last Param0)  1
+  (last Param0)  (neg -1)
+  (last Param0)  (last Param0)
+  (last Param0)  (neg 1)
+  (last Param0)  (neg 2)
+  (last Param0)  (maximum Param0)
+  (last Param0)  2
+  (last Param0)  -1
+  (last Param0)  1
+  (last Param0)  (neg 1)
+  (last Param0)  (neg -1)
+  (last Param0)  (last Param0)
+  (last Param0)  (neg 2)
+  (last Param0)  2
+  (last Param0)  -1
+  (last Param0)  1
+  (len Param0)  (sum Param0)
+  (len Param0)  (neg 2)
+  (len Param0)  (neg -1)
+  (len Param0)  2
+  (len Param0)  -1
+  (len Param0)  1
+  (len Param0)  (neg -1)
+  (len Param0)  (last Param0)
+  (len Param0)  (neg 1)
+  (len Param0)  (neg 2)
+  (len Param0)  (maximum Param0)
+  (len Param0)  2
+  (len Param0)  -1
+  (len Param0)  1
+  (len Param0)  (neg 1)
+  (len Param0)  (neg -1)
+  (len Param0)  (last Param0)
+  (len Param0)  (neg 2)
+  (len Param0)  2
+  (len Param0)  -1
+  (len Param0)  1
+  (sum Param0)  (neg 2)
+  (sum Param0)  (neg -1)
+  (sum Param0)  2
+  (sum Param0)  -1
+  (sum Param0)  1
+  (sum Param0)  (neg -1)
+  (sum Param0)  (last Param0)
+  (sum Param0)  (neg 1)
+  (sum Param0)  (neg 2)
+  (sum Param0)  (maximum Param0)
+  (sum Param0)  2
+  (sum Param0)  -1
+  (sum Param0)  1
+  (sum Param0)  (neg 1)
+  (sum Param0)  (neg -1)
+  (sum Param0)  (last Param0)
+  (sum Param0)  (neg 2)
+  (sum Param0)  2
+  (sum Param0)  -1
+  (sum Param0)  1
+  (neg 2)  (neg -1)
+  (neg 2)  2
+  (neg 2)  -1
+  (neg 2)  1
+  (neg 2)  (neg -1)
+  (neg 2)  (last Param0)
+  (neg 2)  (neg 1)
+  (neg 2)  (neg 2)
+  (neg 2)  (maximum Param0)
+  (neg 2)  2
+  (neg 2)  -1
+  (neg 2)  1
+  (neg 2)  (neg 1)
+  (neg 2)  (neg -1)
+  (neg 2)  (last Param0)
+  (neg 2)  (neg 2)
+  (neg 2)  2
+  (neg 2)  -1
+  (neg 2)  1
+  (neg -1)  2
+  (neg -1)  -1
+  (neg -1)  1
+  (neg -1)  (neg -1)
+  (neg -1)  (last Param0)
+  (neg -1)  (neg 1)
+  (neg -1)  (neg 2)
+  (neg -1)  (maximum Param0)
+  (neg -1)  2
+  (neg -1)  -1
+  (neg -1)  1
+  (neg -1)  (neg 1)
+  (neg -1)  (neg -1)
+  (neg -1)  (last Param0)
+  (neg -1)  (neg 2)
+  (neg -1)  2
+  (neg -1)  -1
+  (neg -1)  1
+  2  -1
+  2  1
+  2  (neg -1)
+  2  (last Param0)
+  2  (neg 1)
+  2  (neg 2)
+  2  (maximum Param0)
+  2  2
+  2  -1
+  2  1
+  2  (neg 1)
+  2  (neg -1)
+  2  (last Param0)
+  2  (neg 2)
+  2  2
+  2  -1
+  2  1
+  -1  1
+  -1  (neg -1)
+  -1  (last Param0)
+  -1  (neg 1)
+  -1  (neg 2)
+  -1  (maximum Param0)
+  -1  2
+  -1  -1
+  -1  1
+  -1  (neg 1)
+  -1  (neg -1)
+  -1  (last Param0)
+  -1  (neg 2)
+  -1  2
+  -1  -1
+  -1  1
+  1  (neg -1)
+  1  (last Param0)
+  1  (neg 1)
+  1  (neg 2)
+  1  (maximum Param0)
+  1  2
+  1  -1
+  1  1
+  1  (neg 1)
+  1  (neg -1)
+  1  (last Param0)
+  1  (neg 2)
+  1  2
+  1  -1
+  1  1
+  (neg -1)  (last Param0)
+  (neg -1)  (neg 1)
+  (neg -1)  (neg 2)
+  (neg -1)  (maximum Param0)
+  (neg -1)  2
+  (neg -1)  -1
+  (neg -1)  1
+  (neg -1)  (neg 1)
+  (neg -1)  (neg -1)
+  (neg -1)  (last Param0)
+  (neg -1)  (neg 2)
+  (neg -1)  2
+  (neg -1)  -1
+  (neg -1)  1
+  (last Param0)  (neg 1)
+  (last Param0)  (neg 2)
+  (last Param0)  (maximum Param0)
+  (last Param0)  2
+  (last Param0)  -1
+  (last Param0)  1
+  (last Param0)  (neg 1)
+  (last Param0)  (neg -1)
+  (last Param0)  (last Param0)
+  (last Param0)  (neg 2)
+  (last Param0)  2
+  (last Param0)  -1
+  (last Param0)  1
+  (neg 1)  (neg 2)
+  (neg 1)  (maximum Param0)
+  (neg 1)  2
+  (neg 1)  -1
+  (neg 1)  1
+  (neg 1)  (neg 1)
+  (neg 1)  (neg -1)
+  (neg 1)  (last Param0)
+  (neg 1)  (neg 2)
+  (neg 1)  2
+  (neg 1)  -1
+  (neg 1)  1
+  (neg 2)  (maximum Param0)
+  (neg 2)  2
+  (neg 2)  -1
+  (neg 2)  1
+  (neg 2)  (neg 1)
+  (neg 2)  (neg -1)
+  (neg 2)  (last Param0)
+  (neg 2)  (neg 2)
+  (neg 2)  2
+  (neg 2)  -1
+  (neg 2)  1
+  (maximum Param0)  2
+  (maximum Param0)  -1
+  (maximum Param0)  1
+  (maximum Param0)  (neg 1)
+  (maximum Param0)  (neg -1)
+  (maximum Param0)  (last Param0)
+  (maximum Param0)  (neg 2)
+  (maximum Param0)  2
+  (maximum Param0)  -1
+  (maximum Param0)  1
+  2  -1
+  2  1
+  2  (neg 1)
+  2  (neg -1)
+  2  (last Param0)
+  2  (neg 2)
+  2  2
+  2  -1
+  2  1
+  -1  1
+  -1  (neg 1)
+  -1  (neg -1)
+  -1  (last Param0)
+  -1  (neg 2)
+  -1  2
+  -1  -1
+  -1  1
+  1  (neg 1)
+  1  (neg -1)
+  1  (last Param0)
+  1  (neg 2)
+  1  2
+  1  -1
+  1  1
+  (neg 1)  (neg -1)
+  (neg 1)  (last Param0)
+  (neg 1)  (neg 2)
+  (neg 1)  2
+  (neg 1)  -1
+  (neg 1)  1
+  (neg -1)  (last Param0)
+  (neg -1)  (neg 2)
+  (neg -1)  2
+  (neg -1)  -1
+  (neg -1)  1
+  (last Param0)  (neg 2)
+  (last Param0)  2
+  (last Param0)  -1
+  (last Param0)  1
+  (neg 2)  2
+  (neg 2)  -1
+  (neg 2)  1
+  2  -1
+  2  1
+  -1  1
+
+

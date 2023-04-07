@@ -1,0 +1,38 @@
+tree
+
+aux: [], comb: (+ (int Param1) Param0)
+
+aux: [], comb: (+ (int Param1) 0)
+
+
+
+
+
+
+
+
+  (sum Param0)
+  (maximum Param0)
+  (last Param0)
+  (sum Param0)  (maximum Param0)
+  (sum Param0)  (last Param0)
+  (maximum Param0)  (last Param0)
+  2
+  (access 2 Param0)
+  (last (sort Param0))
+  (neg (maximum Param0))
+  (maximum Param0)
+  2  (access 2 Param0)
+  2  (last (sort Param0))
+  2  (neg (maximum Param0))
+  2  (maximum Param0)
+  (access 2 Param0)  (last (sort Param0))
+aux: [(access 2 Param0),(last (sort Param0)),], comb: (* (int Param5) (+ (int Param2) Param3))
+
+
+
+  2
+aux: [2,], comb: (ite (<= (int Param2) (int Param1)) (int Param3) (* (int Param3) (int Param2)))
+
+
+

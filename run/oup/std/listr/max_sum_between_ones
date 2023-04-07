@@ -1,0 +1,26 @@
+Lifting (max_sum_between_ones Param0) for listr
+	(0): (sum (prefix_till_1 (rev Param0)))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (max_sum_between_ones Param0) in Task listr
+(ite (and (< 1 Param0) (<= Param2 (+ Param0 Param1))) (+ (int Param0) (int Param1)) (int Param2))
+	(0): Param0
+	(1): (sum (prefix_till_1 (rev Param1)))
+	(2): (max_sum_between_ones Param1)
+Lifting (sum (prefix_till_1 (rev Param0))) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum (prefix_till_1 (rev Param0))) in Task listr
+(ite (and (<= Param0 1) (<= 1 Param0)) 0 (+ (int Param0) (int Param1)))
+	(0): Param0
+	(1): (sum (prefix_till_1 (rev Param1)))
+Success
+x0: (max_sum_between_ones Param0)
+Liftings:
+  x1: (sum (prefix_till_1 (rev Param0)))
+Combinator for listr
+  x0: ite (1<a&&l0<=a+l1) (a+l1) (l0)
+  x1: ite (a<=1&&1<=a) (0) (a+l1)
+|               |   external |    lifting |   #lifting |      #turn |
+|max_sum_between_ones|   0.069801 |   0.247763 |          2 |         13 |
+Total time cost: 0.317564

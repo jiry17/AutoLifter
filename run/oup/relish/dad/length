@@ -1,0 +1,15 @@
+tree
+
+aux: [], comb: (+ (int Param1) Param0)
+aux:
+comb:
+Lifting (length Param0) for tree
+
+Success
+x0: (length Param0)
+Liftings:
+Combinator for tree
+  x0: r0+l0
+|               |  synthesis |   #lifting |
+|         length|   0.027208 |          1 |
+Total time cost: 0.027208

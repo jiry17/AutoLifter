@@ -1,0 +1,8 @@
+Success
+x0: (min Param0)
+Liftings:
+Combinator for listr
+  x0: ite (a<=l0) (a) (l0)
+|               |  synthesis |   #lifting |
+|            min|   0.279999 |          1 |
+Total time cost: 0.279999

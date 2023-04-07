@@ -1,0 +1,26 @@
+Lifting (mss Param0) for listr
+	(0): (maximum (scanr + Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (mss Param0) in Task listr
+(ite (and (<= Param2 Param0) (< Param1 0)) (int Param0) (ite (<= Param2 (+ Param0 Param1)) (+ (int Param0) (int Param1)) (int Param2)))
+	(0): Param0
+	(1): (maximum (scanr + Param1))
+	(2): (mss Param1)
+Lifting (maximum (scanr + Param0)) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (maximum (scanr + Param0)) in Task listr
+(ite (<= Param1 0) (int Param0) (+ (int Param0) (int Param1)))
+	(0): Param0
+	(1): (maximum (scanr + Param1))
+Success
+x0: (mss Param0)
+Liftings:
+  x1: (maximum (scanr + Param0))
+Combinator for listr
+  x0: ite (l0<=a&&l1<0) (a) (ite (l0<=a+l1) (a+l1) (l0))
+  x1: ite (l1<=0) (a) (a+l1)
+|               |   external |    lifting |   #lifting |      #turn |
+|            mss|    0.08172 |    0.33238 |          2 |         15 |
+Total time cost: 0.4141

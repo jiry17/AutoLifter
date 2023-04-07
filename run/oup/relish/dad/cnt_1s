@@ -1,0 +1,472 @@
+tree
+
+aux: [], comb: (+ (int Param1) Param0)
+
+
+
+
+
+  (neg 1)
+  (head Param0)
+aux: [(head Param0),], comb: (+ (+ (int Param2) Param1) 1)
+
+  (head Param0)
+aux: [(head Param0),], comb: (+ (- (int Param2) Param1) Param3)
+
+  (len Param0)
+  (maximum Param0)
+  (head Param0)
+  (last Param0)
+aux: [(last Param0),], comb: (+ (- (int Param3) Param1) Param2)
+
+
+
+
+
+  2
+aux: [2,], comb: (+ (ite (<= (int Param3) (int Param1)) (int Param2) (int Param1)) Param3)
+
+  (neg -1)
+  (neg 1)
+  (sum Param0)
+  (head Param0)
+  (last Param0)
+  1
+  -1
+  (neg -1)
+  (neg 1)
+  (maximum Param0)
+  (head Param0)
+  (last Param0)
+  1
+  -1
+  (neg 1)
+  (maximum Param0)
+  (neg -1)
+  (head Param0)
+  (last Param0)
+  1
+  -1
+  (neg -1)  (neg 1)
+  (neg -1)  (sum Param0)
+  (neg -1)  (head Param0)
+  (neg -1)  (last Param0)
+  (neg -1)  1
+  (neg -1)  -1
+  (neg -1)  (neg -1)
+  (neg -1)  (neg 1)
+  (neg -1)  (maximum Param0)
+  (neg -1)  (head Param0)
+  (neg -1)  (last Param0)
+  (neg -1)  1
+  (neg -1)  -1
+  (neg -1)  (neg 1)
+  (neg -1)  (maximum Param0)
+  (neg -1)  (neg -1)
+  (neg -1)  (head Param0)
+  (neg -1)  (last Param0)
+  (neg -1)  1
+  (neg -1)  -1
+  (neg 1)  (sum Param0)
+  (neg 1)  (head Param0)
+  (neg 1)  (last Param0)
+  (neg 1)  1
+  (neg 1)  -1
+  (neg 1)  (neg -1)
+  (neg 1)  (neg 1)
+  (neg 1)  (maximum Param0)
+  (neg 1)  (head Param0)
+  (neg 1)  (last Param0)
+  (neg 1)  1
+  (neg 1)  -1
+  (neg 1)  (neg 1)
+  (neg 1)  (maximum Param0)
+  (neg 1)  (neg -1)
+  (neg 1)  (head Param0)
+  (neg 1)  (last Param0)
+  (neg 1)  1
+  (neg 1)  -1
+  (sum Param0)  (head Param0)
+  (sum Param0)  (last Param0)
+  (sum Param0)  1
+  (sum Param0)  -1
+  (sum Param0)  (neg -1)
+  (sum Param0)  (neg 1)
+  (sum Param0)  (maximum Param0)
+  (sum Param0)  (head Param0)
+  (sum Param0)  (last Param0)
+  (sum Param0)  1
+  (sum Param0)  -1
+  (sum Param0)  (neg 1)
+  (sum Param0)  (maximum Param0)
+  (sum Param0)  (neg -1)
+  (sum Param0)  (head Param0)
+  (sum Param0)  (last Param0)
+  (sum Param0)  1
+  (sum Param0)  -1
+  (head Param0)  (last Param0)
+aux: [(head Param0),(last Param0),], comb: (+ (+ (- (- (int 1) Param2) Param1) Param4) Param5)
+
+  (neg -1)
+  (last Param0)
+  (maximum Param0)
+  (sum Param0)
+  (neg 1)
+  (head Param0)
+  1
+  -1
+  (neg 1)
+  (maximum Param0)
+  (neg -1)
+  (head Param0)
+  (last Param0)
+  1
+  -1
+  (maximum Param0)
+  (head Param0)
+  (neg -1)
+  (neg 1)
+  (last Param0)
+  1
+  -1
+  (neg -1)  (last Param0)
+  (neg -1)  (maximum Param0)
+  (neg -1)  (sum Param0)
+  (neg -1)  (neg 1)
+  (neg -1)  (head Param0)
+  (neg -1)  1
+  (neg -1)  -1
+  (neg -1)  (neg 1)
+  (neg -1)  (maximum Param0)
+  (neg -1)  (neg -1)
+  (neg -1)  (head Param0)
+  (neg -1)  (last Param0)
+  (neg -1)  1
+  (neg -1)  -1
+  (neg -1)  (maximum Param0)
+  (neg -1)  (head Param0)
+  (neg -1)  (neg -1)
+  (neg -1)  (neg 1)
+  (neg -1)  (last Param0)
+  (neg -1)  1
+  (neg -1)  -1
+  (last Param0)  (maximum Param0)
+aux: [(last Param0),(maximum Param0),], comb: (+ (+ (+ (- (int 1) Param1) Param4) Param3) Param2)
+
+  (neg -1)
+  (maximum Param0)
+  (neg 1)
+  1
+  -1
+  (neg -1)
+  (neg 1)
+  (head Param0)
+  1
+  -1
+  (neg -1)
+  (neg 1)
+  1
+  -1
+  (neg -1)  (maximum Param0)
+  (neg -1)  (neg 1)
+  (neg -1)  1
+  (neg -1)  -1
+  (neg -1)  (neg -1)
+  (neg -1)  (neg 1)
+  (neg -1)  (head Param0)
+  (neg -1)  1
+  (neg -1)  -1
+  (neg -1)  (neg -1)
+  (neg -1)  (neg 1)
+  (neg -1)  1
+  (neg -1)  -1
+  (maximum Param0)  (neg 1)
+  (maximum Param0)  1
+  (maximum Param0)  -1
+  (maximum Param0)  (neg -1)
+  (maximum Param0)  (neg 1)
+  (maximum Param0)  (head Param0)
+aux: [(maximum Param0),(head Param0),], comb: (+ (+ (- (- (int 1) Param0) Param3) Param4) Param5)
+
+
+
+  (apply2 min 2 (sum Param0))
+  (sum (drop (sum Param0) Param0))
+  (maximum (drop (maximum Param0) Param0))
+  (access (neg (sum Param0)) Param0)
+  2
+  (maximum Param0)
+  (head Param0)
+  (sum Param0)
+  (neg (sum Param0))
+  (sum (drop (sum Param0) Param0))
+  (last (map (+ 2) Param0))
+  (maximum (drop (neg 2) Param0))
+  (head (map (- -1) Param0))
+  (head (map (+ 1) Param0))
+  (minimum (map (- 2) Param0))
+  (apply2 - (maximum Param0) 2)
+  (neg 2)
+  (sum Param0)
+  (head Param0)
+  (last Param0)
+  (maximum Param0)
+  2
+  -1
+  1
+  (sum (drop (sum Param0) Param0))
+  2
+  (sum Param0)
+  (head Param0)
+  (maximum Param0)
+  (apply2 min 2 (sum Param0))  (sum (drop (sum Param0) Param0))
+  (apply2 min 2 (sum Param0))  (maximum (drop (maximum Param0) Param0))
+  (apply2 min 2 (sum Param0))  (access (neg (sum Param0)) Param0)
+  (apply2 min 2 (sum Param0))  2
+  (apply2 min 2 (sum Param0))  (maximum Param0)
+  (apply2 min 2 (sum Param0))  (head Param0)
+  (apply2 min 2 (sum Param0))  (sum Param0)
+  (apply2 min 2 (sum Param0))  (neg (sum Param0))
+  (apply2 min 2 (sum Param0))  (sum (drop (sum Param0) Param0))
+  (apply2 min 2 (sum Param0))  (last (map (+ 2) Param0))
+  (apply2 min 2 (sum Param0))  (maximum (drop (neg 2) Param0))
+  (apply2 min 2 (sum Param0))  (head (map (- -1) Param0))
+  (apply2 min 2 (sum Param0))  (head (map (+ 1) Param0))
+  (apply2 min 2 (sum Param0))  (minimum (map (- 2) Param0))
+  (apply2 min 2 (sum Param0))  (apply2 - (maximum Param0) 2)
+  (apply2 min 2 (sum Param0))  (neg 2)
+  (apply2 min 2 (sum Param0))  (sum Param0)
+  (apply2 min 2 (sum Param0))  (head Param0)
+  (apply2 min 2 (sum Param0))  (last Param0)
+  (apply2 min 2 (sum Param0))  (maximum Param0)
+  (apply2 min 2 (sum Param0))  2
+  (apply2 min 2 (sum Param0))  -1
+  (apply2 min 2 (sum Param0))  1
+  (apply2 min 2 (sum Param0))  (sum (drop (sum Param0) Param0))
+  (apply2 min 2 (sum Param0))  2
+  (apply2 min 2 (sum Param0))  (sum Param0)
+  (apply2 min 2 (sum Param0))  (head Param0)
+  (apply2 min 2 (sum Param0))  (maximum Param0)
+  (sum (drop (sum Param0) Param0))  (maximum (drop (maximum Param0) Param0))
+  (sum (drop (sum Param0) Param0))  (access (neg (sum Param0)) Param0)
+  (sum (drop (sum Param0) Param0))  2
+  (sum (drop (sum Param0) Param0))  (maximum Param0)
+  (sum (drop (sum Param0) Param0))  (head Param0)
+  (sum (drop (sum Param0) Param0))  (sum Param0)
+  (sum (drop (sum Param0) Param0))  (neg (sum Param0))
+  (sum (drop (sum Param0) Param0))  (sum (drop (sum Param0) Param0))
+  (sum (drop (sum Param0) Param0))  (last (map (+ 2) Param0))
+  (sum (drop (sum Param0) Param0))  (maximum (drop (neg 2) Param0))
+  (sum (drop (sum Param0) Param0))  (head (map (- -1) Param0))
+  (sum (drop (sum Param0) Param0))  (head (map (+ 1) Param0))
+  (sum (drop (sum Param0) Param0))  (minimum (map (- 2) Param0))
+aux: [(sum (drop (sum Param0) Param0)),(minimum (map (- 2) Param0)),], comb: (+ (+ (int Param0) Param3) Param2)
+
+  (apply2 min 2 (sum Param0))
+  2
+  (sum Param0)
+  (sum (take 2 (rev Param0)))
+  (head (map (+ 1) Param0))
+  (head (map (- -1) Param0))
+  2
+  -1
+  1
+  (head Param0)
+  (neg 2)
+  2
+  (apply2 min 2 (sum Param0))  2
+  (apply2 min 2 (sum Param0))  (sum Param0)
+  (apply2 min 2 (sum Param0))  (sum (take 2 (rev Param0)))
+  (apply2 min 2 (sum Param0))  (head (map (+ 1) Param0))
+  (apply2 min 2 (sum Param0))  (head (map (- -1) Param0))
+  (apply2 min 2 (sum Param0))  2
+  (apply2 min 2 (sum Param0))  -1
+  (apply2 min 2 (sum Param0))  1
+  (apply2 min 2 (sum Param0))  (head Param0)
+  (apply2 min 2 (sum Param0))  (neg 2)
+  (apply2 min 2 (sum Param0))  2
+  2  (sum Param0)
+  2  (sum (take 2 (rev Param0)))
+  2  (head (map (+ 1) Param0))
+  2  (head (map (- -1) Param0))
+  2  2
+  2  -1
+  2  1
+  2  (head Param0)
+  2  (neg 2)
+  2  2
+  (sum Param0)  (sum (take 2 (rev Param0)))
+  (sum Param0)  (head (map (+ 1) Param0))
+  (sum Param0)  (head (map (- -1) Param0))
+  (sum Param0)  2
+  (sum Param0)  -1
+  (sum Param0)  1
+  (sum Param0)  (head Param0)
+  (sum Param0)  (neg 2)
+  (sum Param0)  2
+  (sum (take 2 (rev Param0)))  (head (map (+ 1) Param0))
+  (sum (take 2 (rev Param0)))  (head (map (- -1) Param0))
+  (sum (take 2 (rev Param0)))  2
+  (sum (take 2 (rev Param0)))  -1
+  (sum (take 2 (rev Param0)))  1
+  (sum (take 2 (rev Param0)))  (head Param0)
+  (sum (take 2 (rev Param0)))  (neg 2)
+  (sum (take 2 (rev Param0)))  2
+  (head (map (+ 1) Param0))  (head (map (- -1) Param0))
+  (head (map (+ 1) Param0))  2
+  (head (map (+ 1) Param0))  -1
+  (head (map (+ 1) Param0))  1
+  (head (map (+ 1) Param0))  (head Param0)
+  (head (map (+ 1) Param0))  (neg 2)
+  (head (map (+ 1) Param0))  2
+  (head (map (- -1) Param0))  2
+  (head (map (- -1) Param0))  -1
+  (head (map (- -1) Param0))  1
+  (head (map (- -1) Param0))  (head Param0)
+  (head (map (- -1) Param0))  (neg 2)
+  (head (map (- -1) Param0))  2
+  2  -1
+  2  1
+  2  (head Param0)
+  2  (neg 2)
+  2  2
+  -1  1
+  -1  (head Param0)
+  -1  (neg 2)
+  -1  2
+  1  (head Param0)
+  1  (neg 2)
+  1  2
+  (head Param0)  (neg 2)
+  (head Param0)  2
+  (neg 2)  2
+
+
+  (neg -1)
+  (sum Param0)
+  (minimum Param0)
+  (last Param0)
+  (maximum Param0)
+  2
+  -1
+  1
+  (neg -1)
+  (last Param0)
+  (head Param0)
+aux: [(head Param0),], comb: (+ (ite (<= (int Param2) (int 1)) (int Param3) (- (int Param3) Param1)) Param2)
+
+  (neg -1)
+  (last Param0)
+  (sum Param0)
+  (maximum Param0)
+  -1
+  1
+  (neg -1)
+  (last Param0)
+  (maximum Param0)
+  (head Param0)
+aux: [(head Param0),], comb: (+ (ite (< (int Param2) (int Param3)) (int Param2) (- (int Param2) Param1)) Param3)
+
+  (sum Param0)
+  (last Param0)
+  (neg -1)
+  (maximum Param0)
+  1
+  -1
+  (neg -1)
+  (maximum Param0)
+  (head Param0)
+  (last Param0)
+  1
+  -1
+  (neg -1)
+  (last Param0)
+  (maximum Param0)
+  1
+  -1
+  (sum Param0)  (last Param0)
+  (sum Param0)  (neg -1)
+  (sum Param0)  (maximum Param0)
+  (sum Param0)  1
+  (sum Param0)  -1
+  (sum Param0)  (neg -1)
+  (sum Param0)  (maximum Param0)
+  (sum Param0)  (head Param0)
+aux: [(sum Param0),(head Param0),], comb: (+ (ite (< (int Param0) (int Param5)) (int Param4) (- (int Param4) Param3)) Param5)
+
+  (neg -1)
+  (last Param0)
+  (maximum Param0)
+  1
+  -1
+  (neg -1)
+  (maximum Param0)
+  (head Param0)
+  (last Param0)
+  1
+  -1
+  (neg -1)
+  (last Param0)
+  (maximum Param0)
+  1
+  -1
+  (neg -1)  (last Param0)
+  (neg -1)  (maximum Param0)
+  (neg -1)  1
+  (neg -1)  -1
+  (neg -1)  (neg -1)
+  (neg -1)  (maximum Param0)
+  (neg -1)  (head Param0)
+  (neg -1)  (last Param0)
+  (neg -1)  1
+  (neg -1)  -1
+  (neg -1)  (neg -1)
+  (neg -1)  (last Param0)
+  (neg -1)  (maximum Param0)
+  (neg -1)  1
+  (neg -1)  -1
+  (last Param0)  (maximum Param0)
+  (last Param0)  1
+  (last Param0)  -1
+  (last Param0)  (neg -1)
+  (last Param0)  (maximum Param0)
+  (last Param0)  (head Param0)
+aux: [(last Param0),(head Param0),], comb: (+ (ite (<= (int Param3) (int 0)) (int Param4) (- (int Param4) Param0)) Param5)
+aux:
+  (last Param0)  (head Param0)comb:
+Lifting (cnt_1s Param0) for tree
+	(0): (last Param0)
+	(1): (head Param0)
+
+tree
+
+aux: [], comb: (+ (int Param1) Param1)
+
+aux: [], comb: (+ (int Param1) 0)
+aux:
+comb:
+Lifting (last Param0) for tree
+
+tree
+
+aux: [], comb: (+ (int Param0) Param0)
+
+aux: [], comb: (+ (int Param0) Param1)
+
+aux: [], comb: (+ (int 0) Param0)
+aux:
+comb:
+Lifting (head Param0) for tree
+
+Success
+x0: (cnt_1s Param0)
+Liftings:
+  x1: (last Param0)
+  x2: (head Param0)
+Combinator for tree
+  x0: ite (r2<=0) (l0) (l0 - l1)+r0
+  x1: r1+0
+  x2: 0+l2
+|               |  synthesis |   #lifting |
+|         cnt_1s|    33.3123 |          3 |
+Total time cost: 33.3123

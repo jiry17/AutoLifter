@@ -1,0 +1,15 @@
+listr
+
+aux: [], comb: (+ (int Param1) Param0)
+aux:
+comb:
+Lifting (sum Param0) for listr
+
+Success
+x0: (sum Param0)
+Liftings:
+Combinator for listr
+  x0: l0+a
+|               |  synthesis |   #lifting |
+|            sum|   0.022761 |          1 |
+Total time cost: 0.022761

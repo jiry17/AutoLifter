@@ -1,0 +1,47 @@
+Lifting (2nd-min Param0) for tree
+	(0): (minimum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[1,-3,1,-3]->-3
+[-3,-5,0,0]->-3
+[-5,-5,-5,-4]->-5
+[-4,-5,-4,-4]->-4
+[0,-2,4,-2]->-2
+[-1,-4,2,2]->-1
+[-4,-5,-2,-2]->-4
+[-5,-5,3,-4]->-5
+[-5,-3,-4,-1]->-4
+[1,-5,2,-3]->-3
+Merging for (2nd-min Param0) in Task tree
+(ite (<= Param3 Param0) (int Param3) (ite (<= Param2 Param1) (int Param2) (ite (<= Param0 Param1) (int Param1) (int Param0))))
+	(0): (minimum Param0)
+	(1): (minimum Param1)
+	(2): (2nd-min Param0)
+	(3): (2nd-min Param1)
+Lifting (minimum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[1,-3]->-3
+[-3,-5]->-5
+[-5,-5]->-5
+[-4,-5]->-5
+[0,-2]->-2
+[-1,-4]->-4
+[-5,-3]->-5
+[1,-5]->-5
+[-3,-1]->-3
+[-4,0]->-4
+Merging for (minimum Param0) in Task tree
+(ite (<= Param1 Param0) (int Param1) (int Param0))
+	(0): (minimum Param0)
+	(1): (minimum Param1)
+Success
+x0: (2nd-min Param0)
+Liftings:
+  x1: (minimum Param0)
+Combinator for tree
+  x0: ite (r0<=l1) (r0) (ite (l0<=r1) (l0) (ite (l1<=r1) (r1) (l1)))
+  x1: ite (r1<=l1) (r1) (l1)
+|               |   external |    lifting |   #lifting |
+|        2nd-min|   0.085962 |   0.205782 |          2 |
+Total time cost: 0.291744

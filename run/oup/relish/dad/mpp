@@ -1,0 +1,205 @@
+tree
+
+aux: [], comb: (+ (int 0) Param0)
+
+
+
+
+
+
+
+
+  (maximum Param0)
+  (last Param0)
+  (len Param0)
+  (last Param0)
+  (maximum Param0)
+  (last Param0)
+  (maximum Param0)  (last Param0)
+  (maximum Param0)  (len Param0)
+aux: [(maximum Param0),(len Param0),], comb: (* (int Param4) (+ (+ (int Param0) Param3) Param2))
+
+
+
+  2
+  (maximum (scanr * Param0))
+  (len (filter even Param0))
+  (minimum (scanr * Param0))
+  (count even Param0)
+  (neg -1)
+  2
+  -1
+  1
+  (apply2 * 2 2)
+  (neg (access 1 Param0))
+  (head (drop 1 Param0))
+  (minimum (scanl * Param0))
+  (access 1 Param0)
+  2
+  (apply2 * 2 2)
+  2  (maximum (scanr * Param0))
+  2  (len (filter even Param0))
+  2  (minimum (scanr * Param0))
+  2  (count even Param0)
+  2  (neg -1)
+  2  2
+  2  -1
+  2  1
+  2  (apply2 * 2 2)
+  2  (neg (access 1 Param0))
+  2  (head (drop 1 Param0))
+  2  (minimum (scanl * Param0))
+  2  (access 1 Param0)
+  2  2
+  2  (apply2 * 2 2)
+  (maximum (scanr * Param0))  (len (filter even Param0))
+  (maximum (scanr * Param0))  (minimum (scanr * Param0))
+  (maximum (scanr * Param0))  (count even Param0)
+  (maximum (scanr * Param0))  (neg -1)
+  (maximum (scanr * Param0))  2
+  (maximum (scanr * Param0))  -1
+  (maximum (scanr * Param0))  1
+  (maximum (scanr * Param0))  (apply2 * 2 2)
+  (maximum (scanr * Param0))  (neg (access 1 Param0))
+  (maximum (scanr * Param0))  (head (drop 1 Param0))
+  (maximum (scanr * Param0))  (minimum (scanl * Param0))
+  (maximum (scanr * Param0))  (access 1 Param0)
+  (maximum (scanr * Param0))  2
+  (maximum (scanr * Param0))  (apply2 * 2 2)
+  (len (filter even Param0))  (minimum (scanr * Param0))
+  (len (filter even Param0))  (count even Param0)
+  (len (filter even Param0))  (neg -1)
+  (len (filter even Param0))  2
+  (len (filter even Param0))  -1
+  (len (filter even Param0))  1
+  (len (filter even Param0))  (apply2 * 2 2)
+  (len (filter even Param0))  (neg (access 1 Param0))
+  (len (filter even Param0))  (head (drop 1 Param0))
+  (len (filter even Param0))  (minimum (scanl * Param0))
+  (len (filter even Param0))  (access 1 Param0)
+  (len (filter even Param0))  2
+  (len (filter even Param0))  (apply2 * 2 2)
+  (minimum (scanr * Param0))  (count even Param0)
+  (minimum (scanr * Param0))  (neg -1)
+  (minimum (scanr * Param0))  2
+  (minimum (scanr * Param0))  -1
+  (minimum (scanr * Param0))  1
+  (minimum (scanr * Param0))  (apply2 * 2 2)
+  (minimum (scanr * Param0))  (neg (access 1 Param0))
+  (minimum (scanr * Param0))  (head (drop 1 Param0))
+  (minimum (scanr * Param0))  (minimum (scanl * Param0))
+  (minimum (scanr * Param0))  (access 1 Param0)
+  (minimum (scanr * Param0))  2
+  (minimum (scanr * Param0))  (apply2 * 2 2)
+  (count even Param0)  (neg -1)
+  (count even Param0)  2
+  (count even Param0)  -1
+  (count even Param0)  1
+  (count even Param0)  (apply2 * 2 2)
+  (count even Param0)  (neg (access 1 Param0))
+  (count even Param0)  (head (drop 1 Param0))
+  (count even Param0)  (minimum (scanl * Param0))
+  (count even Param0)  (access 1 Param0)
+  (count even Param0)  2
+  (count even Param0)  (apply2 * 2 2)
+  (neg -1)  2
+  (neg -1)  -1
+  (neg -1)  1
+  (neg -1)  (apply2 * 2 2)
+  (neg -1)  (neg (access 1 Param0))
+  (neg -1)  (head (drop 1 Param0))
+  (neg -1)  (minimum (scanl * Param0))
+  (neg -1)  (access 1 Param0)
+  (neg -1)  2
+  (neg -1)  (apply2 * 2 2)
+  2  -1
+  2  1
+  2  (apply2 * 2 2)
+  2  (neg (access 1 Param0))
+  2  (head (drop 1 Param0))
+  2  (minimum (scanl * Param0))
+  2  (access 1 Param0)
+  2  2
+  2  (apply2 * 2 2)
+  -1  1
+  -1  (apply2 * 2 2)
+  -1  (neg (access 1 Param0))
+  -1  (head (drop 1 Param0))
+  -1  (minimum (scanl * Param0))
+  -1  (access 1 Param0)
+  -1  2
+  -1  (apply2 * 2 2)
+  1  (apply2 * 2 2)
+  1  (neg (access 1 Param0))
+  1  (head (drop 1 Param0))
+  1  (minimum (scanl * Param0))
+  1  (access 1 Param0)
+  1  2
+  1  (apply2 * 2 2)
+  (apply2 * 2 2)  (neg (access 1 Param0))
+  (apply2 * 2 2)  (head (drop 1 Param0))
+  (apply2 * 2 2)  (minimum (scanl * Param0))
+  (apply2 * 2 2)  (access 1 Param0)
+  (apply2 * 2 2)  2
+  (apply2 * 2 2)  (apply2 * 2 2)
+  (neg (access 1 Param0))  (head (drop 1 Param0))
+  (neg (access 1 Param0))  (minimum (scanl * Param0))
+  (neg (access 1 Param0))  (access 1 Param0)
+  (neg (access 1 Param0))  2
+  (neg (access 1 Param0))  (apply2 * 2 2)
+  (head (drop 1 Param0))  (minimum (scanl * Param0))
+  (head (drop 1 Param0))  (access 1 Param0)
+  (head (drop 1 Param0))  2
+  (head (drop 1 Param0))  (apply2 * 2 2)
+  (minimum (scanl * Param0))  (access 1 Param0)
+  (minimum (scanl * Param0))  2
+  (minimum (scanl * Param0))  (apply2 * 2 2)
+  (access 1 Param0)  2
+  (access 1 Param0)  (apply2 * 2 2)
+  2  (apply2 * 2 2)
+
+  (len Param0)
+  (last Param0)
+  (maximum Param0)
+  (len Param0)  (last Param0)
+aux: [(len Param0),(last Param0),], comb: (* (int Param4) (- (* (int Param3) (+ (int Param3) Param3)) Param0))
+
+
+  (minimum (scanr * Param0))
+  (neg 2)
+  2
+  -1
+  1
+  (sum (filter odd Param0))
+  (last (take -1 Param0))
+  (minimum (scanl * Param0))
+  (minimum (scanr * Param0))  (neg 2)
+  (minimum (scanr * Param0))  2
+  (minimum (scanr * Param0))  -1
+  (minimum (scanr * Param0))  1
+  (minimum (scanr * Param0))  (sum (filter odd Param0))
+  (minimum (scanr * Param0))  (last (take -1 Param0))
+  (minimum (scanr * Param0))  (minimum (scanl * Param0))
+  (neg 2)  2
+  (neg 2)  -1
+  (neg 2)  1
+  (neg 2)  (sum (filter odd Param0))
+  (neg 2)  (last (take -1 Param0))
+  (neg 2)  (minimum (scanl * Param0))
+  2  -1
+  2  1
+  2  (sum (filter odd Param0))
+  2  (last (take -1 Param0))
+  2  (minimum (scanl * Param0))
+  -1  1
+  -1  (sum (filter odd Param0))
+  -1  (last (take -1 Param0))
+  -1  (minimum (scanl * Param0))
+  1  (sum (filter odd Param0))
+  1  (last (take -1 Param0))
+  1  (minimum (scanl * Param0))
+  (sum (filter odd Param0))  (last (take -1 Param0))
+  (sum (filter odd Param0))  (minimum (scanl * Param0))
+  (last (take -1 Param0))  (minimum (scanl * Param0))
+
+

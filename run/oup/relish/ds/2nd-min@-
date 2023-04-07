@@ -1,0 +1,580 @@
+tree
+
+aux: [], comb: (+ (int Param0) Param1)
+
+aux: [], comb: (+ (int 0) Param1)
+
+
+
+
+
+  (maximum Param0)
+  (minimum Param0)
+  (maximum Param0)  (minimum Param0)
+aux: [(maximum Param0),(minimum Param0),], comb: (+ (+ (int Param0) Param3) Param3)
+
+
+
+  (head Param0)
+  (last Param0)
+  (len Param0)
+  (maximum Param0)
+  (last Param0)
+  (last Param0)
+  (head Param0)  (last Param0)
+  (head Param0)  (len Param0)
+  (head Param0)  (maximum Param0)
+  (head Param0)  (last Param0)
+  (head Param0)  (last Param0)
+  (last Param0)  (len Param0)
+  (last Param0)  (maximum Param0)
+  (last Param0)  (last Param0)
+  (last Param0)  (last Param0)
+  (len Param0)  (maximum Param0)
+  (len Param0)  (last Param0)
+  (len Param0)  (last Param0)
+  (maximum Param0)  (last Param0)
+  (maximum Param0)  (last Param0)
+  (last Param0)  (last Param0)
+  (count gt_zero Param0)
+  (last (rev Param0))
+  (count lt_zero Param0)
+  (head Param0)
+  -1
+  (sum (sort Param0))
+  (neg (sum Param0))
+  (head (rev Param0))
+  (neg (last Param0))
+  (last Param0)
+  (sum Param0)
+  (count gt_zero Param0)  (last (rev Param0))
+  (count gt_zero Param0)  (count lt_zero Param0)
+  (count gt_zero Param0)  (head Param0)
+  (count gt_zero Param0)  -1
+  (count gt_zero Param0)  (sum (sort Param0))
+  (count gt_zero Param0)  (neg (sum Param0))
+  (count gt_zero Param0)  (head (rev Param0))
+  (count gt_zero Param0)  (neg (last Param0))
+  (count gt_zero Param0)  (last Param0)
+  (count gt_zero Param0)  (sum Param0)
+  (last (rev Param0))  (count lt_zero Param0)
+  (last (rev Param0))  (head Param0)
+  (last (rev Param0))  -1
+  (last (rev Param0))  (sum (sort Param0))
+  (last (rev Param0))  (neg (sum Param0))
+  (last (rev Param0))  (head (rev Param0))
+  (last (rev Param0))  (neg (last Param0))
+  (last (rev Param0))  (last Param0)
+  (last (rev Param0))  (sum Param0)
+  (count lt_zero Param0)  (head Param0)
+  (count lt_zero Param0)  -1
+  (count lt_zero Param0)  (sum (sort Param0))
+  (count lt_zero Param0)  (neg (sum Param0))
+  (count lt_zero Param0)  (head (rev Param0))
+  (count lt_zero Param0)  (neg (last Param0))
+  (count lt_zero Param0)  (last Param0)
+  (count lt_zero Param0)  (sum Param0)
+  (head Param0)  -1
+  (head Param0)  (sum (sort Param0))
+  (head Param0)  (neg (sum Param0))
+  (head Param0)  (head (rev Param0))
+  (head Param0)  (neg (last Param0))
+  (head Param0)  (last Param0)
+  (head Param0)  (sum Param0)
+  -1  (sum (sort Param0))
+  -1  (neg (sum Param0))
+  -1  (head (rev Param0))
+  -1  (neg (last Param0))
+  -1  (last Param0)
+  -1  (sum Param0)
+  (sum (sort Param0))  (neg (sum Param0))
+  (sum (sort Param0))  (head (rev Param0))
+  (sum (sort Param0))  (neg (last Param0))
+  (sum (sort Param0))  (last Param0)
+  (sum (sort Param0))  (sum Param0)
+  (neg (sum Param0))  (head (rev Param0))
+  (neg (sum Param0))  (neg (last Param0))
+  (neg (sum Param0))  (last Param0)
+  (neg (sum Param0))  (sum Param0)
+  (head (rev Param0))  (neg (last Param0))
+  (head (rev Param0))  (last Param0)
+  (head (rev Param0))  (sum Param0)
+  (neg (last Param0))  (last Param0)
+  (neg (last Param0))  (sum Param0)
+  (last Param0)  (sum Param0)
+  2
+  -1
+  1
+  (apply2 + -1 1)
+  2
+  -1
+  1
+  (apply2 + -1 1)
+  (minimum (drop 1 Param0))
+aux: [(minimum (drop 1 Param0)),], comb: (+ (int 0) Param1)
+
+
+
+  (count even (drop -1 Param0))
+  (minimum (scanr + (sort Param0)))
+  -1
+  (last (map (- 4) Param0))
+  (apply2 min 2 (minimum Param0))
+  2
+  (minimum Param0)
+  (count even (drop -1 Param0))  (minimum (scanr + (sort Param0)))
+  (count even (drop -1 Param0))  -1
+  (count even (drop -1 Param0))  (last (map (- 4) Param0))
+  (count even (drop -1 Param0))  (apply2 min 2 (minimum Param0))
+aux: [(count even (drop -1 Param0)),(apply2 min 2 (minimum Param0)),], comb: (+ (int Param3) Param0)
+
+
+
+  (neg -1)
+  (neg 1)
+  (neg 2)
+  (sum Param0)
+  (head Param0)
+  (len Param0)
+  (last Param0)
+  (minimum Param0)
+aux: [(minimum Param0),], comb: (ite (<= (int Param3) (int Param0)) (int Param3) (+ (int Param0) 1))
+
+  (neg 2)
+  (head Param0)
+  (last Param0)
+  (minimum Param0)
+  (maximum Param0)
+  2
+  (neg 2)
+  (head Param0)
+  (len Param0)
+  (last Param0)
+  (minimum Param0)
+  (maximum Param0)
+  2
+  (neg 2)
+  (minimum Param0)
+  (head Param0)
+  (maximum Param0)
+  (last Param0)
+  2
+  (neg 2)  (head Param0)
+  (neg 2)  (last Param0)
+  (neg 2)  (minimum Param0)
+  (neg 2)  (maximum Param0)
+  (neg 2)  2
+  (neg 2)  (neg 2)
+  (neg 2)  (head Param0)
+  (neg 2)  (len Param0)
+  (neg 2)  (last Param0)
+  (neg 2)  (minimum Param0)
+  (neg 2)  (maximum Param0)
+  (neg 2)  2
+  (neg 2)  (neg 2)
+  (neg 2)  (minimum Param0)
+  (neg 2)  (head Param0)
+  (neg 2)  (maximum Param0)
+  (neg 2)  (last Param0)
+  (neg 2)  2
+  (head Param0)  (last Param0)
+  (head Param0)  (minimum Param0)
+  (head Param0)  (maximum Param0)
+  (head Param0)  2
+  (head Param0)  (neg 2)
+  (head Param0)  (head Param0)
+  (head Param0)  (len Param0)
+  (head Param0)  (last Param0)
+  (head Param0)  (minimum Param0)
+  (head Param0)  (maximum Param0)
+  (head Param0)  2
+  (head Param0)  (neg 2)
+  (head Param0)  (minimum Param0)
+  (head Param0)  (head Param0)
+  (head Param0)  (maximum Param0)
+  (head Param0)  (last Param0)
+  (head Param0)  2
+  (last Param0)  (minimum Param0)
+  (last Param0)  (maximum Param0)
+  (last Param0)  2
+  (last Param0)  (neg 2)
+  (last Param0)  (head Param0)
+  (last Param0)  (len Param0)
+  (last Param0)  (last Param0)
+  (last Param0)  (minimum Param0)
+  (last Param0)  (maximum Param0)
+  (last Param0)  2
+  (last Param0)  (neg 2)
+  (last Param0)  (minimum Param0)
+  (last Param0)  (head Param0)
+  (last Param0)  (maximum Param0)
+  (last Param0)  (last Param0)
+  (last Param0)  2
+  (minimum Param0)  (maximum Param0)
+aux: [(minimum Param0),(maximum Param0),], comb: (ite (< (int Param5) (int Param3)) (int Param2) (- (int Param3) Param4))
+
+  (count gt_zero (take 2 Param0))
+  (count gt_zero (take 1 Param0))
+  (count gt_zero (drop 1 Param0))
+  (count odd (scanl * Param0))
+  (count gt_zero (drop 2 Param0))
+  (count odd (take 2 Param0))
+  (count odd (drop 1 Param0))
+  (count odd (drop 2 Param0))
+  2
+  1
+  (apply2 min 1 (minimum Param0))
+  (apply2 min 2 (minimum Param0))
+  (count lt_zero (drop -1 Param0))
+  (count lt_zero (scanr max Param0))
+  2
+  -1
+  1
+  (minimum Param0)
+  2
+  1
+  (count gt_zero (take 2 Param0))  (count gt_zero (take 1 Param0))
+  (count gt_zero (take 2 Param0))  (count gt_zero (drop 1 Param0))
+  (count gt_zero (take 2 Param0))  (count odd (scanl * Param0))
+  (count gt_zero (take 2 Param0))  (count gt_zero (drop 2 Param0))
+  (count gt_zero (take 2 Param0))  (count odd (take 2 Param0))
+  (count gt_zero (take 2 Param0))  (count odd (drop 1 Param0))
+  (count gt_zero (take 2 Param0))  (count odd (drop 2 Param0))
+  (count gt_zero (take 2 Param0))  2
+  (count gt_zero (take 2 Param0))  1
+  (count gt_zero (take 2 Param0))  (apply2 min 1 (minimum Param0))
+  (count gt_zero (take 2 Param0))  (apply2 min 2 (minimum Param0))
+  (count gt_zero (take 2 Param0))  (count lt_zero (drop -1 Param0))
+  (count gt_zero (take 2 Param0))  (count lt_zero (scanr max Param0))
+  (count gt_zero (take 2 Param0))  2
+  (count gt_zero (take 2 Param0))  -1
+  (count gt_zero (take 2 Param0))  1
+  (count gt_zero (take 2 Param0))  (minimum Param0)
+  (count gt_zero (take 2 Param0))  2
+  (count gt_zero (take 2 Param0))  1
+  (count gt_zero (take 1 Param0))  (count gt_zero (drop 1 Param0))
+  (count gt_zero (take 1 Param0))  (count odd (scanl * Param0))
+  (count gt_zero (take 1 Param0))  (count gt_zero (drop 2 Param0))
+  (count gt_zero (take 1 Param0))  (count odd (take 2 Param0))
+  (count gt_zero (take 1 Param0))  (count odd (drop 1 Param0))
+  (count gt_zero (take 1 Param0))  (count odd (drop 2 Param0))
+  (count gt_zero (take 1 Param0))  2
+  (count gt_zero (take 1 Param0))  1
+  (count gt_zero (take 1 Param0))  (apply2 min 1 (minimum Param0))
+  (count gt_zero (take 1 Param0))  (apply2 min 2 (minimum Param0))
+  (count gt_zero (take 1 Param0))  (count lt_zero (drop -1 Param0))
+  (count gt_zero (take 1 Param0))  (count lt_zero (scanr max Param0))
+  (count gt_zero (take 1 Param0))  2
+  (count gt_zero (take 1 Param0))  -1
+  (count gt_zero (take 1 Param0))  1
+  (count gt_zero (take 1 Param0))  (minimum Param0)
+  (count gt_zero (take 1 Param0))  2
+  (count gt_zero (take 1 Param0))  1
+  (count gt_zero (drop 1 Param0))  (count odd (scanl * Param0))
+  (count gt_zero (drop 1 Param0))  (count gt_zero (drop 2 Param0))
+  (count gt_zero (drop 1 Param0))  (count odd (take 2 Param0))
+  (count gt_zero (drop 1 Param0))  (count odd (drop 1 Param0))
+  (count gt_zero (drop 1 Param0))  (count odd (drop 2 Param0))
+  (count gt_zero (drop 1 Param0))  2
+  (count gt_zero (drop 1 Param0))  1
+  (count gt_zero (drop 1 Param0))  (apply2 min 1 (minimum Param0))
+  (count gt_zero (drop 1 Param0))  (apply2 min 2 (minimum Param0))
+  (count gt_zero (drop 1 Param0))  (count lt_zero (drop -1 Param0))
+  (count gt_zero (drop 1 Param0))  (count lt_zero (scanr max Param0))
+  (count gt_zero (drop 1 Param0))  2
+  (count gt_zero (drop 1 Param0))  -1
+  (count gt_zero (drop 1 Param0))  1
+  (count gt_zero (drop 1 Param0))  (minimum Param0)
+  (count gt_zero (drop 1 Param0))  2
+  (count gt_zero (drop 1 Param0))  1
+  (count odd (scanl * Param0))  (count gt_zero (drop 2 Param0))
+  (count odd (scanl * Param0))  (count odd (take 2 Param0))
+  (count odd (scanl * Param0))  (count odd (drop 1 Param0))
+  (count odd (scanl * Param0))  (count odd (drop 2 Param0))
+  (count odd (scanl * Param0))  2
+  (count odd (scanl * Param0))  1
+  (count odd (scanl * Param0))  (apply2 min 1 (minimum Param0))
+  (count odd (scanl * Param0))  (apply2 min 2 (minimum Param0))
+  (count odd (scanl * Param0))  (count lt_zero (drop -1 Param0))
+  (count odd (scanl * Param0))  (count lt_zero (scanr max Param0))
+  (count odd (scanl * Param0))  2
+  (count odd (scanl * Param0))  -1
+  (count odd (scanl * Param0))  1
+  (count odd (scanl * Param0))  (minimum Param0)
+  (count odd (scanl * Param0))  2
+  (count odd (scanl * Param0))  1
+  (count gt_zero (drop 2 Param0))  (count odd (take 2 Param0))
+  (count gt_zero (drop 2 Param0))  (count odd (drop 1 Param0))
+  (count gt_zero (drop 2 Param0))  (count odd (drop 2 Param0))
+  (count gt_zero (drop 2 Param0))  2
+  (count gt_zero (drop 2 Param0))  1
+  (count gt_zero (drop 2 Param0))  (apply2 min 1 (minimum Param0))
+  (count gt_zero (drop 2 Param0))  (apply2 min 2 (minimum Param0))
+  (count gt_zero (drop 2 Param0))  (count lt_zero (drop -1 Param0))
+  (count gt_zero (drop 2 Param0))  (count lt_zero (scanr max Param0))
+  (count gt_zero (drop 2 Param0))  2
+  (count gt_zero (drop 2 Param0))  -1
+  (count gt_zero (drop 2 Param0))  1
+  (count gt_zero (drop 2 Param0))  (minimum Param0)
+  (count gt_zero (drop 2 Param0))  2
+  (count gt_zero (drop 2 Param0))  1
+  (count odd (take 2 Param0))  (count odd (drop 1 Param0))
+  (count odd (take 2 Param0))  (count odd (drop 2 Param0))
+  (count odd (take 2 Param0))  2
+  (count odd (take 2 Param0))  1
+  (count odd (take 2 Param0))  (apply2 min 1 (minimum Param0))
+  (count odd (take 2 Param0))  (apply2 min 2 (minimum Param0))
+  (count odd (take 2 Param0))  (count lt_zero (drop -1 Param0))
+  (count odd (take 2 Param0))  (count lt_zero (scanr max Param0))
+  (count odd (take 2 Param0))  2
+  (count odd (take 2 Param0))  -1
+  (count odd (take 2 Param0))  1
+  (count odd (take 2 Param0))  (minimum Param0)
+  (count odd (take 2 Param0))  2
+  (count odd (take 2 Param0))  1
+  (count odd (drop 1 Param0))  (count odd (drop 2 Param0))
+  (count odd (drop 1 Param0))  2
+  (count odd (drop 1 Param0))  1
+  (count odd (drop 1 Param0))  (apply2 min 1 (minimum Param0))
+  (count odd (drop 1 Param0))  (apply2 min 2 (minimum Param0))
+  (count odd (drop 1 Param0))  (count lt_zero (drop -1 Param0))
+  (count odd (drop 1 Param0))  (count lt_zero (scanr max Param0))
+  (count odd (drop 1 Param0))  2
+  (count odd (drop 1 Param0))  -1
+  (count odd (drop 1 Param0))  1
+  (count odd (drop 1 Param0))  (minimum Param0)
+  (count odd (drop 1 Param0))  2
+  (count odd (drop 1 Param0))  1
+  (count odd (drop 2 Param0))  2
+  (count odd (drop 2 Param0))  1
+  (count odd (drop 2 Param0))  (apply2 min 1 (minimum Param0))
+  (count odd (drop 2 Param0))  (apply2 min 2 (minimum Param0))
+  (count odd (drop 2 Param0))  (count lt_zero (drop -1 Param0))
+  (count odd (drop 2 Param0))  (count lt_zero (scanr max Param0))
+  (count odd (drop 2 Param0))  2
+  (count odd (drop 2 Param0))  -1
+  (count odd (drop 2 Param0))  1
+  (count odd (drop 2 Param0))  (minimum Param0)
+  (count odd (drop 2 Param0))  2
+  (count odd (drop 2 Param0))  1
+  2  1
+  2  (apply2 min 1 (minimum Param0))
+  2  (apply2 min 2 (minimum Param0))
+  2  (count lt_zero (drop -1 Param0))
+  2  (count lt_zero (scanr max Param0))
+  2  2
+  2  -1
+  2  1
+  2  (minimum Param0)
+  2  2
+  2  1
+  1  (apply2 min 1 (minimum Param0))
+  1  (apply2 min 2 (minimum Param0))
+  1  (count lt_zero (drop -1 Param0))
+  1  (count lt_zero (scanr max Param0))
+  1  2
+  1  -1
+  1  1
+  1  (minimum Param0)
+  1  2
+  1  1
+  (apply2 min 1 (minimum Param0))  (apply2 min 2 (minimum Param0))
+  (apply2 min 1 (minimum Param0))  (count lt_zero (drop -1 Param0))
+  (apply2 min 1 (minimum Param0))  (count lt_zero (scanr max Param0))
+  (apply2 min 1 (minimum Param0))  2
+  (apply2 min 1 (minimum Param0))  -1
+  (apply2 min 1 (minimum Param0))  1
+  (apply2 min 1 (minimum Param0))  (minimum Param0)
+  (apply2 min 1 (minimum Param0))  2
+  (apply2 min 1 (minimum Param0))  1
+  (apply2 min 2 (minimum Param0))  (count lt_zero (drop -1 Param0))
+  (apply2 min 2 (minimum Param0))  (count lt_zero (scanr max Param0))
+  (apply2 min 2 (minimum Param0))  2
+  (apply2 min 2 (minimum Param0))  -1
+  (apply2 min 2 (minimum Param0))  1
+  (apply2 min 2 (minimum Param0))  (minimum Param0)
+  (apply2 min 2 (minimum Param0))  2
+  (apply2 min 2 (minimum Param0))  1
+  (count lt_zero (drop -1 Param0))  (count lt_zero (scanr max Param0))
+  (count lt_zero (drop -1 Param0))  2
+  (count lt_zero (drop -1 Param0))  -1
+  (count lt_zero (drop -1 Param0))  1
+  (count lt_zero (drop -1 Param0))  (minimum Param0)
+  (count lt_zero (drop -1 Param0))  2
+  (count lt_zero (drop -1 Param0))  1
+  (count lt_zero (scanr max Param0))  2
+  (count lt_zero (scanr max Param0))  -1
+  (count lt_zero (scanr max Param0))  1
+  (count lt_zero (scanr max Param0))  (minimum Param0)
+  (count lt_zero (scanr max Param0))  2
+  (count lt_zero (scanr max Param0))  1
+  2  -1
+  2  1
+  2  (minimum Param0)
+  2  2
+  2  1
+  -1  1
+  -1  (minimum Param0)
+  -1  2
+  -1  1
+  1  (minimum Param0)
+  1  2
+  1  1
+  (minimum Param0)  2
+  (minimum Param0)  1
+  2  1
+  (count even (drop -1 (sort Param0)))
+  -1
+  (apply2 min 1 (head (sort Param0)))
+  (neg (apply2 min 1 (minimum Param0)))
+  (neg (minimum Param0))
+  (head (sort Param0))
+  -1
+  1
+  (neg -1)
+  (len Param0)
+  (minimum Param0)
+  (apply2 min 1 (minimum Param0))
+  -1
+  (count even (drop -1 (sort Param0)))  -1
+  (count even (drop -1 (sort Param0)))  (apply2 min 1 (head (sort Param0)))
+aux: [(count even (drop -1 (sort Param0))),(apply2 min 1 (head (sort Param0))),], comb: (+ (int Param3) Param0)
+
+  (count odd (drop 2 Param0))
+  (count odd (take 2 Param0))
+  (count odd (scanl * Param0))
+  (count odd (drop 1 Param0))
+  2
+  1
+  (apply2 min 1 (minimum Param0))
+  (apply2 min 2 (minimum Param0))
+  (count lt_zero (scanr max Param0))
+  (count lt_zero (drop -1 Param0))
+  (minimum Param0)
+  2
+  -1
+  1
+  2
+  1
+  (count odd (drop 2 Param0))  (count odd (take 2 Param0))
+  (count odd (drop 2 Param0))  (count odd (scanl * Param0))
+  (count odd (drop 2 Param0))  (count odd (drop 1 Param0))
+  (count odd (drop 2 Param0))  2
+  (count odd (drop 2 Param0))  1
+  (count odd (drop 2 Param0))  (apply2 min 1 (minimum Param0))
+  (count odd (drop 2 Param0))  (apply2 min 2 (minimum Param0))
+  (count odd (drop 2 Param0))  (count lt_zero (scanr max Param0))
+  (count odd (drop 2 Param0))  (count lt_zero (drop -1 Param0))
+  (count odd (drop 2 Param0))  (minimum Param0)
+  (count odd (drop 2 Param0))  2
+  (count odd (drop 2 Param0))  -1
+  (count odd (drop 2 Param0))  1
+  (count odd (drop 2 Param0))  2
+  (count odd (drop 2 Param0))  1
+  (count odd (take 2 Param0))  (count odd (scanl * Param0))
+  (count odd (take 2 Param0))  (count odd (drop 1 Param0))
+  (count odd (take 2 Param0))  2
+  (count odd (take 2 Param0))  1
+  (count odd (take 2 Param0))  (apply2 min 1 (minimum Param0))
+  (count odd (take 2 Param0))  (apply2 min 2 (minimum Param0))
+  (count odd (take 2 Param0))  (count lt_zero (scanr max Param0))
+  (count odd (take 2 Param0))  (count lt_zero (drop -1 Param0))
+  (count odd (take 2 Param0))  (minimum Param0)
+  (count odd (take 2 Param0))  2
+  (count odd (take 2 Param0))  -1
+  (count odd (take 2 Param0))  1
+  (count odd (take 2 Param0))  2
+  (count odd (take 2 Param0))  1
+  (count odd (scanl * Param0))  (count odd (drop 1 Param0))
+  (count odd (scanl * Param0))  2
+  (count odd (scanl * Param0))  1
+  (count odd (scanl * Param0))  (apply2 min 1 (minimum Param0))
+  (count odd (scanl * Param0))  (apply2 min 2 (minimum Param0))
+  (count odd (scanl * Param0))  (count lt_zero (scanr max Param0))
+  (count odd (scanl * Param0))  (count lt_zero (drop -1 Param0))
+  (count odd (scanl * Param0))  (minimum Param0)
+  (count odd (scanl * Param0))  2
+  (count odd (scanl * Param0))  -1
+  (count odd (scanl * Param0))  1
+  (count odd (scanl * Param0))  2
+  (count odd (scanl * Param0))  1
+  (count odd (drop 1 Param0))  2
+  (count odd (drop 1 Param0))  1
+  (count odd (drop 1 Param0))  (apply2 min 1 (minimum Param0))
+  (count odd (drop 1 Param0))  (apply2 min 2 (minimum Param0))
+  (count odd (drop 1 Param0))  (count lt_zero (scanr max Param0))
+  (count odd (drop 1 Param0))  (count lt_zero (drop -1 Param0))
+  (count odd (drop 1 Param0))  (minimum Param0)
+  (count odd (drop 1 Param0))  2
+  (count odd (drop 1 Param0))  -1
+  (count odd (drop 1 Param0))  1
+  (count odd (drop 1 Param0))  2
+  (count odd (drop 1 Param0))  1
+  2  1
+  2  (apply2 min 1 (minimum Param0))
+  2  (apply2 min 2 (minimum Param0))
+  2  (count lt_zero (scanr max Param0))
+  2  (count lt_zero (drop -1 Param0))
+  2  (minimum Param0)
+  2  2
+  2  -1
+  2  1
+  2  2
+  2  1
+  1  (apply2 min 1 (minimum Param0))
+  1  (apply2 min 2 (minimum Param0))
+  1  (count lt_zero (scanr max Param0))
+  1  (count lt_zero (drop -1 Param0))
+  1  (minimum Param0)
+  1  2
+  1  -1
+  1  1
+  1  2
+  1  1
+  (apply2 min 1 (minimum Param0))  (apply2 min 2 (minimum Param0))
+  (apply2 min 1 (minimum Param0))  (count lt_zero (scanr max Param0))
+  (apply2 min 1 (minimum Param0))  (count lt_zero (drop -1 Param0))
+  (apply2 min 1 (minimum Param0))  (minimum Param0)
+  (apply2 min 1 (minimum Param0))  2
+  (apply2 min 1 (minimum Param0))  -1
+  (apply2 min 1 (minimum Param0))  1
+  (apply2 min 1 (minimum Param0))  2
+  (apply2 min 1 (minimum Param0))  1
+  (apply2 min 2 (minimum Param0))  (count lt_zero (scanr max Param0))
+  (apply2 min 2 (minimum Param0))  (count lt_zero (drop -1 Param0))
+  (apply2 min 2 (minimum Param0))  (minimum Param0)
+  (apply2 min 2 (minimum Param0))  2
+  (apply2 min 2 (minimum Param0))  -1
+  (apply2 min 2 (minimum Param0))  1
+  (apply2 min 2 (minimum Param0))  2
+  (apply2 min 2 (minimum Param0))  1
+  (count lt_zero (scanr max Param0))  (count lt_zero (drop -1 Param0))
+  (count lt_zero (scanr max Param0))  (minimum Param0)
+  (count lt_zero (scanr max Param0))  2
+  (count lt_zero (scanr max Param0))  -1
+  (count lt_zero (scanr max Param0))  1
+  (count lt_zero (scanr max Param0))  2
+  (count lt_zero (scanr max Param0))  1
+  (count lt_zero (drop -1 Param0))  (minimum Param0)
+  (count lt_zero (drop -1 Param0))  2
+  (count lt_zero (drop -1 Param0))  -1
+  (count lt_zero (drop -1 Param0))  1
+  (count lt_zero (drop -1 Param0))  2
+  (count lt_zero (drop -1 Param0))  1
+  (minimum Param0)  2
+  (minimum Param0)  -1
+  (minimum Param0)  1
+  (minimum Param0)  2
+  (minimum Param0)  1
+  2  -1
+  2  1
+  2  2
+  2  1
+  -1  1
+  -1  2
+  -1  1
+  1  2
+  1  1
+  2  1
+
+

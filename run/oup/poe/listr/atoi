@@ -1,0 +1,25 @@
+Lifting (atoi Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[2,1694]->16942
+[0,45]->450
+[7,1885]->18857
+[9,169]->1699
+[4,4]->44
+[1,92]->921
+[1,9721]->97211
+[7,97]->977
+[9,72]->729
+[8,60]->608
+Merging for (atoi Param0) in Task listr
+(+ (int Param0) (* 10 (int Param1)))
+	(0): Param0
+	(1): (atoi Param1)
+Success
+x0: (atoi Param0)
+Liftings:
+Combinator for listr
+  x0: a+10*l0
+|               |   external |    lifting |   #lifting |
+|           atoi|    0.20908 |   0.077583 |          1 |
+Total time cost: 0.286663

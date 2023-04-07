@@ -1,0 +1,27 @@
+Lifting (mts Param0) for tree
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (mts Param0) in Task tree
+(ite (<= (+ Param1 Param2) Param3) (int Param3) (+ (int Param1) (int Param2)))
+	(0): (sum Param0)
+	(1): (sum Param1)
+	(2): (mts Param0)
+	(3): (mts Param1)
+Lifting (sum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (sum Param0)
+	(1): (sum Param1)
+Success
+x0: (mts Param0)
+Liftings:
+  x1: (sum Param0)
+Combinator for tree
+  x0: ite (r1+l0<=r0) (r0) (r1+l0)
+  x1: l1+r1
+|               |   external |    lifting |   #lifting |      #turn |
+|            mts|   0.087058 |   0.166866 |          2 |          6 |
+Total time cost: 0.253924

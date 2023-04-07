@@ -1,0 +1,209 @@
+listr
+
+aux: [], comb: (+ (int Param0) Param0)
+
+aux: [], comb: (+ (int Param0) 0)
+
+
+
+
+
+
+
+  -1
+  (neg (maximum Param0))
+  (count odd Param0)
+  (neg (last Param0))
+  (last (sort Param0))
+  (head (rev Param0))
+  (last Param0)
+  (maximum Param0)
+  -1  (neg (maximum Param0))
+  -1  (count odd Param0)
+  -1  (neg (last Param0))
+  -1  (last (sort Param0))
+  -1  (head (rev Param0))
+  -1  (last Param0)
+  -1  (maximum Param0)
+  (neg (maximum Param0))  (count odd Param0)
+  (neg (maximum Param0))  (neg (last Param0))
+  (neg (maximum Param0))  (last (sort Param0))
+  (neg (maximum Param0))  (head (rev Param0))
+  (neg (maximum Param0))  (last Param0)
+  (neg (maximum Param0))  (maximum Param0)
+  (count odd Param0)  (neg (last Param0))
+  (count odd Param0)  (last (sort Param0))
+  (count odd Param0)  (head (rev Param0))
+  (count odd Param0)  (last Param0)
+  (count odd Param0)  (maximum Param0)
+  (neg (last Param0))  (last (sort Param0))
+  (neg (last Param0))  (head (rev Param0))
+  (neg (last Param0))  (last Param0)
+  (neg (last Param0))  (maximum Param0)
+  (last (sort Param0))  (head (rev Param0))
+  (last (sort Param0))  (last Param0)
+  (last (sort Param0))  (maximum Param0)
+  (head (rev Param0))  (last Param0)
+  (head (rev Param0))  (maximum Param0)
+  (last Param0)  (maximum Param0)
+  (last Param0)
+  (neg 1)
+  (sum Param0)
+  2
+  -1
+  1
+  (head (scanr - Param0))
+  (maximum (scanr - Param0))
+  (minimum (scanr + Param0))
+  (head (scanr + Param0))
+  (head (drop -1 Param0))
+  (last (take 2 Param0))
+  (sum (sort Param0))
+  (neg (last Param0))
+  (neg (sum Param0))
+  (head (rev Param0))
+  (last Param0)  (neg 1)
+  (last Param0)  (sum Param0)
+  (last Param0)  2
+  (last Param0)  -1
+  (last Param0)  1
+  (last Param0)  (head (scanr - Param0))
+  (last Param0)  (maximum (scanr - Param0))
+  (last Param0)  (minimum (scanr + Param0))
+  (last Param0)  (head (scanr + Param0))
+  (last Param0)  (head (drop -1 Param0))
+  (last Param0)  (last (take 2 Param0))
+aux: [(last Param0),(last (take 2 Param0)),], comb: (- (int Param0) Param1)
+
+  -1
+  (count odd Param0)
+  (neg (last Param0))
+  (head (rev Param0))
+  (neg (maximum Param0))
+  (last (sort Param0))
+  (maximum Param0)
+  (last Param0)
+  -1  (count odd Param0)
+  -1  (neg (last Param0))
+  -1  (head (rev Param0))
+  -1  (neg (maximum Param0))
+  -1  (last (sort Param0))
+  -1  (maximum Param0)
+  -1  (last Param0)
+  (count odd Param0)  (neg (last Param0))
+  (count odd Param0)  (head (rev Param0))
+  (count odd Param0)  (neg (maximum Param0))
+  (count odd Param0)  (last (sort Param0))
+  (count odd Param0)  (maximum Param0)
+  (count odd Param0)  (last Param0)
+  (neg (last Param0))  (head (rev Param0))
+  (neg (last Param0))  (neg (maximum Param0))
+  (neg (last Param0))  (last (sort Param0))
+  (neg (last Param0))  (maximum Param0)
+  (neg (last Param0))  (last Param0)
+  (head (rev Param0))  (neg (maximum Param0))
+  (head (rev Param0))  (last (sort Param0))
+  (head (rev Param0))  (maximum Param0)
+  (head (rev Param0))  (last Param0)
+  (neg (maximum Param0))  (last (sort Param0))
+  (neg (maximum Param0))  (maximum Param0)
+  (neg (maximum Param0))  (last Param0)
+  (last (sort Param0))  (maximum Param0)
+  (last (sort Param0))  (last Param0)
+  (maximum Param0)  (last Param0)
+  (sum Param0)
+  2
+  (head (filter even Param0))
+  (maximum (scanr - Param0))
+  (head (scanr - Param0))
+  (head (scanr + Param0))
+  (minimum (scanr + Param0))
+  (last (take 2 Param0))
+  (neg (sum Param0))
+  (sum (sort Param0))
+  (sum Param0)  2
+  (sum Param0)  (head (filter even Param0))
+  (sum Param0)  (maximum (scanr - Param0))
+  (sum Param0)  (head (scanr - Param0))
+  (sum Param0)  (head (scanr + Param0))
+  (sum Param0)  (minimum (scanr + Param0))
+aux: [(sum Param0),(minimum (scanr + Param0)),], comb: (- (int Param0) Param1)
+
+  2
+  (head (filter even Param0))
+  (last (take 2 Param0))
+  2  (head (filter even Param0))
+  2  (last (take 2 Param0))
+  (head (filter even Param0))  (last (take 2 Param0))
+aux: [(head (filter even Param0)),(last (take 2 Param0)),], comb: (- (int Param0) Param1)
+
+
+
+  (neg -1)
+  (neg 1)
+  (neg 2)
+  (sum Param0)
+  (head Param0)
+aux: [(head Param0),], comb: (ite (<= (int Param0) (int 1)) (int Param1) (int 0))
+
+  (sum Param0)
+  (len Param0)
+aux: [(len Param0),], comb: (ite (< (int Param2) (int Param0)) (int Param1) (int 0))
+
+
+
+  (neg 1)
+  (neg -1)
+  (sum Param0)
+  (head Param0)
+aux: [(head Param0),], comb: (ite (< (int 1) (- (int 0) Param0)) (int Param1) (int 0))
+
+  (neg 1)
+  (neg 2)
+  (sum Param0)
+  (len Param0)
+  (head Param0)
+aux: [(head Param0),], comb: (ite (<= (int Param1) (- (int Param2) Param0)) (int Param1) (int 0))
+
+  (neg -1)
+  (sum Param0)
+  (head Param0)
+aux: [(head Param0),], comb: (ite (< (- (int Param2) Param0) (int Param0)) (int 0) (int Param1))
+
+  (neg -1)
+  (sum Param0)
+  (len Param0)
+  (head Param0)
+aux: [(head Param0),], comb: (ite (<= (int 0) (- (int Param2) Param0)) (int Param1) (int 0))
+aux:
+  (head Param0)comb:
+Lifting (page9-2 Param0) for listr
+	(0): (head Param0)
+
+listr
+
+aux: [], comb: (+ (int 0) Param0)
+
+
+
+  (len Param0)
+aux: [(len Param0),], comb: (- (int Param2) Param0)
+
+
+
+
+aux: [], comb: (ite (= (int Param0) 1000000000) (int Param1) (int Param0))
+aux:
+comb:
+Lifting (head Param0) for listr
+
+Success
+x0: (page9-2 Param0)
+Liftings:
+  x1: (head Param0)
+Combinator for listr
+  x0: ite (0<=l0 - l1) (a) (0)
+  x1: ite (a=1000000000) (l1) (a)
+|               |  synthesis |   #lifting |
+|        page9-2|    1.46382 |          2 |
+Total time cost: 1.46382

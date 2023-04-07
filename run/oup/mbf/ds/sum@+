@@ -1,0 +1,13 @@
+Success
+x0: (sum Param0)
+Liftings:
+  x1: (len Param0)
+Combinator for tree
+  x0: l0+r0
+  x1: l1+r1
+Combinator for operator
+  x0: a*l1+l0
+  x1: l1
+|               |  synthesis |   #lifting |
+|          sum@+|   0.445236 |          2 |
+Total time cost: 0.445236
