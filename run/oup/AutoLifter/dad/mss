@@ -1,0 +1,54 @@
+Lifting (mss Param0) for tree
+	(0): (maximum (scanl + Param0))
+	(1): (maximum (scanr + Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (mss Param0) in Task tree
+(ite (and (< Param5 Param4) (< (+ Param1 Param2) Param4)) (int Param4) (ite (<= (+ Param1 Param2) Param5) (int Param5) (+ (int Param1) (int Param2))))
+	(0): (maximum (scanl + Param0))
+	(1): (maximum (scanl + Param1))
+	(2): (maximum (scanr + Param0))
+	(3): (maximum (scanr + Param1))
+	(4): (mss Param0)
+	(5): (mss Param1)
+Lifting (maximum (scanl + Param0)) for tree
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (maximum (scanl + Param0)) in Task tree
+(ite (<= Param2 (+ Param0 Param3)) (+ (int Param0) (int Param3)) (int Param2))
+	(0): (sum Param0)
+	(1): (sum Param1)
+	(2): (maximum (scanl + Param0))
+	(3): (maximum (scanl + Param1))
+Lifting (maximum (scanr + Param0)) for tree
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (maximum (scanr + Param0)) in Task tree
+(ite (<= Param3 (+ Param1 Param2)) (+ (int Param1) (int Param2)) (int Param3))
+	(0): (sum Param0)
+	(1): (sum Param1)
+	(2): (maximum (scanr + Param0))
+	(3): (maximum (scanr + Param1))
+Lifting (sum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (sum Param0)
+	(1): (sum Param1)
+Success
+x0: (mss Param0)
+Liftings:
+  x1: (maximum (scanl + Param0))
+  x2: (maximum (scanr + Param0))
+  x3: (sum Param0)
+Combinator for tree
+  x0: ite (r0<l0&&r1+l2<l0) (l0) (ite (r1+l2<=r0) (r0) (r1+l2))
+  x1: ite (l1<=l3+r1) (l3+r1) (l1)
+  x2: ite (r2<=r3+l2) (r3+l2) (r2)
+  x3: l3+r3
+|               |   external |    lifting |   #lifting |      #turn |
+|            mss|     1.1915 |    5.88802 |          4 |        171 |
+Total time cost: 7.07952

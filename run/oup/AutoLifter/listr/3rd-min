@@ -1,0 +1,37 @@
+Lifting (3rd-min Param0) for listr
+	(0): (access 1 (sort Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (3rd-min Param0) in Task listr
+(ite (and (<= Param0 Param2) (<= Param1 Param0)) (int Param0) (ite (<= Param1 Param0) (int Param2) (int Param1)))
+	(0): Param0
+	(1): (access 1 (sort Param1))
+	(2): (3rd-min Param1)
+Lifting (access 1 (sort Param0)) for listr
+	(0): (minimum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (access 1 (sort Param0)) in Task listr
+(ite (<= Param2 Param0) (int Param2) (ite (<= Param1 Param0) (int Param0) (int Param1)))
+	(0): Param0
+	(1): (minimum Param1)
+	(2): (access 1 (sort Param1))
+Lifting (minimum Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (minimum Param0) in Task listr
+(ite (<= Param1 Param0) (int Param1) (int Param0))
+	(0): Param0
+	(1): (minimum Param1)
+Success
+x0: (3rd-min Param0)
+Liftings:
+  x1: (access 1 (sort Param0))
+  x2: (minimum Param0)
+Combinator for listr
+  x0: ite (a<=l0&&l1<=a) (a) (ite (l1<=a) (l0) (l1))
+  x1: ite (l1<=a) (l1) (ite (l2<=a) (a) (l2))
+  x2: ite (l2<=a) (l2) (a)
+|               |   external |    lifting |   #lifting |      #turn |
+|        3rd-min|   0.093494 |   0.349352 |          3 |         20 |
+Total time cost: 0.442846

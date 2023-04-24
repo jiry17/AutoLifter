@@ -1,0 +1,15 @@
+Lifting (sum Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum Param0) in Task listr
+(+ (int Param0) (int Param1))
+	(0): Param0
+	(1): (sum Param1)
+Success
+x0: (sum Param0)
+Liftings:
+Combinator for listr
+  x0: a+l0
+|               |   external |    lifting |   #lifting |      #turn |
+|            sum|   0.005881 |   0.016191 |          1 |          1 |
+Total time cost: 0.022072

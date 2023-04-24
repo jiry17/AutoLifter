@@ -1,0 +1,68 @@
+Lifting (mts Param0) for tree
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (mts Param0) in Task tree
+(ite (<= Param3 (+ Param1 Param2)) (+ (int Param1) (int Param2)) (int Param3))
+	(0): (sum Param0)
+	(1): (sum Param1)
+	(2): (mts Param0)
+	(3): (mts Param1)
+Lifting (mts Param0) for operator
+	(0): (minimum (scanr + Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (mts Param0) in Task operator
+(* (int Param1) -1)
+	(0): Param0
+	(1): (minimum (scanr + Param1))
+	(2): (mts Param1)
+Lifting (sum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (sum Param0)
+	(1): (sum Param1)
+Lifting (sum Param0) for operator
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum Param0) in Task operator
+(* (int Param1) -1)
+	(0): Param0
+	(1): (sum Param1)
+Lifting (minimum (scanr + Param0)) for tree
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (minimum (scanr + Param0)) in Task tree
+(ite (<= (+ Param1 Param2) Param3) (+ (int Param1) (int Param2)) (int Param3))
+	(0): (sum Param0)
+	(1): (sum Param1)
+	(2): (minimum (scanr + Param0))
+	(3): (minimum (scanr + Param1))
+Lifting (minimum (scanr + Param0)) for operator
+	(0): (mts Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (minimum (scanr + Param0)) in Task operator
+(* (int Param1) -1)
+	(0): Param0
+	(1): (mts Param1)
+	(2): (minimum (scanr + Param1))
+Success
+x0: (mts Param0)
+Liftings:
+  x1: (sum Param0)
+  x2: (minimum (scanr + Param0))
+Combinator for tree
+  x0: ite (r0<=r1+l0) (r1+l0) (r0)
+  x1: l1+r1
+  x2: ite (r1+l2<=r2) (r1+l2) (r2)
+Combinator for operator
+  x0: l2*-1
+  x1: l1*-1
+  x2: l0*-1
+|               |   external |    lifting |   #lifting |      #turn |
+|          mts@-|   0.282941 |    1.47229 |          3 |         41 |
+Total time cost: 1.75523

@@ -1,0 +1,56 @@
+Lifting (line_sight Param0) for listr
+	(0): (maximum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[5,3,1]->1
+[5,0,0]->1
+[4,1,0]->1
+[3,2,0]->1
+[5,-5,0]->1
+[4,2,0]->1
+[1,0,0]->1
+[4,-2,0]->1
+[5,-2,0]->1
+[1,1,0]->1
+[5,3,1]->1
+[5,0,0]->1
+[4,1,0]->1
+[3,2,0]->1
+[5,-5,0]->1
+[4,2,0]->1
+[1,0,0]->1
+[4,-2,0]->1
+[5,-2,0]->1
+[1,1,0]->1
+Merging for (line_sight Param0) in Task listr
+(ite (and (<= Param1 Param0) (<= 0 Param0)) 1 0)
+	(0): Param0
+	(1): (maximum Param1)
+	(2): (line_sight Param1)
+Lifting (maximum Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[-5,4]->4
+[-1,-4]->-1
+[-2,5]->5
+[-5,5]->5
+[3,4]->4
+[-2,1]->1
+[5,3]->5
+[2,5]->5
+[5,0]->5
+[-4,5]->5
+Merging for (maximum Param0) in Task listr
+(ite (<= Param0 Param1) (int Param1) (int Param0))
+	(0): Param0
+	(1): (maximum Param1)
+Success
+x0: (line_sight Param0)
+Liftings:
+  x1: (maximum Param0)
+Combinator for listr
+  x0: ite (l1<=a&&0<=a) (1) (0)
+  x1: ite (a<=l1) (l1) (a)
+|               |   external |    lifting |   #lifting |
+|     line_sight|   0.036534 |   0.153779 |          2 |
+Total time cost: 0.190313

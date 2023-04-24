@@ -1,0 +1,39 @@
+Lifting (longest(00)* Param0) for listr
+	(0): (len Param0)
+	(1): (sum (scanr max Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (longest(00)* Param0) in Task listr
+(ite (and (and (<= (is_even (+ (+ Param1 (* Param2 -1)) 1)) 0) (<= Param0 0)) (<= Param3 (+ (+ Param1 (* Param2 -1)) 1))) (+ (+ (int Param1) (* (int Param2) -1)) 1) (int Param3))
+	(0): Param0
+	(1): (len Param1)
+	(2): (sum (scanr max Param1))
+	(3): (longest(00)* Param1)
+Lifting (len Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (len Param0) in Task listr
+(+ (int Param1) 1)
+	(0): Param0
+	(1): (len Param1)
+Lifting (sum (scanr max Param0)) for listr
+	(0): (len Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum (scanr max Param0)) in Task listr
+(ite (<= Param0 0) (int Param2) (+ (int Param0) (int Param1)))
+	(0): Param0
+	(1): (len Param1)
+	(2): (sum (scanr max Param1))
+Success
+x0: (longest(00)* Param0)
+Liftings:
+  x1: (len Param0)
+  x2: (sum (scanr max Param0))
+Combinator for listr
+  x0: ite (is_even l1+l2*-1+1<=0&&a<=0&&l0<=l1+l2*-1+1) (l1+l2*-1+1) (l0)
+  x1: l1+1
+  x2: ite (a<=0) (l2) (a+l1)
+|               |   external |    lifting |   #lifting |      #turn |
+|   longest(00)*|   0.113326 |   0.707096 |          3 |         18 |
+Total time cost: 0.820422

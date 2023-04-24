@@ -1,0 +1,50 @@
+Lifting (max_1s_p Param0) for listr
+	(0): (max_1s Param0)
+	(1): (len Param0)
+	(2): (max_1s (scanr min Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (max_1s_p Param0) in Task listr
+(ite (and (<= 1 Param0) (<= Param1 Param3)) (+ (* (int Param1) -1) (int Param2)) (int Param4))
+	(0): Param0
+	(1): (max_1s Param1)
+	(2): (len Param1)
+	(3): (max_1s (scanr min Param1))
+	(4): (max_1s_p Param1)
+Lifting (max_1s Param0) for listr
+	(0): (max_1s (scanr min Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (max_1s Param0) in Task listr
+(ite (<= Param2 Param1) (+ (int Param0) (int Param1)) (int Param2))
+	(0): Param0
+	(1): (max_1s (scanr min Param1))
+	(2): (max_1s Param1)
+Lifting (len Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (len Param0) in Task listr
+(+ (int Param1) 1)
+	(0): Param0
+	(1): (len Param1)
+Lifting (max_1s (scanr min Param0)) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (max_1s (scanr min Param0)) in Task listr
+(ite (<= Param0 0) 0 (+ (int Param0) (int Param1)))
+	(0): Param0
+	(1): (max_1s (scanr min Param1))
+Success
+x0: (max_1s_p Param0)
+Liftings:
+  x1: (max_1s Param0)
+  x2: (len Param0)
+  x3: (max_1s (scanr min Param0))
+Combinator for listr
+  x0: ite (1<=a&&l1<=l3) (l1*-1+l2) (l0)
+  x1: ite (l1<=l3) (a+l3) (l1)
+  x2: l2+1
+  x3: ite (a<=0) (0) (a+l3)
+|               |   external |    lifting |   #lifting |      #turn |
+|       max_1s_p|   0.150779 |    1.10995 |          4 |         37 |
+Total time cost: 1.26073

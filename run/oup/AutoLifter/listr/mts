@@ -1,0 +1,15 @@
+Lifting (mts Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (mts Param0) in Task listr
+(ite (<= (+ Param0 Param1) 0) 0 (+ (int Param0) (int Param1)))
+	(0): Param0
+	(1): (mts Param1)
+Success
+x0: (mts Param0)
+Liftings:
+Combinator for listr
+  x0: ite (a+l0<=0) (0) (a+l0)
+|               |   external |    lifting |   #lifting |      #turn |
+|            mts|   0.012289 |   0.016086 |          1 |          1 |
+Total time cost: 0.028375

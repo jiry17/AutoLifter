@@ -1,0 +1,26 @@
+Lifting (is_sorted Param0) for listr
+	(0): (last Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (is_sorted Param0) in Task listr
+(ite (< Param1 Param0) (int Param2) 0)
+	(0): Param0
+	(1): (last Param1)
+	(2): (is_sorted Param1)
+Lifting (last Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (last Param0) in Task listr
+(int Param0)
+	(0): Param0
+	(1): (last Param1)
+Success
+x0: (is_sorted Param0)
+Liftings:
+  x1: (last Param0)
+Combinator for listr
+  x0: ite (l1<a) (l0) (0)
+  x1: a
+|               |   external |    lifting |   #lifting |      #turn |
+|      is_sorted|   0.024408 |   0.115158 |          2 |          5 |
+Total time cost: 0.139566

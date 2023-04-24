@@ -1,0 +1,45 @@
+Lifting (page12 Param0) for listr
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (page12 Param0) in Task listr
+(ite (<= 1 (+ Param0 Param1)) 0 1)
+	(0): Param0
+	(1): (sum Param1)
+	(2): (page12 Param1)
+Lifting (page12 Param0) for tail
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (page12 Param0) in Task tail
+(ite (<= Param1 Param0) 1 0)
+	(0): Param0
+	(1): (sum Param1)
+	(2): (page12 Param1)
+Lifting (sum Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum Param0) in Task listr
+(+ (int Param0) (int Param1))
+	(0): Param0
+	(1): (sum Param1)
+Lifting (sum Param0) for tail
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (sum Param0) in Task tail
+(+ (* (int Param0) -1) (int Param1))
+	(0): Param0
+	(1): (sum Param1)
+Success
+x0: (page12 Param0)
+Liftings:
+  x1: (sum Param0)
+Combinator for listr
+  x0: ite (1<=a+l1) (0) (1)
+  x1: a+l1
+Combinator for tail
+  x0: ite (l1<=a) (1) (0)
+  x1: a*-1+l1
+|               |   external |    lifting |   #lifting |      #turn |
+|         page12|   0.106666 |   0.701497 |          2 |         11 |
+Total time cost: 0.808163

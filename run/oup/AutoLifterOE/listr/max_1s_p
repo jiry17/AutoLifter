@@ -1,0 +1,14 @@
+Lifting (max_1s_p Param0) for listr
+	(0): (sum (scanl * (map (+ 3) Param0)))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+[1,119859,5]->5
+[0,48,2]->2
+[0,5823,1]->1
+[1,113920,2]->2
+[0,22611,3]->3
+[1,483,1]->1
+[0,255,1]->1
+[1,200703,1]->1
+[1,1875,3]->3
+[0,332256,7]->7

@@ -1,0 +1,26 @@
+Lifting (line_sight Param0) for listr
+	(0): (maximum Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (line_sight Param0) in Task listr
+(ite (and (<= Param1 Param0) (<= 0 Param0)) 1 0)
+	(0): Param0
+	(1): (maximum Param1)
+	(2): (line_sight Param1)
+Lifting (maximum Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (maximum Param0) in Task listr
+(ite (<= Param0 Param1) (int Param1) (int Param0))
+	(0): Param0
+	(1): (maximum Param1)
+Success
+x0: (line_sight Param0)
+Liftings:
+  x1: (maximum Param0)
+Combinator for listr
+  x0: ite (l1<=a&&0<=a) (1) (0)
+  x1: ite (a<=l1) (l1) (a)
+|               |   external |    lifting |   #lifting |      #turn |
+|     line_sight|   0.031071 |   0.114724 |          2 |          6 |
+Total time cost: 0.145795

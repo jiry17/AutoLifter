@@ -1,0 +1,29 @@
+Lifting (page20 Param0) for segment
+	(0): (len Param0)
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (page20 Param0) in Task segment
+(ite (and (<= Param4 Param3) (<= (+ (+ Param1 Param2) 1) Param0)) (int Param3) (ite (<= (+ (+ Param1 Param2) 1) Param0) (int Param4) (+ (+ (int Param1) (int Param2)) 1)))
+	(0): Param0
+	(1): (len Param1)
+	(2): (len Param2)
+	(3): (page20 Param1)
+	(4): (page20 Param2)
+Lifting (len Param0) for segment
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (len Param0) in Task segment
+(+ (+ (int Param1) (int Param2)) 1)
+	(0): Param0
+	(1): (len Param1)
+	(2): (len Param2)
+Success
+x0: (page20 Param0)
+Liftings:
+  x1: (len Param0)
+Combinator for segment
+  x0: ite (r0<=l0&&l1+r1+1<=a) (l0) (ite (l1+r1+1<=a) (r0) (l1+r1+1))
+  x1: l1+r1+1
+|               |   external |    lifting |   #lifting |      #turn |
+|         page20|   0.189119 |   0.264454 |          2 |          3 |
+Total time cost: 0.453573

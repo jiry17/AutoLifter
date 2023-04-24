@@ -1,0 +1,39 @@
+Lifting (count1*2*3* Param0) for tree
+	(0): (head (filter odd Param0))
+	(1): (last (filter odd Param0))
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (count1*2*3* Param0) in Task tree
+(ite (and (and (<= Param2 1) (!= Param1 1000000000)) (< Param2 Param1)) (+ (+ (int Param4) (int Param5)) 1) (+ (int Param4) (int Param5)))
+	(0): (head (filter odd Param0))
+	(1): (head (filter odd Param1))
+	(2): (last (filter odd Param0))
+	(3): (last (filter odd Param1))
+	(4): (count1*2*3* Param0)
+	(5): (count1*2*3* Param1)
+Lifting (head (filter odd Param0)) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (head (filter odd Param0)) in Task tree
+(ite (= Param0 1000000000) (int Param1) (int Param0))
+	(0): (head (filter odd Param0))
+	(1): (head (filter odd Param1))
+Lifting (last (filter odd Param0)) for tree
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (last (filter odd Param0)) in Task tree
+(ite (= Param1 1000000000) (int Param0) (int Param1))
+	(0): (last (filter odd Param0))
+	(1): (last (filter odd Param1))
+Success
+x0: (count1*2*3* Param0)
+Liftings:
+  x1: (head (filter odd Param0))
+  x2: (last (filter odd Param0))
+Combinator for tree
+  x0: ite (l2<=1&&r1 != 1000000000&&l2<r1) (l0+r0+1) (l0+r0)
+  x1: ite (l1=1000000000) (r1) (l1)
+  x2: ite (r2=1000000000) (l2) (r2)
+|               |   external |    lifting |   #lifting |      #turn |
+|    count1*2*3*|   0.177289 |    1.84225 |          3 |         84 |
+Total time cost: 2.01954

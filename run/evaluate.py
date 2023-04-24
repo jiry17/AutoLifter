@@ -27,15 +27,9 @@ def get_result(name, is_extra = False):
             else:
                 fail.append(full_name)
     return res, fail
-
-def evaluate_single_solver(name):
-    res_t, _ = get_result(name, True)
-    res_f, _ = get_result(name, False)
-    print(name, "#solved:", len(res_t), "#solved(extra):", len(res_f))
-    print(len(res_f), len(res_t))
-
+    
 def compare_with_dpa(dpa_name):
-    success1, fail1 = get_result("std", False)
+    success1, fail1 = get_result("AutoLifter", False)
     res1 = {}
     for name in success1:
         if "listr" in name:
@@ -91,7 +85,7 @@ def cmp(name_1, name_2, is_extra=False):
         print(name_1, "#solved:", solve_1, "time:", total_time[0] / jointly_solved, "#lifting:", total_lifting[0] / jointly_solved)
         print(name_2, "#solved:", solve_2, "time:", total_time[1] / jointly_solved, "#lifting:", total_lifting[1] / jointly_solved)
 
-def get_parsynt_result(name, is_extra):
+def get_parsynt_result(name):
     path = os.path.join("result_cache", name + ".json")
     with open(path, "r") as inp:
         result = json.load(inp)
@@ -100,14 +94,11 @@ def get_parsynt_result(name, is_extra):
         for name, r in d.items():
             if "status" in r and r["status"] == "fail": continue
             for k in r: assert k in ["lift_num", "given_num", "time", "status"]
-            if "given_num" in r:
-                assert r["given_num"] > 0
-                if not is_extra: continue
             res["dad@" + name] = (r["time"], r["lift_num"], 0 if "given_num" not in r else r["given_num"])
     return res
 
-def cmp_with_parsynt(name_1, name_2, is_extra_1 = False, is_extra=False):
-    res_1 = get_parsynt_result(name_1, is_extra_1)
+def cmp_with_parsynt(name_1, name_2, is_extra=False):
+    res_1 = get_parsynt_result(name_1)
     res_2, fail_2 = get_result(name_2, is_extra)
     res = res_2
     res_2 = {}
@@ -138,20 +129,20 @@ def cmp_with_parsynt(name_1, name_2, is_extra_1 = False, is_extra=False):
 
 if __name__ == "__main__":
     print("RQ1")
-    cmp("std", "std")
-    cmp("mbf", "std")
-    cmp("relish", "std")
+    cmp("AutoLifter", "AutoLifter")
+    cmp("ESolver", "AutoLifter")
+    cmp("Relish", "AutoLifter")
     
     print("\n\n\n")
     print("RQ2")
-    cmp_with_parsynt("parsynt17", "std", True, False)
-    cmp_with_parsynt("parsynt21", "std", True, False)
+    cmp_with_parsynt("Parsynt17", "AutoLifter")
+    cmp_with_parsynt("Parsynt21", "AutoLifter")
 
     print("\n\n\n")
     print("RQ3")
-    compare_with_dpa("dpasynth_large")
-    compare_with_dpa("dpasynth")
+    compare_with_dpa("DPASynth")
+    compare_with_dpa("DPASynth+")
 
     print("\n\n\n")
     print("RQ4")
-    cmp("poe", "std")
+    cmp("AutoLifterOE", "AutoLifter")

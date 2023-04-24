@@ -1,0 +1,10 @@
+Success
+x0: (line_sight Param0)
+Liftings:
+  x1: (maximum Param0)
+Combinator for tree
+  x0: ite (l1<=r1) (r0) (0)
+  x1: ite (l1<=r1) (r1) (l1)
+|               |  synthesis |   #lifting |
+|     line_sight|     45.003 |          2 |
+Total time cost: 45.003

@@ -1,0 +1,15 @@
+Lifting (max Param0) for listr
+
+Academic license - for non-commercial use only - expires 2023-10-17
+Merging for (max Param0) in Task listr
+(ite (<= Param0 Param1) (int Param1) (int Param0))
+	(0): Param0
+	(1): (max Param1)
+Success
+x0: (max Param0)
+Liftings:
+Combinator for listr
+  x0: ite (a<=l0) (l0) (a)
+|               |   external |    lifting |   #lifting |      #turn |
+|            max|   0.008031 |   0.015751 |          1 |          1 |
+Total time cost: 0.023782
