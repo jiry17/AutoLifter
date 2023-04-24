@@ -10,7 +10,7 @@ Our source code is organized as follows.
 |   `exp`   | Tasks used in our evaluation, where `benchmark.json` lists the tasks corresponding to each algorithmic problem, `divide_and_conquer` defines tasks of D&C and single-pass, and `longest_segment` and `segment_tree` defines tasks of the longest segment problem and segment trees, respectively. |
 |  `hfta`   | The re-implementation of `Relish` for solving lifting problems. |
 | `polygen` | The external synthesizer *PolyGen* for synthesizing combinators. |
-| `solver`  | *AutoLifter* and the other baseline synthesizers considered in our evaluation.  For *AutoLifter*, `complete_solver` and `enumerate_base_solver` implement the decomposition algorithm and observational covering, respectively. Besides, `brute_force_complete_solver` re-implements *ESolver*, and `pure_observational_equivalence` implements the baseline solver *AutoLifter*$_{\text{OE}}$ in our ablation study. |
+| `solver`  | *AutoLifter* and the other baseline synthesizers considered in our evaluation.  For *AutoLifter*, `complete_solver` and `enumerate_base_solver` implement the decomposition algorithm and observational covering. Besides, `brute_force_complete_solver` re-implements *ESolver*, and `pure_observational_equivalence` implements the baseline solver *AutoLifter*$_{\text{OE}}$ in our ablation study. |
 
 **Evaluation Results**
 
@@ -35,7 +35,7 @@ The synthesis results are printed in the following format.
 
 2. $x_k (k \geq 1)$ in item `Liftings` describes the $i$th auxiliary value found by *AutoLifter*, where `Param0` is the input list. Here, there is only a single auxiliary value, which calculates the minimum of the input list.
 
-3. $x_k(k \geq 0)$ in item `Combinator` describes the combinator synthesized by *AutoLifter* for each value under concern, where $x_0$ represents the output of the original program, and $x_k (k \geq 1)$ represents the $k$th auxiliary value. Possible inputs of the combionator includes $l_i, r_i$, and $a$, where $l_i$ represents the $i$th value calculated on the first input list of *op*, $r_i$ represents the $i$th value calculated on the second input list of *op*, and $a$ represents the auxiliary input of *op*.
+3. $x_k(k \geq 0)$ in item `Combinator` describes the combinator synthesized by *AutoLifter* for each value under concern, where $x_0$ represents the output of the original program, and $x_k (k \geq 1)$ represents the $k$th auxiliary value. Possible inputs of the combinator include $l_i, r_i$, and $a$, where $l_i$ represents the $i$th value calculated on the first input list of *op*, $r_i$ represents the $i$th value calculated on the second input list of *op*, and $a$ represents the auxiliary input of *op*.
 
-   Here, the inputs of the combinator includes $l_0, l_1, r_0$, and $r_1$. They corresponding to the second minimum and the first minimum of the left half list and the counterparts of the second half list, respectively. 
+   Here, the inputs of the combinator include $l_0, l_1, r_0$, and $r_1$. They correspond to the second and first minimum of the left half list and the counterparts of the second half list, respectively. 
 
