@@ -33,9 +33,9 @@ The synthesis results are printed in the following format.
 
 1. $x_0$ represents the original program, where `Param0` is the input list. Here, the original program calculates the second minimum of the input list, where the definition of `2nd-min` can be found in `exp/divide_and_conquer.cpp`.
 
-2. $x_k (k \geq 1)$ in item `Liftings` describes the $i$th auxiliary value found by *AutoLifter*, where `Param0` is the input list. Here, there is only a single auxiliary value, which calculates the minimum of the input list.
+2. $x_k (k \geq 1)$ in item `Liftings` describes the $k$-th auxiliary value found by *AutoLifter*, where `Param0` is the input list. Here, there is only a single auxiliary value, which calculates the minimum of the input list.
 
-3. $x_k(k \geq 0)$ in item `Combinator` describes the combinator synthesized by *AutoLifter* for each value under concern, where $x_0$ represents the output of the original program, and $x_k (k \geq 1)$ represents the $k$th auxiliary value. Possible inputs of the combinator include $l_i, r_i$, and $a$, where $l_i$ represents the $i$th value calculated on the first input list of *op*, $r_i$ represents the $i$th value calculated on the second input list of *op*, and $a$ represents the auxiliary input of *op*.
+3. $x_k(k \geq 0)$ in item `Combinator` describes the combinator synthesized by *AutoLifter* for each value under concern, where $x_0$ represents the output of the original program, and $x_k (k \geq 1)$ represents the $k$-th auxiliary value. Possible inputs of the combinator include $l_i, r_i$, and $a$, where $l_i$ represents the $i$-th value calculated on the first input list of *op*, $r_i$ represents the $i$-th value calculated on the second input list of *op*, and $a$ represents the auxiliary input of *op*.
 
    Here, the inputs of the combinator include $l_0, l_1, r_0$, and $r_1$. They correspond to the second and first minimum of the left half list and the counterparts of the second half list, respectively. 
 
