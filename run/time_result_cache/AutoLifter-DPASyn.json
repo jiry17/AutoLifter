@@ -1,0 +1,151 @@
+{
+    "single-pass": {
+        "sum": {
+            "status": "success",
+            "autolifter": 0.0167116,
+            "baseline": 0.01665
+        },
+        "min": {
+            "status": "success",
+            "autolifter": 0.0244018,
+            "baseline": 0.0243618
+        },
+        "max": {
+            "status": "success",
+            "autolifter": 0.0242398,
+            "baseline": 0.016014800000000003
+        },
+        "length": {
+            "status": "success",
+            "autolifter": 0.016676999999999997,
+            "baseline": 0.016694800000000003
+        },
+        "2nd-min": {
+            "status": "success",
+            "autolifter": 0.018228,
+            "baseline": 0.0315448
+        },
+        "mps": {
+            "status": "success",
+            "autolifter": 0.0193686,
+            "baseline": 0.019473999999999998
+        },
+        "mts": {
+            "status": "success",
+            "autolifter": 0.016731,
+            "baseline": 0.020143
+        },
+        "mss": {
+            "status": "success",
+            "autolifter": 0.027573800000000002,
+            "baseline": 0.019939400000000003
+        },
+        "mps_p": {
+            "status": "fail"
+        },
+        "mts_p": {
+            "status": "fail"
+        },
+        "is_sorted": {
+            "status": "success",
+            "autolifter": 0.049437999999999996,
+            "baseline": 0.0504266
+        },
+        "atoi": {
+            "status": "success",
+            "autolifter": 0.0176534,
+            "baseline": 0.0175576
+        },
+        "dropwhile": {
+            "status": "fail"
+        },
+        "balanced": {
+            "status": "fail"
+        },
+        "0s1s": {
+            "status": "success",
+            "autolifter": 0.0166228,
+            "baseline": 0.022013200000000004
+        },
+        "0after1": {
+            "status": "success",
+            "autolifter": 0.016454000000000003,
+            "baseline": 0.057380799999999996
+        },
+        "cnt_1s": {
+            "status": "fail"
+        },
+        "line_sight": {
+            "status": "success",
+            "autolifter": 0.0754628,
+            "baseline": 0.027290400000000003
+        },
+        "max_len_1s": {
+            "status": "fail"
+        },
+        "average": {
+            "status": "success",
+            "autolifter": 0.030059400000000003,
+            "baseline": 0.017888000000000005
+        },
+        "count10p": {
+            "status": "fail"
+        },
+        "count10s2": {
+            "status": "fail"
+        },
+        "count1s2s3s": {
+            "status": "fail"
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "fail"
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest1s": {
+            "status": "fail"
+        },
+        "longest10s2": {
+            "status": "fail"
+        },
+        "longest00s": {
+            "status": "fail"
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "status": "fail"
+        },
+        "mpp": {
+            "status": "fail"
+        },
+        "mtp": {
+            "status": "fail"
+        },
+        "msp": {
+            "status": "fail"
+        },
+        "max_1s_p": {
+            "status": "fail"
+        },
+        "mas": {
+            "status": "fail"
+        },
+        "mmm": {
+            "status": "fail"
+        },
+        "mis": {
+            "status": "success",
+            "autolifter": 0.0189986,
+            "baseline": 0.025248000000000003
+        }
+    }
+}

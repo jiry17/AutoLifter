@@ -1,0 +1,156 @@
+{
+    "dac": {
+        "sum": {
+            "time": 0.01,
+            "lift_num": 0
+        },
+        "min": {
+            "time": 0.0,
+            "lift_num": 0
+        },
+        "max": {
+            "time": 0.01,
+            "lift_num": 0
+        },
+        "length": {
+            "time": 0.0,
+            "lift_num": 0
+        },
+        "2nd-min": {
+            "time": 3.69,
+            "lift_num": 0,
+            "given_num": 1
+        },
+        "mps": {
+            "time": 1.41,
+            "lift_num": 0,
+            "given_num": 1
+        },
+        "mts": {
+            "status": "fail"
+        },
+        "mss": {
+            "status": "fail"
+        },
+        "mps_p": {
+            "time": 6.56,
+            "lift_num": 0,
+            "given_num": 3
+        },
+        "mts_p": {
+            "status": "fail"
+        },
+        "is_sorted": {
+            "status": "fail"
+        },
+        "atoi": {
+            "status": "fail"
+        },
+        "dropwhile": {
+            "time": 4.53,
+            "lift_num": 0,
+            "given_num": 2
+        },
+        "balanced": {
+            "status": "fail"
+        },
+        "0s1s": {
+            "time": 1.84,
+            "lift_num": 2,
+            "given_num": 1
+        },
+        "cnt_1s": {
+            "time": 2.92,
+            "lift_num": 2,
+            "given_num": 1
+        },
+        "line_sight": {
+            "time": 1.29,
+            "lift_num": 0,
+            "given_num": 1
+        },
+        "max_len_1s": {
+            "time": 5.84,
+            "lift_num": 3,
+            "given_num": 1
+        },
+        "average": {
+            "status": "fail"
+        },
+        "count10p": {
+            "time": 9.37,
+            "lift_num": 7,
+            "given_num": 2
+        },
+        "count10s2": {
+            "time": 4.91,
+            "lift_num": 3,
+            "given_num": 1
+        },
+        "count1s2s3s": {
+            "time": 10.06,
+            "lift_num": 7,
+            "given_num": 2
+        },
+        "max_sum_between_ones": {
+            "time": 6.45,
+            "lift_num": 2,
+            "given_num": 1
+        },
+        "max_dist_between_zeros": {
+            "time": 5.11,
+            "lift_num": 3,
+            "given_num": 1
+        },
+        "lis": {
+            "time": 6.81,
+            "lift_num": 4,
+            "given_num": 2
+        },
+        "largest_peak": {
+            "time": 6.58,
+            "lift_num": 2,
+            "given_num": 1
+        },
+        "longest1s": {
+            "time": 5.71,
+            "lift_num": 3,
+            "given_num": 1
+        },
+        "longest10s2": {
+            "status": "fail"
+        },
+        "longest00s": {
+            "time": 30.33,
+            "lift_num": 3,
+            "given_num": 2
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "time": 11.87,
+            "lift_num": 0,
+            "given_num": 2
+        },
+        "mpp": {
+            "status": "fail"
+        },
+        "mtp": {
+            "status": "fail"
+        },
+        "msp": {
+            "status": "fail"
+        },
+        "max_1s_p": {
+            "time": 35.1,
+            "lift_num": 2,
+            "given_num": 3
+        },
+        "0after1": {
+            "time": 1.46,
+            "lift_num": 1,
+            "given_num": 1
+        }
+    }
+}

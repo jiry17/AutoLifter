@@ -1,0 +1,96 @@
+{
+    "dac": {
+        "sum": {
+            "time": 1.6,
+            "lift_num": 0
+        },
+        "min": {
+            "time": 2.0,
+            "lift_num": 0
+        },
+        "max": {
+            "time": 1.7,
+            "lift_num": 0
+        },
+        "average": {
+            "time": 22.9,
+            "lift_num": 0,
+            "given_num": 2
+        },
+        "length": {
+            "time": 1.6,
+            "lift_num": 0
+        },
+        "2nd-min": {
+            "time": 6.1,
+            "lift_num": 0,
+            "given_num": 1
+        },
+        "mps": {
+            "time": 3.1,
+            "lift_num": 0,
+            "given_num": 1
+        },
+        "mts": {
+            "time": 3.9,
+            "lift_num": 1
+        },
+        "mss": {
+            "time": 29.4,
+            "lift_num": 2,
+            "given_num": 1
+        },
+        "mts_p": {
+            "time": 82.2,
+            "lift_num": 1,
+            "given_num": 2
+        },
+        "mps_p": {
+            "time": 77.1,
+            "lift_num": 0,
+            "given_num": 3
+        },
+        "is_sorted": {
+            "time": 7.0,
+            "lift_num": 1,
+            "given_num": 1
+        },
+        "atoi": {
+            "time": 84.4,
+            "lift_num": 1
+        },
+        "dropwhile": {
+            "time": 3.7,
+            "lift_num": 1,
+            "given_num": 1
+        },
+        "balanced": {
+            "time": 19.8,
+            "lift_num": 1,
+            "given_num": 1
+        },
+        "0s1s": {
+            "time": 1.4,
+            "lift_num": 1,
+            "given_num": 1
+        },
+        "cnt_1s": {
+            "time": 3,
+            "lift_num": 1,
+            "given_num": 1
+        },
+        "line_sight": {
+            "time": 6.6,
+            "lift_num": 1,
+            "given_num": 1
+        },
+        "0after1": {
+            "time": 7.6,
+            "lift_num": 1,
+            "given_num": 1
+        },
+        "max_len_1s": {
+            "status": "fail"
+        }
+    }
+}

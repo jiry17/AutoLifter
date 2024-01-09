@@ -1,0 +1,142 @@
+{
+    "single-pass": {
+        "min": {
+            "status": true,
+            "time": 0.111252
+        },
+        "max": {
+            "status": true,
+            "time": 0.126946
+        },
+        "sum": {
+            "status": true,
+            "time": 0.069253
+        },
+        "length": {
+            "status": true,
+            "time": 0.086387
+        },
+        "2nd-min": {
+            "status": true,
+            "time": 27.350681
+        },
+        "3rd-min": {
+            "status": true,
+            "time": 30.867543
+        },
+        "longest_odd10s": {
+            "status": false
+        },
+        "longest00s": {
+            "status": false
+        },
+        "average": {
+            "status": true,
+            "time": 0.899725
+        },
+        "longest10s2": {
+            "status": false
+        },
+        "longest1s": {
+            "status": false
+        },
+        "largest_peak": {
+            "status": false
+        },
+        "lis": {
+            "status": false
+        },
+        "max_sum_between_ones": {
+            "status": false
+        },
+        "max_dist_between_zeros": {
+            "status": false
+        },
+        "count1s2s3s": {
+            "status": false
+        },
+        "count10s2": {
+            "status": false
+        },
+        "max_1s_p": {
+            "status": false
+        },
+        "count10p": {
+            "status": false
+        },
+        "mmm": {
+            "status": true,
+            "time": 83.815223
+        },
+        "mis": {
+            "status": true,
+            "time": 0.512721
+        },
+        "mas": {
+            "status": false
+        },
+        "mss": {
+            "status": true,
+            "time": 294.932457
+        },
+        "mps": {
+            "status": true,
+            "time": 3.627022
+        },
+        "mts": {
+            "status": true,
+            "time": 3.06056
+        },
+        "mps_p": {
+            "status": false
+        },
+        "mts_p": {
+            "status": false
+        },
+        "is_sorted": {
+            "status": true,
+            "time": 0.844178
+        },
+        "atoi": {
+            "status": true,
+            "time": 0.458979
+        },
+        "dropwhile": {
+            "status": true,
+            "time": 19.47447
+        },
+        "balanced": {
+            "status": true,
+            "time": 71.200852
+        },
+        "0s1s": {
+            "status": true,
+            "time": 11.239904
+        },
+        "cnt_1s": {
+            "status": true,
+            "time": 77.445583
+        },
+        "0after1": {
+            "status": true,
+            "time": 1.616
+        },
+        "line_sight": {
+            "status": true,
+            "time": 8.368847
+        },
+        "max_len_1s": {
+            "status": false
+        },
+        "mpp": {
+            "status": true,
+            "time": 2.457266
+        },
+        "mtp": {
+            "status": false
+        },
+        "msp": {
+            "status": false
+        }
+    }
+}

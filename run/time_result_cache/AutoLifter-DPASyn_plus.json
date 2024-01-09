@@ -1,0 +1,163 @@
+{
+    "single-pass": {
+        "sum": {
+            "status": "success",
+            "autolifter": 0.017167,
+            "baseline": 0.016694399999999998
+        },
+        "min": {
+            "status": "success",
+            "autolifter": 0.024408399999999997,
+            "baseline": 0.039136000000000004
+        },
+        "max": {
+            "status": "success",
+            "autolifter": 0.024539,
+            "baseline": 0.03938899999999999
+        },
+        "length": {
+            "status": "success",
+            "autolifter": 0.016772000000000002,
+            "baseline": 0.0167794
+        },
+        "mps_p": {
+            "status": "fail"
+        },
+        "mts_p": {
+            "status": "fail"
+        },
+        "is_sorted": {
+            "status": "success",
+            "autolifter": 0.05010440000000001,
+            "baseline": 0.0506946
+        },
+        "atoi": {
+            "status": "success",
+            "autolifter": 0.017720399999999997,
+            "baseline": 0.0174764
+        },
+        "dropwhile": {
+            "status": "success",
+            "autolifter": 0.058187,
+            "baseline": 0.0211692
+        },
+        "balanced": {
+            "status": "success",
+            "autolifter": 0.0167896,
+            "baseline": 0.019061
+        },
+        "0s1s": {
+            "status": "success",
+            "autolifter": 0.0170802,
+            "baseline": 0.0219652
+        },
+        "0after1": {
+            "status": "success",
+            "autolifter": 0.016835999999999997,
+            "baseline": 0.05795859999999999
+        },
+        "cnt_1s": {
+            "status": "fail"
+        },
+        "line_sight": {
+            "status": "success",
+            "autolifter": 0.0758984,
+            "baseline": 0.05639960000000001
+        },
+        "max_len_1s": {
+            "status": "fail"
+        },
+        "average": {
+            "status": "success",
+            "autolifter": 0.0300792,
+            "baseline": 0.0173062
+        },
+        "count10p": {
+            "status": "success",
+            "autolifter": 0.06030319999999999,
+            "baseline": 0.05962459999999999
+        },
+        "count10s2": {
+            "status": "fail"
+        },
+        "count1s2s3s": {
+            "status": "fail"
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "fail"
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest1s": {
+            "status": "success",
+            "autolifter": 0.062299400000000005,
+            "baseline": 0.0709484
+        },
+        "longest10s2": {
+            "status": "fail"
+        },
+        "longest00s": {
+            "status": "fail"
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "mtp": {
+            "status": "fail"
+        },
+        "msp": {
+            "status": "fail"
+        },
+        "max_1s_p": {
+            "status": "fail"
+        },
+        "mas": {
+            "status": "fail"
+        },
+        "mmm": {
+            "status": "fail"
+        },
+        "2nd-min": {
+            "status": "success",
+            "autolifter": 0.0186574,
+            "baseline": 0.01943
+        },
+        "mps": {
+            "status": "success",
+            "autolifter": 0.019886599999999997,
+            "baseline": 0.0197734
+        },
+        "mts": {
+            "status": "success",
+            "autolifter": 0.01672,
+            "baseline": 0.020043
+        },
+        "mss": {
+            "status": "success",
+            "autolifter": 0.027541000000000003,
+            "baseline": 0.0200426
+        },
+        "3rd-min": {
+            "status": "success",
+            "autolifter": 0.036946,
+            "baseline": 0.0392172
+        },
+        "mpp": {
+            "status": "success",
+            "autolifter": 0.019493000000000003,
+            "baseline": 0.019542800000000003
+        },
+        "mis": {
+            "status": "success",
+            "autolifter": 0.0190706,
+            "baseline": 0.022419199999999997
+        }
+    }
+}

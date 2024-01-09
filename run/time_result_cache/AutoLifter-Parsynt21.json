@@ -1,0 +1,148 @@
+{
+    "dac": {
+        "sum": {
+            "status": "success",
+            "autolifter": 0.11855380000000001,
+            "baseline": 0.12607200000000002
+        },
+        "min": {
+            "status": "success",
+            "autolifter": 0.12346039999999998,
+            "baseline": 0.13373359999999998
+        },
+        "max": {
+            "status": "success",
+            "autolifter": 0.130196,
+            "baseline": 0.1471132
+        },
+        "length": {
+            "status": "success",
+            "autolifter": 0.1334614,
+            "baseline": 0.12552939999999999
+        },
+        "2nd-min": {
+            "status": "success",
+            "autolifter": 0.1416982,
+            "baseline": 0.20103560000000004
+        },
+        "mps": {
+            "status": "success",
+            "autolifter": 0.1360754,
+            "baseline": 0.1711956
+        },
+        "mts": {
+            "status": "fail"
+        },
+        "mss": {
+            "status": "fail"
+        },
+        "mps_p": {
+            "status": "success",
+            "autolifter": 0.137384,
+            "baseline": 0.20090840000000001
+        },
+        "mts_p": {
+            "status": "fail"
+        },
+        "is_sorted": {
+            "status": "fail"
+        },
+        "atoi": {
+            "status": "fail"
+        },
+        "dropwhile": {
+            "status": "success",
+            "autolifter": 0.1511564,
+            "baseline": 0.14501780000000003
+        },
+        "balanced": {
+            "status": "fail"
+        },
+        "0s1s": {
+            "status": "success",
+            "autolifter": 0.12502580000000002,
+            "baseline": 0.1602716
+        },
+        "0after1": {
+            "status": "success",
+            "autolifter": 0.1316272,
+            "baseline": 0.15400239999999998
+        },
+        "cnt_1s": {
+            "status": "success",
+            "autolifter": 0.1482374,
+            "baseline": 0.1517488
+        },
+        "line_sight": {
+            "status": "fail"
+        },
+        "max_len_1s": {
+            "status": "success",
+            "autolifter": 0.1637372,
+            "baseline": 0.1749032
+        },
+        "average": {
+            "status": "success",
+            "autolifter": 0.1449926,
+            "baseline": 0.1377126
+        },
+        "count10p": {
+            "status": "success",
+            "autolifter": 0.145758,
+            "baseline": 0.212568
+        },
+        "count10s2": {
+            "status": "fail"
+        },
+        "count1s2s3s": {
+            "status": "success",
+            "autolifter": 0.15765339999999997,
+            "baseline": 0.21534079999999997
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "success",
+            "autolifter": 0.1552478,
+            "baseline": 0.22640499999999997
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest1s": {
+            "status": "success",
+            "autolifter": 0.145821,
+            "baseline": 0.18616680000000002
+        },
+        "longest10s2": {
+            "status": "fail"
+        },
+        "longest00s": {
+            "status": "success",
+            "autolifter": 0.1611886,
+            "baseline": 0.2464656
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "status": "fail"
+        },
+        "mpp": {
+            "status": "fail"
+        },
+        "mtp": {
+            "status": "fail"
+        },
+        "msp": {
+            "status": "fail"
+        },
+        "max_1s_p": {
+            "status": "fail"
+        }
+    }
+}

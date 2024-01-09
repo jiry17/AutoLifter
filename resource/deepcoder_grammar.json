@@ -1,0 +1,57 @@
+{
+  "start": {
+    "type": "list",
+    "rule": [["[]", "int_expr"], ["cons", "int_expr", "start"]]
+  },
+  "list_expr": {
+    "type": "list",
+    "rule": [
+      ["take", "int_expr", "list_expr"],
+      ["drop", "int_expr", "list_expr"],
+      ["rev", "list_expr"],
+      ["sort", "list_expr"],
+      ["map", "int_hf", "list_expr"],
+      ["filter", "bool_hf", "list_expr"],
+      ["zipwith", "bi_f", "list_expr", "list_expr"],
+      ["scanl", "bi_f", "list_expr"],
+      ["scanr", "bi_f", "list_expr"]
+    ]
+  },
+  "int_expr": {
+    "type": "int",
+    "rule": [
+      ["length", "list_expr"],
+      ["head", "list_expr"],
+      ["last", "list_expr"],
+      ["maximum", "list_expr"],
+      ["minimum", "list_expr"],
+      -1, 1, 2, ["access", "int_expr", "list_expr"],
+      ["sum", "list_expr"],
+      ["neg", "int_expr"],
+      ["count", "bool_hf", "list_expr"],
+      ["apply2", "bi_f", "int_expr", "int_expr"]
+    ]
+  },
+  "int_hf": {
+    "type": "semantics",
+    "rule": [
+      ["+", "int_pool"],
+      ["-", "int_pool"],
+      "neg"
+    ]
+  },
+  "bool_hf": {
+    "type": "semantics",
+    "rule": ["lt_zero", "gt_zero", "odd", "even"]
+  },
+  "bi_f": {
+    "type": "semantics",
+    "rule": ["+", "-",
+      "min", "max", "*"
+    ]
+  },
+  "int_pool": {
+    "type": "int",
+    "rule": [-1, 1, 2, 3, 4]
+  }
+}

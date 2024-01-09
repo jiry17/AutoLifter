@@ -1,0 +1,410 @@
+{
+    "dac": {
+        "sum": {
+            "status": "success",
+            "autolifter": 0.12592679999999998,
+            "baseline": 0.1241272
+        },
+        "min": {
+            "status": "success",
+            "autolifter": 0.141061,
+            "baseline": 0.1318858
+        },
+        "max": {
+            "status": "success",
+            "autolifter": 0.14029819999999998,
+            "baseline": 0.13295459999999998
+        },
+        "length": {
+            "status": "success",
+            "autolifter": 0.1283864,
+            "baseline": 0.1244416
+        },
+        "2nd-min": {
+            "status": "success",
+            "autolifter": 0.1488704,
+            "baseline": 0.13904239999999998
+        },
+        "mps": {
+            "status": "success",
+            "autolifter": 0.1312556,
+            "baseline": 0.12995459999999998
+        },
+        "mts": {
+            "status": "success",
+            "autolifter": 0.1312514,
+            "baseline": 0.12176039999999999
+        },
+        "mss": {
+            "status": "fail"
+        },
+        "mps_p": {
+            "status": "fail"
+        },
+        "mts_p": {
+            "status": "fail"
+        },
+        "is_sorted": {
+            "status": "success",
+            "autolifter": 0.14699199999999998,
+            "baseline": 0.1444224
+        },
+        "atoi": {
+            "status": "fail"
+        },
+        "dropwhile": {
+            "status": "success",
+            "autolifter": 0.13710380000000003,
+            "baseline": 0.14051399999999997
+        },
+        "balanced": {
+            "status": "fail"
+        },
+        "0s1s": {
+            "status": "success",
+            "autolifter": 0.148187,
+            "baseline": 0.1410392
+        },
+        "0after1": {
+            "status": "success",
+            "autolifter": 0.1384782,
+            "baseline": 0.1525146
+        },
+        "cnt_1s": {
+            "status": "success",
+            "autolifter": 0.1490154,
+            "baseline": 0.1429824
+        },
+        "line_sight": {
+            "status": "success",
+            "autolifter": 0.13324960000000002,
+            "baseline": 0.14883059999999998
+        },
+        "max_len_1s": {
+            "status": "fail"
+        },
+        "average": {
+            "status": "fail"
+        },
+        "count10p": {
+            "status": "fail"
+        },
+        "count10s2": {
+            "status": "fail"
+        },
+        "count1s2s3s": {
+            "status": "fail"
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "fail"
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest1s": {
+            "status": "fail"
+        },
+        "longest10s2": {
+            "status": "fail"
+        },
+        "longest00s": {
+            "status": "fail"
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "status": "fail"
+        },
+        "mpp": {
+            "status": "fail"
+        },
+        "mtp": {
+            "status": "fail"
+        },
+        "msp": {
+            "status": "fail"
+        },
+        "max_1s_p": {
+            "status": "fail"
+        }
+    },
+    "single-pass": {
+        "sum": {
+            "status": "success",
+            "autolifter": 0.0167146,
+            "baseline": 0.016672799999999998
+        },
+        "min": {
+            "status": "success",
+            "autolifter": 0.024394,
+            "baseline": 0.024239600000000004
+        },
+        "max": {
+            "status": "success",
+            "autolifter": 0.024299,
+            "baseline": 0.016098400000000002
+        },
+        "length": {
+            "status": "success",
+            "autolifter": 0.016753,
+            "baseline": 0.0165774
+        },
+        "2nd-min": {
+            "status": "success",
+            "autolifter": 0.018090000000000002,
+            "baseline": 0.0180826
+        },
+        "mps": {
+            "status": "success",
+            "autolifter": 0.0193218,
+            "baseline": 0.0193592
+        },
+        "mts": {
+            "status": "success",
+            "autolifter": 0.016720400000000003,
+            "baseline": 0.0166428
+        },
+        "mss": {
+            "status": "success",
+            "autolifter": 0.0276862,
+            "baseline": 0.0277412
+        },
+        "mps_p": {
+            "status": "fail"
+        },
+        "mts_p": {
+            "status": "fail"
+        },
+        "is_sorted": {
+            "status": "success",
+            "autolifter": 0.0493956,
+            "baseline": 0.049143400000000004
+        },
+        "atoi": {
+            "status": "success",
+            "autolifter": 0.0174986,
+            "baseline": 0.0174482
+        },
+        "dropwhile": {
+            "status": "success",
+            "autolifter": 0.056997,
+            "baseline": 0.0570954
+        },
+        "balanced": {
+            "status": "success",
+            "autolifter": 0.0163142,
+            "baseline": 0.0162964
+        },
+        "0s1s": {
+            "status": "success",
+            "autolifter": 0.016683399999999998,
+            "baseline": 0.0165482
+        },
+        "0after1": {
+            "status": "success",
+            "autolifter": 0.016548200000000002,
+            "baseline": 0.016416200000000002
+        },
+        "cnt_1s": {
+            "status": "success",
+            "autolifter": 0.0510712,
+            "baseline": 0.05067580000000001
+        },
+        "max_len_1s": {
+            "status": "success",
+            "autolifter": 0.06085,
+            "baseline": 0.0616884
+        },
+        "average": {
+            "status": "success",
+            "autolifter": 0.030082599999999998,
+            "baseline": 0.030027000000000005
+        },
+        "count10p": {
+            "status": "success",
+            "autolifter": 0.0597348,
+            "baseline": 0.0594686
+        },
+        "count10s2": {
+            "status": "success",
+            "autolifter": 0.0679822,
+            "baseline": 0.0778546
+        },
+        "count1s2s3s": {
+            "status": "success",
+            "autolifter": 0.07728280000000001,
+            "baseline": 0.07682720000000001
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "success",
+            "autolifter": 0.061400199999999995,
+            "baseline": 0.061188
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest1s": {
+            "status": "success",
+            "autolifter": 0.061890999999999995,
+            "baseline": 0.061113600000000004
+        },
+        "longest10s2": {
+            "status": "fail"
+        },
+        "longest00s": {
+            "status": "success",
+            "autolifter": 0.0599306,
+            "baseline": 0.05736340000000001
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "status": "success",
+            "autolifter": 0.0367974,
+            "baseline": 0.0373494
+        },
+        "mpp": {
+            "status": "success",
+            "autolifter": 0.0202216,
+            "baseline": 0.0194444
+        },
+        "mtp": {
+            "status": "success",
+            "autolifter": 0.0999938,
+            "baseline": 0.0991312
+        },
+        "msp": {
+            "status": "fail"
+        },
+        "max_1s_p": {
+            "status": "fail"
+        },
+        "mas": {
+            "status": "fail"
+        },
+        "mmm": {
+            "status": "fail"
+        },
+        "mis": {
+            "status": "success",
+            "autolifter": 0.0189948,
+            "baseline": 0.019374
+        },
+        "line_sight": {
+            "status": "success",
+            "autolifter": 0.0752572,
+            "baseline": 0.0755748
+        }
+    },
+    "longest-segment": {
+        "page9-1": {
+            "status": "success",
+            "autolifter": 0.09005300000000001,
+            "baseline": 0.0889904
+        },
+        "page9-2": {
+            "status": "success",
+            "autolifter": 0.0642048,
+            "baseline": 0.053304599999999994
+        },
+        "page10-1": {
+            "status": "success",
+            "autolifter": 0.1069064,
+            "baseline": 0.10552259999999998
+        },
+        "page12": {
+            "status": "success",
+            "autolifter": 0.14268619999999999,
+            "baseline": 0.1467068
+        },
+        "page20": {
+            "status": "success",
+            "autolifter": 0.1796038,
+            "baseline": 0.1720664
+        },
+        "page21": {
+            "status": "fail"
+        },
+        "page22-1": {
+            "status": "success",
+            "autolifter": 0.20386579999999999,
+            "baseline": 0.19994879999999998
+        },
+        "page22-2": {
+            "status": "success",
+            "autolifter": 0.2255088,
+            "baseline": 0.22962040000000003
+        }
+    },
+    "segment-tree": {
+        "sum-plus": {
+            "status": "success",
+            "autolifter": 5.474991,
+            "baseline": 5.5005272000000005
+        },
+        "sum-cover": {
+            "status": "success",
+            "autolifter": 7.5526298,
+            "baseline": 7.6107759999999995
+        },
+        "sqrsum-plus": {
+            "status": "success",
+            "autolifter": 6.105988600000001,
+            "baseline": 6.1261822
+        },
+        "sqrsum-cover": {
+            "status": "success",
+            "autolifter": 7.6066728,
+            "baseline": 7.610171599999999
+        },
+        "mts-neg": {
+            "status": "success",
+            "autolifter": 8.3051186,
+            "baseline": 8.2812114
+        },
+        "mts-cover": {
+            "status": "success",
+            "autolifter": 8.7609342,
+            "baseline": 8.715099799999999
+        },
+        "mss-neg": {
+            "status": "fail"
+        },
+        "mss-cover": {
+            "status": "fail"
+        },
+        "min-neg": {
+            "status": "success",
+            "autolifter": 7.4573746,
+            "baseline": 7.7188110000000005
+        },
+        "second_min-neg": {
+            "status": "success",
+            "autolifter": 9.1613832,
+            "baseline": 9.549238400000002
+        },
+        "third_min-neg": {
+            "status": "fail"
+        },
+        "max1s-cover": {
+            "status": "fail"
+        },
+        "max1s_p-cover": {
+            "status": "fail"
+        }
+    }
+}

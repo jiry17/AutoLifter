@@ -1,0 +1,462 @@
+{
+    "dac": {
+        "sum": {
+            "status": "success",
+            "time": 0.310108,
+            "lift_num": 0
+        },
+        "min": {
+            "status": "success",
+            "time": 0.146293,
+            "lift_num": 0
+        },
+        "max": {
+            "status": "success",
+            "time": 0.172135,
+            "lift_num": 0
+        },
+        "length": {
+            "status": "success",
+            "time": 0.110354,
+            "lift_num": 0
+        },
+        "2nd-min": {
+            "status": "success",
+            "time": 1.09307,
+            "lift_num": 1
+        },
+        "mps": {
+            "status": "success",
+            "time": 2.9726,
+            "lift_num": 1
+        },
+        "mts": {
+            "status": "success",
+            "time": 1.71298,
+            "lift_num": 1
+        },
+        "mss": {
+            "status": "success",
+            "time": 21.741,
+            "lift_num": 3
+        },
+        "mps_p": {
+            "status": "success",
+            "time": 17.4489,
+            "lift_num": 3
+        },
+        "mts_p": {
+            "status": "success",
+            "time": 20.6971,
+            "lift_num": 3
+        },
+        "is_sorted": {
+            "status": "success",
+            "time": 1.5955,
+            "lift_num": 2
+        },
+        "atoi": {
+            "status": "fail"
+        },
+        "dropwhile": {
+            "status": "success",
+            "time": 0.552437,
+            "lift_num": 1
+        },
+        "balanced": {
+            "status": "success",
+            "time": 3.96905,
+            "lift_num": 2
+        },
+        "0s1s": {
+            "status": "success",
+            "time": 1.29218,
+            "lift_num": 2
+        },
+        "0after1": {
+            "status": "success",
+            "time": 1.31486,
+            "lift_num": 2
+        },
+        "cnt_1s": {
+            "status": "success",
+            "time": 1.36252,
+            "lift_num": 2
+        },
+        "line_sight": {
+            "status": "success",
+            "time": 0.496277,
+            "lift_num": 1
+        },
+        "max_len_1s": {
+            "status": "success",
+            "time": 5.23346,
+            "lift_num": 3
+        },
+        "average": {
+            "status": "success",
+            "time": 76.9474,
+            "lift_num": 2
+        },
+        "count10p": {
+            "status": "success",
+            "time": 1.32388,
+            "lift_num": 2
+        },
+        "count10s2": {
+            "status": "fail"
+        },
+        "count1s2s3s": {
+            "status": "success",
+            "time": 4.80588,
+            "lift_num": 2
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "success",
+            "time": 5.2752,
+            "lift_num": 3
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest1s": {
+            "status": "success",
+            "time": 5.27346,
+            "lift_num": 3
+        },
+        "longest10s2": {
+            "status": "fail"
+        },
+        "longest00s": {
+            "status": "success",
+            "time": 70.6489,
+            "lift_num": 3
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "status": "success",
+            "time": 6.02946,
+            "lift_num": 2
+        },
+        "mpp": {
+            "status": "success",
+            "time": 39.0812,
+            "lift_num": 2
+        },
+        "mtp": {
+            "status": "success",
+            "time": 38.1821,
+            "lift_num": 2
+        },
+        "max_1s_p": {
+            "status": "success",
+            "time": 20.4443,
+            "lift_num": 4
+        },
+        "msp": {
+            "status": "success",
+            "time": 287.944,
+            "lift_num": 5
+        }
+    },
+    "single-pass": {
+        "sum": {
+            "status": "success",
+            "time": 0.158193,
+            "lift_num": 0
+        },
+        "min": {
+            "status": "success",
+            "time": 0.123286,
+            "lift_num": 0
+        },
+        "max": {
+            "status": "success",
+            "time": 0.118524,
+            "lift_num": 0
+        },
+        "length": {
+            "status": "success",
+            "time": 0.095469,
+            "lift_num": 0
+        },
+        "2nd-min": {
+            "status": "success",
+            "time": 0.585836,
+            "lift_num": 1
+        },
+        "mps": {
+            "status": "success",
+            "time": 0.885783,
+            "lift_num": 1
+        },
+        "mts": {
+            "status": "success",
+            "time": 0.299037,
+            "lift_num": 0
+        },
+        "mss": {
+            "status": "success",
+            "time": 2.04353,
+            "lift_num": 1
+        },
+        "mps_p": {
+            "status": "success",
+            "time": 8.23519,
+            "lift_num": 2
+        },
+        "mts_p": {
+            "status": "success",
+            "time": 2.22588,
+            "lift_num": 2
+        },
+        "is_sorted": {
+            "status": "success",
+            "time": 0.358112,
+            "lift_num": 1
+        },
+        "atoi": {
+            "status": "success",
+            "time": 1.04831,
+            "lift_num": 0
+        },
+        "dropwhile": {
+            "status": "success",
+            "time": 0.363866,
+            "lift_num": 1
+        },
+        "balanced": {
+            "status": "success",
+            "time": 0.447057,
+            "lift_num": 1
+        },
+        "0s1s": {
+            "status": "success",
+            "time": 0.340918,
+            "lift_num": 1
+        },
+        "0after1": {
+            "status": "success",
+            "time": 0.346337,
+            "lift_num": 1
+        },
+        "cnt_1s": {
+            "status": "success",
+            "time": 0.638075,
+            "lift_num": 1
+        },
+        "line_sight": {
+            "status": "success",
+            "time": 0.391039,
+            "lift_num": 1
+        },
+        "max_len_1s": {
+            "status": "success",
+            "time": 0.872375,
+            "lift_num": 1
+        },
+        "average": {
+            "status": "success",
+            "time": 62.3434,
+            "lift_num": 2
+        },
+        "count10p": {
+            "status": "success",
+            "time": 0.352374,
+            "lift_num": 1
+        },
+        "count10s2": {
+            "status": "success",
+            "time": 0.968145,
+            "lift_num": 1
+        },
+        "count1s2s3s": {
+            "status": "success",
+            "time": 0.924909,
+            "lift_num": 1
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "success",
+            "time": 0.858259,
+            "lift_num": 1
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest1s": {
+            "status": "success",
+            "time": 0.85321,
+            "lift_num": 1
+        },
+        "longest10s2": {
+            "status": "success",
+            "time": 35.3063,
+            "lift_num": 3
+        },
+        "longest00s": {
+            "status": "success",
+            "time": 2.10729,
+            "lift_num": 2
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "status": "success",
+            "time": 1.24238,
+            "lift_num": 2
+        },
+        "mpp": {
+            "status": "success",
+            "time": 6.06313,
+            "lift_num": 1
+        },
+        "mtp": {
+            "status": "success",
+            "time": 29.9788,
+            "lift_num": 1
+        },
+        "msp": {
+            "status": "success",
+            "time": 127.772,
+            "lift_num": 2
+        },
+        "max_1s_p": {
+            "status": "success",
+            "time": 2.92108,
+            "lift_num": 3
+        },
+        "mas": {
+            "status": "fail"
+        },
+        "mmm": {
+            "status": "fail"
+        },
+        "mis": {
+            "status": "success",
+            "time": 1.13202,
+            "lift_num": 1
+        }
+    },
+    "longest-segment": {
+        "page9-1": {
+            "status": "success",
+            "time": 0.529772,
+            "lift_num": 1
+        },
+        "page9-2": {
+            "status": "success",
+            "time": 1.1123,
+            "lift_num": 1
+        },
+        "page10-1": {
+            "status": "success",
+            "time": 1.76597,
+            "lift_num": 2
+        },
+        "page12": {
+            "status": "success",
+            "time": 5.48964,
+            "lift_num": 1
+        },
+        "page20": {
+            "status": "success",
+            "time": 12.1461,
+            "lift_num": 1
+        },
+        "page21": {
+            "status": "fail"
+        },
+        "page22-1": {
+            "status": "success",
+            "time": 39.0559,
+            "lift_num": 2
+        },
+        "page22-2": {
+            "status": "success",
+            "time": 100.022,
+            "lift_num": 2
+        }
+    },
+    "segment-tree": {
+        "sum-plus": {
+            "status": "success",
+            "time": 20.7377,
+            "lift_num": 1
+        },
+        "sum-cover": {
+            "status": "success",
+            "time": 18.7586,
+            "lift_num": 1
+        },
+        "sqrsum-cover": {
+            "status": "success",
+            "time": 29.1935,
+            "lift_num": 1
+        },
+        "mts-neg": {
+            "status": "success",
+            "time": 17.2264,
+            "lift_num": 2
+        },
+        "mts-cover": {
+            "status": "success",
+            "time": 25.1118,
+            "lift_num": 2
+        },
+        "mss-neg": {
+            "status": "success",
+            "time": 63.152,
+            "lift_num": 6
+        },
+        "mss-cover": {
+            "status": "success",
+            "time": 46.0883,
+            "lift_num": 4
+        },
+        "min-neg": {
+            "status": "success",
+            "time": 10.688,
+            "lift_num": 1
+        },
+        "second_min-neg": {
+            "status": "success",
+            "time": 21.9378,
+            "lift_num": 3
+        },
+        "third_min-neg": {
+            "status": "success",
+            "time": 79.7952,
+            "lift_num": 5
+        },
+        "max1s-cover": {
+            "status": "success",
+            "time": 20.7104,
+            "lift_num": 3
+        },
+        "max1s_p-cover": {
+            "status": "success",
+            "time": 35.8753,
+            "lift_num": 4
+        },
+        "sqrsum-plus": {
+            "status": "success",
+            "time": 173.655,
+            "lift_num": 2
+        }
+    }
+}

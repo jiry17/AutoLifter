@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+
+import os 
+import argparse
+
+source_path = "SOURCEPATH"
+exe_path = os.path.join(source_path, "build/main")
+
+def execute(solver_name, problem_name, benchmark, oup, runnable):
+    command = [exe_path, "--solver=\"" + solver_name + "\"",
+               "--problem=\"" + problem_name + "\"", "--name=\"" + benchmark + "\""]
+    if len(oup):
+    	command.append("--oup=\"" + oup + "\"")
+    if len(runnable):
+    	command.append("--runnable=\"" + runnable + "\"")
+    command = " ".join(command)
+    print(command)
+    os.system(command)
+
+def parse_args():
+	parser = argparse.ArgumentParser()
+	parser.add_argument('-p', '--problem', type=str, choices=["dac", "single-pass", "longest-segment", "segment-tree"], required=True)
+	parser.add_argument('-t', '--task', type=str, required=True)
+	parser.add_argument('-o', '--output', type=str, default="")
+	parser.add_argument('-r', '--runnable', type=str, default="")
+	parser.add_argument('-s', '--solver', type=str, default="AutoLifter", choices=["AutoLifter", "OE", "Relish", "ESolver"])
+	return parser.parse_args()
+
+
+if __name__ == "__main__":
+	arg = parse_args()
+	execute(arg.solver, arg.problem, arg.task, arg.output, arg.runnable)

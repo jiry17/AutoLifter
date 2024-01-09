@@ -1,0 +1,136 @@
+{
+    "single-pass": {
+        "sum": {
+            "status": true,
+            "time": 0.08065
+        },
+        "min": {
+            "status": true,
+            "time": 0.191235
+        },
+        "max": {
+            "status": true,
+            "time": 0.246748
+        },
+        "length": {
+            "status": true,
+            "time": 0.067303
+        },
+        "2nd-min": {
+            "status": true,
+            "time": 21.270469
+        },
+        "3rd-min": {
+            "status": false
+        },
+        "longest_odd10s": {
+            "status": false
+        },
+        "longest00s": {
+            "status": false
+        },
+        "average": {
+            "status": true,
+            "time": 1.122743
+        },
+        "longest10s2": {
+            "status": false
+        },
+        "longest1s": {
+            "status": false
+        },
+        "largest_peak": {
+            "status": false
+        },
+        "lis": {
+            "status": false
+        },
+        "max_sum_between_ones": {
+            "status": false
+        },
+        "max_dist_between_zeros": {
+            "status": false
+        },
+        "count1s2s3s": {
+            "status": false
+        },
+        "count10s2": {
+            "status": false
+        },
+        "max_1s_p": {
+            "status": false
+        },
+        "count10p": {
+            "status": false
+        },
+        "mmm": {
+            "status": false
+        },
+        "mis": {
+            "status": true,
+            "time": 1.02347
+        },
+        "mas": {
+            "status": false
+        },
+        "mss": {
+            "status": true,
+            "time": 19.736412
+        },
+        "mps": {
+            "status": true,
+            "time": 0.727326
+        },
+        "mts": {
+            "status": true,
+            "time": 0.389926
+        },
+        "mps_p": {
+            "status": false
+        },
+        "mts_p": {
+            "status": false
+        },
+        "is_sorted": {
+            "status": true,
+            "time": 43.558932
+        },
+        "atoi": {
+            "status": true,
+            "time": 3.184946
+        },
+        "dropwhile": {
+            "status": false
+        },
+        "balanced": {
+            "status": false
+        },
+        "0s1s": {
+            "status": true,
+            "time": 22.939096
+        },
+        "cnt_1s": {
+            "status": false
+        },
+        "0after1": {
+            "status": true,
+            "time": 6.043332
+        },
+        "line_sight": {
+            "status": true,
+            "time": 34.208529
+        },
+        "max_len_1s": {
+            "status": false
+        },
+        "mpp": {
+            "status": false
+        },
+        "mtp": {
+            "status": false
+        },
+        "msp": {
+            "status": false
+        }
+    }
+}

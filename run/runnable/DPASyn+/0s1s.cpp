@@ -1,0 +1,49 @@
+#include <cstdio>
+#include <sys/time.h>
+const int N=100000000;
+int a[N + 10];
+int n;
+double difftime(timeval start, timeval end) {
+    long long second_diff = end.tv_sec - start.tv_sec;
+    if (second_diff < 0) second_diff += 24 * 3600;
+    long long u_diff = end.tv_usec - start.tv_usec;
+    return second_diff + u_diff * 1e-6;
+}
+struct result {
+    int p1_1;
+    int p1_2;
+    int p2_1;
+    int p2_2;
+};
+int main(){
+    scanf("%d",&n);
+    for (int i = 1; i <= n; ++i) {
+        scanf("%d",&a[i]);
+    }
+    timeval start;
+    gettimeofday(&start, NULL);
+    int x = a[1];
+    result res = result{1, 1, 0, 0};
+    for (int i = 1; i <= n; ++i) {
+        x = a[i];
+        res.p1_2 = (0 == res.p2_1) ? res.p1_1 : x;
+        res.p2_2 = (res.p1_1 == 1) ? x : 0;
+        res.p1_1 = res.p1_2;
+        res.p2_1 = res.p2_2;
+    }
+    timeval end;
+    gettimeofday(&end, NULL);
+    double cost = difftime(start, end);
+    printf("%d\n", res.p1_1);
+    printf("%.10lf\n", cost);
+}
+
+// Just def f(a = [a1, ..., an]):
+//   p1 = array()
+//   p2 = array()
+//   p1[0] = CI 1
+//   p2[0] = CI 0
+//   for i from 1 to n:
+//     p1[i] = ite((zero(p2[i - 1]) == id(p2[i - 1])), id(p1[i - 1]), id(a[i]))
+//     p2[i] = ite((id(p1[i - 1]) == one(p2[i - 1])), id(a[i]), zero(p2[i - 1]))
+//   return p1[n]

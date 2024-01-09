@@ -1,0 +1,374 @@
+{
+    "dac": {
+        "sum": {
+            "status": "success",
+            "time": 0.283216,
+            "lift_num": 0
+        },
+        "min": {
+            "status": "success",
+            "time": 0.251175,
+            "lift_num": 0
+        },
+        "max": {
+            "status": "success",
+            "time": 0.234466,
+            "lift_num": 0
+        },
+        "length": {
+            "status": "success",
+            "time": 0.125921,
+            "lift_num": 0
+        },
+        "2nd-min": {
+            "status": "fail"
+        },
+        "mps": {
+            "status": "success",
+            "time": 136.854,
+            "lift_num": 1
+        },
+        "mts": {
+            "status": "success",
+            "time": 126.769,
+            "lift_num": 1
+        },
+        "mss": {
+            "status": "fail"
+        },
+        "mps_p": {
+            "status": "fail"
+        },
+        "mts_p": {
+            "status": "fail"
+        },
+        "is_sorted": {
+            "status": "fail"
+        },
+        "atoi": {
+            "status": "fail"
+        },
+        "dropwhile": {
+            "status": "success",
+            "time": 2.4476,
+            "lift_num": 1
+        },
+        "balanced": {
+            "status": "fail"
+        },
+        "0s1s": {
+            "status": "success",
+            "time": 43.4105,
+            "lift_num": 2
+        },
+        "0after1": {
+            "status": "success",
+            "time": 35.8842,
+            "lift_num": 2
+        },
+        "cnt_1s": {
+            "status": "success",
+            "time": 66.0415,
+            "lift_num": 2
+        },
+        "line_sight": {
+            "status": "success",
+            "time": 1.73305,
+            "lift_num": 1
+        },
+        "max_len_1s": {
+            "status": "fail"
+        },
+        "average": {
+            "status": "success",
+            "time": 2.91643,
+            "lift_num": 2
+        },
+        "count10p": {
+            "status": "fail"
+        },
+        "count10s2": {
+            "status": "fail"
+        },
+        "count1s2s3s": {
+            "status": "fail"
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "fail"
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest1s": {
+            "status": "fail"
+        },
+        "longest10s2": {
+            "status": "fail"
+        },
+        "longest00s": {
+            "status": "fail"
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "status": "fail"
+        },
+        "mpp": {
+            "status": "fail"
+        },
+        "mtp": {
+            "status": "fail"
+        },
+        "msp": {
+            "status": "fail"
+        },
+        "max_1s_p": {
+            "status": "fail"
+        }
+    },
+    "single-pass": {
+        "sum": {
+            "status": "success",
+            "time": 0.188703,
+            "lift_num": 0
+        },
+        "min": {
+            "status": "success",
+            "time": 0.196655,
+            "lift_num": 0
+        },
+        "max": {
+            "status": "success",
+            "time": 0.173245,
+            "lift_num": 0
+        },
+        "length": {
+            "status": "success",
+            "time": 0.104301,
+            "lift_num": 0
+        },
+        "2nd-min": {
+            "status": "fail"
+        },
+        "mps": {
+            "status": "success",
+            "time": 22.2477,
+            "lift_num": 1
+        },
+        "mts": {
+            "status": "success",
+            "time": 1.7777,
+            "lift_num": 0
+        },
+        "mss": {
+            "status": "fail"
+        },
+        "mps_p": {
+            "status": "fail"
+        },
+        "mts_p": {
+            "status": "fail"
+        },
+        "is_sorted": {
+            "status": "success",
+            "time": 0.254497,
+            "lift_num": 1
+        },
+        "atoi": {
+            "status": "success",
+            "time": 0.925597,
+            "lift_num": 0
+        },
+        "dropwhile": {
+            "status": "success",
+            "time": 6.97018,
+            "lift_num": 1
+        },
+        "balanced": {
+            "status": "success",
+            "time": 2.3935,
+            "lift_num": 1
+        },
+        "0s1s": {
+            "status": "success",
+            "time": 0.487113,
+            "lift_num": 1
+        },
+        "0after1": {
+            "status": "success",
+            "time": 0.809234,
+            "lift_num": 1
+        },
+        "cnt_1s": {
+            "status": "success",
+            "time": 1.44919,
+            "lift_num": 1
+        },
+        "line_sight": {
+            "status": "fail"
+        },
+        "max_len_1s": {
+            "status": "fail"
+        },
+        "average": {
+            "status": "success",
+            "time": 0.862557,
+            "lift_num": 2
+        },
+        "count10p": {
+            "status": "success",
+            "time": 1.43927,
+            "lift_num": 1
+        },
+        "count10s2": {
+            "status": "fail"
+        },
+        "count1s2s3s": {
+            "status": "fail"
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "fail"
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest10s2": {
+            "status": "fail"
+        },
+        "longest00s": {
+            "status": "fail"
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "status": "fail"
+        },
+        "mpp": {
+            "status": "fail"
+        },
+        "mtp": {
+            "status": "fail"
+        },
+        "msp": {
+            "status": "fail"
+        },
+        "max_1s_p": {
+            "status": "fail"
+        },
+        "mas": {
+            "status": "fail"
+        },
+        "mmm": {
+            "status": "fail"
+        },
+        "mis": {
+            "status": "fail"
+        },
+        "longest1s": {
+            "status": "success",
+            "time": 254.104,
+            "lift_num": 1
+        }
+    },
+    "longest-segment": {
+        "page9-1": {
+            "status": "success",
+            "time": 0.625375,
+            "lift_num": 1
+        },
+        "page9-2": {
+            "status": "success",
+            "time": 4.35386,
+            "lift_num": 1
+        },
+        "page10-1": {
+            "status": "fail"
+        },
+        "page12": {
+            "status": "success",
+            "time": 7.70809,
+            "lift_num": 1
+        },
+        "page20": {
+            "status": "fail"
+        },
+        "page21": {
+            "status": "fail"
+        },
+        "page22-1": {
+            "status": "fail"
+        },
+        "page22-2": {
+            "status": "fail"
+        }
+    },
+    "segment-tree": {
+        "sum-plus": {
+            "status": "success",
+            "time": 20.7149,
+            "lift_num": 1
+        },
+        "sum-cover": {
+            "status": "success",
+            "time": 18.5484,
+            "lift_num": 1
+        },
+        "sqrsum-plus": {
+            "status": "success",
+            "time": 122.462,
+            "lift_num": 2
+        },
+        "sqrsum-cover": {
+            "status": "success",
+            "time": 29.1322,
+            "lift_num": 1
+        },
+        "mts-neg": {
+            "status": "success",
+            "time": 243.719,
+            "lift_num": 2
+        },
+        "mss-neg": {
+            "status": "fail"
+        },
+        "mss-cover": {
+            "status": "fail"
+        },
+        "min-neg": {
+            "status": "success",
+            "time": 9.16296,
+            "lift_num": 1
+        },
+        "second_min-neg": {
+            "status": "fail"
+        },
+        "third_min-neg": {
+            "status": "fail"
+        },
+        "max1s-cover": {
+            "status": "fail"
+        },
+        "max1s_p-cover": {
+            "status": "fail"
+        },
+        "mts-cover": {
+            "status": "success",
+            "time": 161.557,
+            "lift_num": 2
+        }
+    }
+}

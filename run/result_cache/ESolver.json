@@ -1,0 +1,336 @@
+{
+    "dac": {
+        "sum": {
+            "status": "success",
+            "time": 0.292194,
+            "lift_num": 0
+        },
+        "min": {
+            "status": "success",
+            "time": 0.972291,
+            "lift_num": 0
+        },
+        "max": {
+            "status": "success",
+            "time": 0.861813,
+            "lift_num": 0
+        },
+        "length": {
+            "status": "success",
+            "time": 0.099149,
+            "lift_num": 0
+        },
+        "2nd-min": {
+            "status": "fail"
+        },
+        "mps": {
+            "status": "fail"
+        },
+        "mts": {
+            "status": "fail"
+        },
+        "mss": {
+            "status": "fail"
+        },
+        "mps_p": {
+            "status": "fail"
+        },
+        "mts_p": {
+            "status": "fail"
+        },
+        "is_sorted": {
+            "status": "fail"
+        },
+        "dropwhile": {
+            "status": "fail"
+        },
+        "balanced": {
+            "status": "fail"
+        },
+        "0s1s": {
+            "status": "fail"
+        },
+        "0after1": {
+            "status": "fail"
+        },
+        "cnt_1s": {
+            "status": "fail"
+        },
+        "line_sight": {
+            "status": "success",
+            "time": 231.57,
+            "lift_num": 1
+        },
+        "max_len_1s": {
+            "status": "fail"
+        },
+        "average": {
+            "status": "fail"
+        },
+        "count10p": {
+            "status": "fail"
+        },
+        "count10s2": {
+            "status": "fail"
+        },
+        "count1s2s3s": {
+            "status": "fail"
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "fail"
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest1s": {
+            "status": "fail"
+        },
+        "longest10s2": {
+            "status": "fail"
+        },
+        "longest00s": {
+            "status": "fail"
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "status": "fail"
+        },
+        "mpp": {
+            "status": "fail"
+        },
+        "mtp": {
+            "status": "fail"
+        },
+        "msp": {
+            "status": "fail"
+        },
+        "max_1s_p": {
+            "status": "fail"
+        },
+        "atoi": {
+            "status": "fail"
+        }
+    },
+    "single-pass": {
+        "sum": {
+            "status": "success",
+            "time": 0.145962,
+            "lift_num": 0
+        },
+        "min": {
+            "status": "success",
+            "time": 0.924714,
+            "lift_num": 0
+        },
+        "max": {
+            "status": "success",
+            "time": 0.87094,
+            "lift_num": 0
+        },
+        "length": {
+            "status": "success",
+            "time": 0.083964,
+            "lift_num": 0
+        },
+        "2nd-min": {
+            "status": "fail"
+        },
+        "mps": {
+            "status": "fail"
+        },
+        "mts": {
+            "status": "fail"
+        },
+        "mss": {
+            "status": "fail"
+        },
+        "mps_p": {
+            "status": "fail"
+        },
+        "mts_p": {
+            "status": "fail"
+        },
+        "is_sorted": {
+            "status": "success",
+            "time": 20.5362,
+            "lift_num": 1
+        },
+        "atoi": {
+            "status": "success",
+            "time": 0.910193,
+            "lift_num": 0
+        },
+        "dropwhile": {
+            "status": "fail"
+        },
+        "0s1s": {
+            "status": "success",
+            "time": 20.7519,
+            "lift_num": 1
+        },
+        "0after1": {
+            "status": "success",
+            "time": 17.1782,
+            "lift_num": 1
+        },
+        "cnt_1s": {
+            "status": "fail"
+        },
+        "line_sight": {
+            "status": "fail"
+        },
+        "max_len_1s": {
+            "status": "fail"
+        },
+        "average": {
+            "status": "fail"
+        },
+        "count10p": {
+            "status": "fail"
+        },
+        "count10s2": {
+            "status": "fail"
+        },
+        "count1s2s3s": {
+            "status": "fail"
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "fail"
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest1s": {
+            "status": "fail"
+        },
+        "longest10s2": {
+            "status": "fail"
+        },
+        "longest00s": {
+            "status": "fail"
+        },
+        "longest_odd10s": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "status": "fail"
+        },
+        "mpp": {
+            "status": "fail"
+        },
+        "mtp": {
+            "status": "fail"
+        },
+        "msp": {
+            "status": "fail"
+        },
+        "max_1s_p": {
+            "status": "fail"
+        },
+        "mas": {
+            "status": "fail"
+        },
+        "mmm": {
+            "status": "fail"
+        },
+        "mis": {
+            "status": "fail"
+        },
+        "balanced": {
+            "status": "success",
+            "time": 24.4913,
+            "lift_num": 1
+        }
+    },
+    "longest-segment": {
+        "page9-1": {
+            "status": "success",
+            "time": 14.9924,
+            "lift_num": 1
+        },
+        "page9-2": {
+            "status": "fail"
+        },
+        "page10-1": {
+            "status": "fail"
+        },
+        "page12": {
+            "status": "fail"
+        },
+        "page20": {
+            "status": "fail"
+        },
+        "page21": {
+            "status": "fail"
+        },
+        "page22-1": {
+            "status": "fail"
+        },
+        "page22-2": {
+            "status": "fail"
+        }
+    },
+    "segment-tree": {
+        "sum-plus": {
+            "status": "success",
+            "time": 21.5056,
+            "lift_num": 1
+        },
+        "sum-cover": {
+            "status": "success",
+            "time": 18.4771,
+            "lift_num": 1
+        },
+        "sqrsum-plus": {
+            "status": "fail"
+        },
+        "mts-neg": {
+            "status": "fail"
+        },
+        "mss-neg": {
+            "status": "fail"
+        },
+        "mss-cover": {
+            "status": "fail"
+        },
+        "min-neg": {
+            "status": "success",
+            "time": 200.343,
+            "lift_num": 1
+        },
+        "second_min-neg": {
+            "status": "fail"
+        },
+        "third_min-neg": {
+            "status": "fail"
+        },
+        "max1s-cover": {
+            "status": "fail"
+        },
+        "max1s_p-cover": {
+            "status": "fail"
+        },
+        "mts-cover": {
+            "status": "fail"
+        },
+        "sqrsum-cover": {
+            "status": "success",
+            "time": 219.919,
+            "lift_num": 1
+        }
+    }
+}

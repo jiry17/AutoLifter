@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# install gurobi
+pushd resource
+wget https://packages.gurobi.com/9.1/gurobi9.1.2_linux64.tar.gz
+tar xvfz gurobi9.1.2_linux64.tar.gz
+#select the static library of gurobi
+gcc_major_version=`echo __GNUC__ | gcc -E -xc - | tail -n 1`
+gcc_minor_version=`echo __GNUC_MINOR__ | gcc -E -xc - | tail -n 1`
+gcc_version=$gcc_major_version.$gcc_minor_version
+if [ $gcc_version = 4.6 ] || [ $gcc_version = 4.8 ]
+then
+    sed -i "s/5.2.a/4.2.a/g" CMakeLists.txt
+fi
+popd
+
+
+# build source
+path=`pwd`
+spath=${path//\//\\\/}
+sed -i "s/SOURCEPATH/${spath}/g" basic/config.cpp
+sed -i "s/SOURCEPATH/${spath}/g" run/run
+sed -i "s/SOURCEPATH/${spath}/g" run/run_exp
+mkdir build
+pushd build
+cmake ..
+make -j 8
+popd
